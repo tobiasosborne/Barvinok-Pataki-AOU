@@ -4,7 +4,7 @@ Adversarial formalisation of an abstract Barvinok-Pataki theorem for state
 spaces of Archimedean order unit spaces, unifying three previously
 disconnected literatures:
 
-1. **SDP optimization** — Barvinok-Pataki rank bounds
+1. **SDP optimisation** — Barvinok-Pataki rank bounds
 2. **Abstract convex geometry** — Weis-Shirokov face-dimension theorem
 3. **Operator algebras** — Alfsen-Shultz face-commutant correspondence
 
@@ -28,16 +28,23 @@ This simultaneously recovers:
 ## Structure
 
 This repository contains an **adversarial proof formalisation** built with
-the [`af` CLI tool](https://github.com/af-framework/af), not a LaTeX paper.
+the [`af` CLI tool](https://github.com/af-framework/af), together with a
+LaTeX write-up of the proof.
 
 ```
 .
-├── bp-order-unit-prd.md   # Full mathematical PRD (problem specification)
-├── HANDOFF.md             # Verification report with learnings
-├── README.md              # This file
-├── ledger/                # Append-only proof ledger (af framework)
-├── proof.json             # Proof metadata (af framework)
-└── nodes/                 # Proof node data (af framework)
+├── bp-order-unit-prd.md          # Full mathematical PRD (problem specification)
+├── HANDOFF.md                    # Verification report with learnings
+├── README.md                     # This file
+├── latex/
+│   ├── main.tex                  # LaTeX write-up (11 pages)
+│   ├── main.pdf                  # Compiled PDF
+│   └── proof-tree-export.tex     # Full af export of proof tree
+├── ledger/                       # Append-only proof ledger (af framework)
+├── meta.json                     # Proof metadata (af framework)
+├── defs/                         # Definition files
+├── externals/                    # External reference files
+└── nodes/                        # Proof node data (af framework)
 ```
 
 ### Proof Tree (64 nodes)
@@ -45,14 +52,14 @@ the [`af` CLI tool](https://github.com/af-framework/af), not a LaTeX paper.
 ```
 1   Main Theorem (Barvinok-Pataki for Order Unit Spaces)
 ├── 1.1   Face-Commutant Correspondence (Alfsen-Shultz)
-│   ├── 1.1.1–1.1.6  Well-definedness, affinity, injectivity,
-│   │                 surjectivity, dimension consequence
+│   └── 1.1.1–1.1.6  Well-definedness, affinity, injectivity,
+│                     surjectivity, dimension consequence
 ├── 1.2   Abstract Face-Dimension Bound (Weis-Shirokov)
-│   ├── 1.2.1–1.2.4  Single/multi-constraint, extremal specialisation
+│   └── 1.2.1–1.2.4  Single/multi-constraint, extremal specialisation
 ├── 1.3   Main Dimension Bound (3-step core proof)
-│   ├── 1.3.1–1.3.5  Hypothesis check, bridge, bound, conclusion, mixed
+│   └── 1.3.1–1.3.5  Hypothesis check, bridge, bound, conclusion, mixed
 ├── 1.4   Commutant Decomposition → Multiplicity Bound
-│   ├── 1.4.1–1.4.5  Finite-dim, Artin-Wedderburn, decomposition, dim calc
+│   └── 1.4.1–1.4.5  Finite-dim, Artin-Wedderburn, decomposition, dim calc
 ├── 1.5   Recovery: Abelian → Carathéodory
 ├── 1.6   Recovery: Matrix Algebra → Classical BP
 ├── 1.7   Recovery: Block-Diagonal → Mixed Bound
@@ -74,22 +81,45 @@ Takesaki, Weis-Shirokov, Barvinok, and Pataki.
 |--------|-------|
 | Nodes verified | 53/53 leaf nodes (100%) |
 | Nodes accepted | 15 (23%) |
-| Open challenges | 148 |
-| Genuine math errors found | 4 |
-| Critical gaps found | 6 |
+| Open challenges | **0** (all 148 resolved) |
+| Genuine math errors found | 4 (all corrected) |
+| Critical gaps found | 6 (all filled) |
+| Quality score | 69.4/100 |
 
-### Key Findings from Adversarial Verification
+All 148 challenges raised during adversarial verification have been
+resolved. The 49 pending nodes await a second verifier pass for
+formal acceptance.
 
-1. **Face dimension spectrum error** — M₂(ℂ)⊕M₂(ℂ) has spectrum
+### Errors Found and Corrected
+
+1. **Face dimension spectrum** — M₂(ℂ)⊕M₂(ℂ) has spectrum
    {0,1,3,4,7}, not {0,3,7}. The gap {1,2} only holds for simple algebras.
-2. **"Trivial involution" error** — The real PSD cone uses transpose
-   (a\*=aᵀ), not the identity involution.
+2. **"Trivial involution"** — The real PSD cone uses the transpose
+   involution (a\*=aᵀ), not the identity. Added the full Hurwitz
+   classification (real/complex/quaternionic).
 3. **KMV scope mismatch** — State polynomials are nonlinear in φ; the
-   main theorem only handles affine constraints.
-4. **Marginal constraint count** — Each marginal gives dim²-1 constraints
-   (not dim²); trace is auto-preserved.
+   main theorem only handles affine constraints. Application restricted
+   to linear sub-case.
+4. **Marginal constraint count** — Each marginal gives dim²−1 constraints
+   (not dim²); trace is auto-satisfied. For qubits: m = 3k, not 4k.
 
 See [HANDOFF.md](HANDOFF.md) for the full verification report.
+
+## LaTeX Write-Up
+
+An 11-page write-up is available in [`latex/main.tex`](latex/main.tex)
+(compiled PDF: [`latex/main.pdf`](latex/main.pdf)). It includes:
+
+- Main theorem statement and 3-step proof
+- Recovery of all four classical results
+- Face dimension gap and automatic purity theorem
+- Applications (NPA, quantum marginals)
+- Documentation of errors found during verification
+- Appendix with full proof tree
+
+**Note:** The write-up is clearly marked as a formalisation report, not a
+finished paper. The proof structure is complete but formal validation is
+pending.
 
 ## How to Explore
 
@@ -100,17 +130,26 @@ go install github.com/af-framework/af@latest
 # View proof status
 af status
 
+# Check proof health and metrics
+af health
+af metrics
+af progress
+
 # List definitions
 af defs
 
 # View a specific node
 af get 1.3    # Main dimension bound
 
-# See available work
+# See available work (49 verifier jobs)
 af jobs
 
-# View challenges on a node
+# View challenge history on a node
 af get 1.9.2  # The corrected face spectrum
+
+# Export proof tree
+af export --format latex -o proof.tex
+af export --format markdown
 ```
 
 ## References
