@@ -25,6 +25,8 @@ a second verifier pass to accept the 49 amended nodes.
   with explicit credit in acknowledgements for the proof idea (perturbation–extremality
   argument) that was recognised to generalise to pointed cones and AOU spaces.
 - Martin Plavala credited for recognising the general cone extension during the discussion.
+- **Henrik Wilming added as author** (AG Osborne, ITP Hannover) and as participant
+  in `discussion/meeting_summary.md`.
 
 ### Infinite-Dimensional Extension via Weis–Shirokov
 

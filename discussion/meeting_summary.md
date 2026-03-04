@@ -40,9 +40,12 @@ Institute of Theoretical Physics, Leibniz Universität Hannover.
    geometry and measurement-based quantum computation) — Participated in the
    discussion.
 
+7. **Henrik Wilming** (Postdoc, AG Osborne) — Participated in the
+   discussion.
+
 ### On Zoom
 
-7. **Alexander Stottmeister** (Group Leader, ITP Hannover; research: operator
+8. **Alexander Stottmeister** (Group Leader, ITP Hannover; research: operator
    algebraic renormalisation) — Asked clarifying questions about the face
    definition (open vs closed condition, extreme rays vs extreme points),
    pointedness of cones, and the infinite-dimensional case.  Flagged the issue
