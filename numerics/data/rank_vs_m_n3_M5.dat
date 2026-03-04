@@ -1,0 +1,5 @@
+m rank bp_bound energy scenario
+0 1 1 -2.78077641 none
+1 1 1 -1.18614066 Jz
+2 2 1 -1.16958058 Jz+J2
+3 4 2 1.16666394 Jz+J2+L2
