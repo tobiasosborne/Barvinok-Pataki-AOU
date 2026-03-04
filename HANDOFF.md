@@ -46,11 +46,41 @@ New content in `discussion/barvinok_pataki_aou_proof.tex`:
 - Fixed Weis–Shirokov bibliography (was J. Math. Phys., corrected to J. Convex Anal.)
 - Downloaded paper to `discussion/shirokov_weis_2021.pdf`
 
-### Discussion Directory Added
+### Hydrogen Atom Example (Section 7)
 
-- `discussion/barvinok_pataki_aou_proof.tex` — 6-page standalone paper (compiles cleanly)
-- `discussion/meeting_summary.md` — meeting notes from 3 March 2026 blackboard discussion
-- `discussion/shirokov_weis_2021.pdf` — Weis–Shirokov paper (arXiv:2003.14302v2)
+Full worked physical example: hydrogen in a magnetic field with angular momentum
+constraints (Jz, J², L²). Includes complete notation (Hilbert space, quantum numbers,
+Coulomb + Zeeman Hamiltonians), constrained optimisation setup, rank bound tables for
+both infinite-dimensional and finite-shell cases, and physical interpretation.
+
+### Numerical SDP Verification
+
+Julia program `numerics/hydrogen_sdp.jl` using JuMP + Mosek:
+- Two-phase solver (optimal energy → degeneracy-breaking perturbation)
+- Experiments across shells n=2,3,4,5 (dim 8–50), B ∈ [0.05, 5], m=0..5 constraints
+- **BP bound verified**: all extreme-point optimizers satisfy r² ≤ m+1
+- **Tight bound demonstrated**: rank-2 optimizers found when constraint values lie
+  in the interior of the joint numerical range (no pure state feasible)
+  - n=2: ⟨Jz⟩=0, ⟨J²⟩=2, ⟨L²⟩=1 → rank=2, eigenvalues (0.569, 0.431)
+  - n=3: ⟨Jz⟩=0, ⟨J²⟩=4, ⟨L²⟩=3 → rank=2, eigenvalues (0.675, 0.325)
+- Analytic-centre phenomenon documented (M=1/2 case)
+
+5 TikZ/pgfplots figures integrated into the main paper:
+1. Rank vs m bar chart (extreme point vs analytic centre)
+2. Optimal energy vs B (n=3 shell)
+3. Rank vs Hilbert space dimension (BP bound vs naïve r≤d)
+4. Rank-2 eigenvalue spectrum (tight bound)
+5. Table of genuine rank-2 optimizers
+
+### Discussion Directory
+
+- `discussion/barvinok_pataki_aou_proof.tex` — 10-page paper (compiles cleanly)
+- `discussion/meeting_summary.md` — meeting notes from 3 March 2026
+- `discussion/shirokov_weis_2021.pdf` — Weis–Shirokov paper
+- `numerics/hydrogen_sdp.jl` — SDP solver + experiments
+- `numerics/find_rank2.jl` — rank-2 optimizer search
+- `numerics/plots.tex` — standalone plot compilation
+- `numerics/data/` — 29 data files
 - Audio/video recordings and board snapshots from the session
 
 ---
