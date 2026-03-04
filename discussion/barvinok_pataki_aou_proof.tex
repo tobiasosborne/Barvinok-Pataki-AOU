@@ -22,6 +22,11 @@
 \newcommand{\tr}{\operatorname{tr}}
 \newcommand{\im}{\operatorname{im}}
 \newcommand{\id}{\mathbf{1}}
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\ket}[1]{|#1\rangle}
+\newcommand{\bra}[1]{\langle#1|}
+\newcommand{\braket}[2]{\langle#1|#2\rangle}
+\usepackage{booktabs}
 
 \title{A Barvinok--Pataki Theorem for Archimedean Order Unit Spaces}
 \author{Timo Ziegler,$^{1}$
@@ -430,6 +435,182 @@ Theorem~\ref{thm:general} then gives $d_F \leq m$.
   (including possibly unbounded Hamiltonians, handled via the
   Weis--Shirokov framework): $r^2 \leq m + 1$.  In particular,
   $m \leq 2$ constraints imply all extreme points are pure states.
+\end{enumerate}
+
+%% ========================================================================
+\section{Physical Example: Hydrogen Atom in a Magnetic Field}
+\label{sec:hydrogen}
+%% ========================================================================
+
+We illustrate the theorem with a concrete physical system: the
+hydrogen atom in an external magnetic field, subject to angular
+momentum constraints.  This example demonstrates how the
+Barvinok--Pataki bound determines when pure-state variational
+methods suffice and when mixed states are unavoidable.
+
+\subsection{Hilbert space and quantum numbers}
+
+The non-relativistic hydrogen atom has Hilbert space
+$\mathcal{H} = L^2(\R^3) \otimes \mathbb{C}^2$ (spatial wave function
+tensored with spin-$\tfrac{1}{2}$).  The Coulomb Hamiltonian
+\[
+  H_0 = -\frac{\hbar^2}{2m_e}\nabla^2 - \frac{e^2}{4\pi\varepsilon_0\, r}
+\]
+has eigenvalues $E_n = -13.6\;\mathrm{eV}/n^2$ for $n = 1, 2, 3, \ldots$,
+with simultaneous eigenstates $\ket{n, l, m_l, m_s}$ labelled by:
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+\textbf{Quantum number} & \textbf{Range} & \textbf{Observable} \\
+\midrule
+$n$ (principal) & $1, 2, 3, \ldots$ & $H_0$ (energy) \\
+$l$ (orbital ang.\ mom.) & $0, 1, \ldots, n - 1$ & $\mathbf{L}^2 = l(l+1)\hbar^2$ \\
+$m_l$ (magnetic) & $-l, -l+1, \ldots, l$ & $L_z = m_l \hbar$ \\
+$m_s$ (spin) & $\pm\tfrac{1}{2}$ & $S_z = m_s \hbar$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+The degeneracy of the $n$-th energy shell is $g_n = 2n^2$ (including
+spin).  The total angular momentum is $\mathbf{J} = \mathbf{L} + \mathbf{S}$,
+with $J_z = L_z + S_z$ having eigenvalue $m_j \hbar$ where $m_j = m_l + m_s$.
+
+\subsection{Zeeman Hamiltonian}
+
+In a uniform magnetic field $\mathbf{B} = B\hat{z}$, the interaction
+Hamiltonian is
+\[
+  H_Z = \frac{\mu_B B}{\hbar}\bigl(L_z + g_s\, S_z\bigr),
+\]
+where $\mu_B = e\hbar/(2m_e)$ is the Bohr magneton and $g_s \approx 2$
+is the electron spin $g$-factor.  On the standard basis,
+$H_Z \ket{n,l,m_l,m_s} = \mu_B B (m_l + 2m_s)\ket{n,l,m_l,m_s}$.
+The full Hamiltonian is $H = H_0 + H_Z$.
+
+\subsection{The constrained optimisation problem}
+
+We seek the state of minimum energy subject to a constraint on the
+total angular momentum projection:
+\begin{equation}\label{eq:hydrogen-opt}
+  \min_{\rho}\; \Tr(H\rho)
+  \qquad\text{subject to}\qquad
+  \rho \geq 0, \;\; \Tr(\rho) = 1, \;\;
+  \Tr(J_z\, \rho) = M\hbar.
+\end{equation}
+This is a convex optimisation (linear objective over a convex
+constraint set).  The minimum is attained at an extreme point of the
+feasible set
+\[
+  C = \bigl\{\rho \in \mathfrak{S}(\mathcal{H}) :
+  \Tr(J_z\,\rho) = M\hbar\bigr\},
+\]
+where $\mathfrak{S}(\mathcal{H})$ is the set of density operators on
+$\mathcal{H}$.
+
+\subsection{Applying the Barvinok--Pataki bound}
+
+\paragraph{Full Hilbert space ($A = B(\mathcal{H})$, infinite-dimensional).}
+
+The constraint $\Tr(J_z\,\rho) = M\hbar$ constitutes $m = 1$ affine
+constraint on the state space $\mathfrak{S}(\mathcal{H})$.  By
+Corollary~\ref{cor:cstar} (or Corollary~\ref{cor:inf-dim} applied to
+the positive cone in the trace-class operators),
+\[
+  r^2 \;\leq\; m + 1 = 2,
+  \qquad\text{hence}\qquad r = 1.
+\]
+\emph{The energy minimiser is a pure state.}
+
+More generally, with $m$ constraints:
+\begin{center}
+\begin{tabular}{clcl}
+\toprule
+$m$ & \textbf{Constraints} & \textbf{Rank bound} & \textbf{Conclusion} \\
+\midrule
+1 & $\Tr(J_z\,\rho) = M\hbar$ & $r = 1$ & Pure state \\
+2 & $+ \;\Tr(\mathbf{J}^2\,\rho) = j(j+1)\hbar^2$ & $r = 1$ & Pure state \\
+3 & $+ \;\Tr(\mathbf{L}^2\,\rho) = l(l+1)\hbar^2$ & $r \leq 2$ & Rank $\leq 2$ \\
+4 & $+ \;\Tr(H_0\,\rho) = E$ & $r \leq 2$ & Rank $\leq 2$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+The transition from pure to potentially mixed occurs at $m = 3$: this
+is a direct consequence of the face dimension gap for
+$B(\mathcal{H})$, which has $\{1, 2\} \subseteq G(B(\mathcal{H}))$
+(the face dimension spectrum is $\{0, 3, 8, 15, \ldots\}$).
+
+\paragraph{Restriction to the $n = 2$ shell.}
+
+For a concrete finite-dimensional calculation, restrict to the
+$n = 2$ shell.  This has $g_2 = 2 \cdot 4 = 8$ states, so
+$\mathcal{H}_{n=2} \cong \mathbb{C}^8$ and $A = M_8(\mathbb{C})$:
+\begin{center}
+\begin{tabular}{cccccc}
+\toprule
+$l$ & $m_l$ & $m_s$ & $m_j = m_l + m_s$ & $m_l + 2m_s$ & \textbf{Subshell} \\
+\midrule
+0 & $0$   & $+\tfrac{1}{2}$ & $+\tfrac{1}{2}$ & $1$ & $2s$ \\
+0 & $0$   & $-\tfrac{1}{2}$ & $-\tfrac{1}{2}$ & $-1$ & $2s$ \\
+1 & $-1$  & $+\tfrac{1}{2}$ & $-\tfrac{1}{2}$ & $0$ & $2p$ \\
+1 & $-1$  & $-\tfrac{1}{2}$ & $-\tfrac{3}{2}$ & $-2$ & $2p$ \\
+1 & $0$   & $+\tfrac{1}{2}$ & $+\tfrac{1}{2}$ & $1$ & $2p$ \\
+1 & $0$   & $-\tfrac{1}{2}$ & $-\tfrac{1}{2}$ & $-1$ & $2p$ \\
+1 & $1$   & $+\tfrac{1}{2}$ & $+\tfrac{3}{2}$ & $2$ & $2p$ \\
+1 & $1$   & $-\tfrac{1}{2}$ & $+\tfrac{1}{2}$ & $0$ & $2p$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+The Coulomb Hamiltonian is $H_0 = E_2\, I_8$ (degenerate on the
+shell).  Including spin--orbit coupling (fine structure),
+$H_{\mathrm{fs}} = \xi_{21}\,\mathbf{L}\cdot\mathbf{S}$ splits the
+shell into multiplets: $2s_{1/2}$ ($l = 0$, $j = \tfrac{1}{2}$, 2
+states), $2p_{1/2}$ ($l = 1$, $j = \tfrac{1}{2}$, 2 states), and
+$2p_{3/2}$ ($l = 1$, $j = \tfrac{3}{2}$, 4 states).  The Zeeman
+term $H_Z = \mu_B B (m_l + 2m_s)$ is diagonal in the
+$\ket{l, m_l, m_s}$ basis.
+
+The optimisation \eqref{eq:hydrogen-opt} restricted to this shell is
+an SDP on $M_8(\mathbb{C})$.  Normalisation $\Tr(\rho) = 1$ is built
+into the state space.  The Barvinok--Pataki bound gives:
+\begin{center}
+\begin{tabular}{clcc}
+\toprule
+$m$ & \textbf{Constraints (on the $n=2$ shell)} & $r^2 \leq m + 1$
+& \textbf{Na\"{\i}ve bound} \\
+\midrule
+1 & $\Tr(J_z\,\rho) = M\hbar$ & $r = 1$ & $r \leq 8$ \\
+2 & $+\;\Tr(\mathbf{J}^2\,\rho) = j(j+1)\hbar^2$ & $r = 1$ & $r \leq 8$ \\
+3 & $+\;\Tr(\mathbf{L}^2\,\rho) = l(l+1)\hbar^2$ & $r \leq 2$ & $r \leq 8$ \\
+5 & $+\;\Tr(S_z\,\rho) = s\hbar,\; \Tr(L_z\,\rho) = \mu\hbar$ & $r \leq 2$
+& $r \leq 8$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Physical interpretation}
+
+\begin{enumerate}
+\item \textbf{Automatic purity ($m \leq 2$).}  Fixing the total
+  angular momentum projection $M$ (and optionally $j$) is enough to
+  guarantee that the energy minimiser is a pure state.  This means
+  pure-state variational methods (e.g.\ Rayleigh--Ritz, DMRG for the
+  ground state) are \emph{exact} for this problem --- there is no
+  advantage to working with density matrices.
+
+\item \textbf{Low-rank mixed states ($m = 3$).}  Adding a third
+  constraint (e.g.\ fixing $l$) opens the door to rank-$2$ optimisers:
+  the energy minimiser may be a \emph{statistical mixture} of two pure
+  states.  But the rank is at most~2, not~8; thus only a
+  two-dimensional search is needed, rather than optimisation over all
+  $8 \times 8$ density matrices.
+
+\item \textbf{Practical consequence.}  For a numerical SDP solving
+  \eqref{eq:hydrogen-opt}, interior-point methods converge to the
+  analytic centre (maximal rank), but the theorem guarantees that
+  facial reduction or rank minimisation will find a solution of rank
+  $\leq \lfloor\sqrt{m+1}\rfloor$.  This dramatically reduces the
+  dimension of the search space: on the $n = 3$ shell ($g_3 = 18$,
+  $\rho \in M_{18}(\mathbb{C})$), even $m = 10$ constraints yield
+  $r \leq 3$ rather than $r \leq 18$.
 \end{enumerate}
 
 %% ========================================================================
