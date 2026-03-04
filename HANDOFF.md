@@ -2,18 +2,57 @@
 
 ## Status
 
-**All challenges resolved. Proof tree complete. Awaiting re-verification.**
+**Paper expanded with conic inequality extensions from email follow-up.**
 
-- 64 proof nodes across 3 levels of depth
-- 32 definitions, 14 external references
-- 148 challenges raised during initial verification — **all 148 resolved**
-- 15 nodes validated, 49 pending re-verification
-- Quality score: **69.4/100** (up from 39.4)
-- LaTeX write-up: `latex/main.tex` (11 pages, compiles cleanly)
+- LaTeX write-up: `discussion/barvinok_pataki_aou_proof.tex` (13 pages, compiles cleanly)
+- Numerical spectrahedra examples: `numerics/spectrahedra_bp.jl`
+- Email synthesis: `discussion/email_extensions.md`
+- 64 proof nodes, 32 definitions, 14 external references (core proof unchanged)
 
-**Completion: 23% validated, 100% challenge-free.** The proof structure is
-fully laid out and all objections have been addressed. The remaining work is
-a second verifier pass to accept the 49 amended nodes.
+---
+
+## Work Completed (Session 4)
+
+### Email Follow-Up Integration (4 March 2026)
+
+Integrated six threads from the post-meeting email discussion into the main
+LaTeX document (`discussion/barvinok_pataki_aou_proof.tex`, now 13 pages):
+
+#### New Sections Added
+
+- **Section 8: Cone-Valued Inequality Constraints** — Martin's extension:
+  Theorem (BP for conic inequalities) proving d_F ≤ Σ dim(W_i) for constraints
+  Φ_i(x) ≥_{W_i+} a_i. Remarks on equality vs inequality, simplex vs PSD cones,
+  inactive constraint reduction (Timo), and slack variable formulation (Lennart).
+
+- **Section 9: Application to Spectrahedra** — Block-diagonal LMI corollary
+  (joint rank bound strictly tighter than individual), entanglement witness rank
+  bound via PPT constraint (Martin's application suggestion).
+
+- **Section 10: Inequality Constraints and the Role of Slack** — Lennart's
+  PSD + scalar inequality example with slack variable analysis. Demonstrates that
+  face reduction cannot control whether it reduces rank(X) or kills slacks.
+
+- **Section 11: Obstructions to Nonlinear Extensions** — Lukas's manifold
+  framework (differential version, open question on flow reaching lower face) and
+  Alex's fundamental obstruction (interior shell counterexample showing linearity
+  is essential).
+
+#### Numerical Spectrahedra Examples
+
+New Julia script `numerics/spectrahedra_bp.jl` with five examples:
+
+| Example | Key Finding |
+|---------|-------------|
+| Block-diagonal LMI (n=10, two 4×4 blocks) | Joint bound r_F+r_G ≤ 4 tighter than individual r_F,r_G ≤ 4 |
+| Lennart's scalar inequalities (PSD_6) | BP tight at m=15: face_dim=16=16. Timo's inactive reduction confirmed |
+| PPT witness (2×2 system) | rank(W^Γ) bounded by m; rank(W) can be full while rank(W^Γ) stays low |
+| Compression constraint (8×8, 3×3 subblock) | Martin and Lennart bounds both verified; slack approach tighter |
+
+#### Email Discussion Summary
+
+Written up in `discussion/email_extensions.md` with full analysis of all six
+email threads (Martin, Timo, Lukas, Alex, Lennart) and connections to open questions.
 
 ---
 
