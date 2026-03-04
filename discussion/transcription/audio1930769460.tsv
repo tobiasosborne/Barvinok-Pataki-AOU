@@ -1,0 +1,2157 @@
+start	end	text
+0	2000	Let's see if we can do that.
+6000	8000	Okay, discussion.
+20000	22000	I'm going to start with CW.
+22000	24000	I'm going to start with the training method.
+24000	26000	Mm-hmm.
+26000	28000	Yeah?
+28000	30000	Oh.
+30000	32000	So, the easier one.
+34000	36000	Take my speed to my speed stats.
+36000	38000	Yeah, go ahead.
+38000	40000	I've looked at that very closely.
+40000	42000	Yeah?
+42000	44000	I have very detailed notes.
+44000	46000	Okay.
+46000	48000	Alex is there.
+48000	50000	Is that it?
+50000	52000	Well, you can say the second, okay?
+54000	56000	Alex?
+56000	58000	I hear you.
+58000	60000	Okay, of course.
+60000	62000	So, according to Alex, just so you know, yeah?
+62000	64000	Yeah, yeah, sure.
+64000	66000	I will just mainly listen
+66000	68000	and I don't know how much time
+68000	70000	I really got.
+70000	72000	My daughter wakes up, I have to take care of her.
+72000	74000	We understand.
+74000	76000	It's all cool.
+76000	78000	Yeah, because I'll use this transcription then,
+78000	80000	like you'll get it to be auto transcribed.
+80000	82000	And then you can...
+82000	84000	Yeah, sure.
+84000	86000	You can turn on the light
+86000	88000	so that Claude can better see.
+90000	92000	I should have just let Claude join this meeting there.
+92000	94000	Yeah.
+94000	96000	Well, the telecom said
+96000	98000	that they will put
+98000	100000	the chatbot
+100000	102000	or AI into their
+102000	104000	into their landline.
+104000	106000	No, mobile line.
+106000	108000	And then...
+108000	110000	But you can request it in the beginning
+110000	112000	of the call
+112000	114000	or at the end you can ask for summary
+114000	116000	and stuff like that
+116000	118000	or ask questions during the call.
+118000	120000	What?
+120000	122000	Lightly...
+122000	124000	concerning.
+124000	126000	Okay, well, good.
+126000	128000	I think it's already clear that this is not possible.
+128000	130000	Impossible.
+130000	132000	You'd have to opt in
+132000	134000	actually with an in signature, I think.
+134000	136000	I think that's the only way.
+136000	138000	Both parties, absolutely.
+138000	140000	Yeah, good.
+140000	142000	Yeah, I think...
+142000	144000	I thought that the best way maybe is
+144000	146000	that I show you
+146000	148000	just a short sketch of the proof
+148000	150000	I have for positive semi-definite
+150000	152000	matrices because it's...
+152000	154000	I would say it's pretty much straight forward.
+154000	156000	And
+156000	158000	you have to say, I mean, we can start
+158000	160000	with the problem of just feasibility
+160000	162000	because optimality
+162000	164000	just comes with another
+164000	166000	with an additional constraint
+166000	168000	like I said.
+168000	170000	It's most
+170000	172000	more or less the same thing.
+172000	174000	The simplest thing first.
+174000	176000	Okay, so let's say
+176000	178000	I don't want to...
+178000	180000	Okay.
+180000	182000	Let's say we have some
+184000	186000	set C
+186000	188000	and
+188000	190000	that is X
+190000	192000	I will write this populist
+192000	194000	you just...
+194000	196000	make it too complex
+198000	200000	and
+200000	202000	we will also get it from
+202000	204000	reals to complex numbers.
+204000	206000	Just one check.
+206000	208000	We have to change one number.
+208000	210000	These are real positive
+210000	212000	symmetric.
+212000	214000	Let's start by real positive symmetric
+214000	216000	matrices.
+216000	218000	Well, yeah.
+218000	220000	And what we're looking for
+220000	222000	is that they
+222000	224000	obey
+224000	226000	some
+226000	228000	some
+228000	230000	positive relations
+230000	232000	for all I
+234000	236000	and...
+236000	238000	Yeah.
+238000	240000	Yeah, so you can write it as trace
+240000	242000	it's just because I was too lazy
+242000	244000	at some point to always write trace.
+244000	246000	And
+246000	248000	so we can write X of A
+250000	252000	which...
+252000	254000	When we go to...
+254000	256000	Okay, maybe you're right.
+256000	258000	Yeah.
+258000	260000	Just stick with this for now.
+260000	262000	Just stick with this because in the end
+262000	264000	it becomes kind of important.
+264000	266000	So, and the proof is
+266000	268000	as I said is pretty much straightforward.
+268000	270000	We assume
+274000	276000	that there is...
+276000	278000	We assume
+280000	282000	this
+282000	284000	X
+284000	286000	element C
+286000	288000	such that
+290000	292000	the
+292000	294000	rank
+294000	296000	of X
+296000	298000	equals R.
+298000	300000	So
+300000	302000	what it follows from this is that
+302000	304000	you can write X
+304000	306000	as B
+308000	310000	that one
+310000	312000	VB
+312000	314000	VT
+314000	316000	and
+316000	318000	B
+318000	320000	is
+320000	322000	positive definite.
+322000	324000	So it's a material.
+324000	326000	Clear?
+326000	328000	And by the way
+328000	330000	you can also determine these
+330000	332000	up front if you know.
+332000	334000	Do you want the Vs to be R by N matrices now?
+334000	336000	Yeah.
+336000	338000	Yeah.
+338000	340000	So,
+340000	342000	some
+342000	344000	are N matrix
+346000	348000	and they are
+348000	350000	like...
+350000	352000	You can see this
+352000	354000	pretty fast.
+354000	356000	They are orthogonal to the kernel
+356000	358000	of X of R.
+358000	360000	The columns of it are
+360000	362000	some vectors that
+362000	364000	span all following the company.
+364000	366000	And so when you're here
+366000	368000	you can
+370000	372000	you can define
+372000	374000	how we will
+374000	376000	define
+378000	380000	the problem in a hat
+380000	382000	is equal to
+382000	384000	VT
+384000	386000	VI
+386000	388000	V
+388000	390000	and therefore
+392000	394000	any feasible X
+394000	396000	can be written
+396000	398000	as
+404000	406000	AI
+408000	410000	equals
+410000	412000	VI. So we know
+412000	414000	that this is true
+416000	418000	and since this
+418000	420000	is feasible we will
+420000	422000	define another function
+422000	424000	and
+424000	426000	I will just
+426000	428000	call this function
+428000	430000	PI and
+430000	432000	it goes
+432000	434000	from the symmetric
+436000	438000	R by R matrices
+440000	442000	to
+444000	446000	to
+448000	450000	the
+452000	454000	space RR. This
+454000	456000	composition is being recorded on Zoom
+456000	458000	just so you know.
+460000	462000	And each
+462000	464000	like
+464000	466000	this five takes in
+466000	468000	a second
+468000	470000	this five takes in
+470000	472000	some
+474000	476000	V
+476000	478000	and the I component of it
+478000	480000	is simply
+482000	484000	AI
+484000	486000	V
+486000	488000	and now it's pretty much straightforward.
+490000	492000	You know from
+492000	494000	from the rank
+494000	496000	nullity
+496000	498000	theorem
+502000	504000	you know that
+506000	508000	the
+508000	510000	value
+510000	512000	that
+512000	514000	difference
+516000	518000	in R
+518000	520000	must be equal
+520000	522000	to
+522000	524000	the
+524000	526000	random
+526000	528000	five
+528000	530000	of
+530000	532000	the
+532000	534000	image fine
+534000	536000	and
+536000	538000	and
+538000	540000	you know that
+540000	542000	this is equal to
+542000	544000	the real dimension of it
+544000	546000	R times
+546000	548000	R plus one over two
+550000	552000	and you know that
+552000	554000	the image of
+554000	556000	five
+556000	558000	I have to check something this is
+558000	560000	sorry this is not R this is N
+560000	562000	and
+562000	564000	so well now it depends
+564000	566000	on how these
+566000	568000	type of things that
+568000	570000	are defined by the AI
+570000	572000	within the
+572000	574000	ambience space but you can say that this
+574000	576000	is at most M.
+576000	578000	So what you see from here is
+578000	580000	that
+580000	582000	the dimension
+582000	584000	of
+584000	586000	serial I
+586000	588000	and
+588000	590000	and
+590000	592000	must be
+592000	594000	here
+616000	618000	and
+618000	620000	so
+620000	622000	this means
+622000	624000	if this is
+624000	626000	a number that is larger
+626000	628000	or equal larger equal than one
+628000	630000	and you will always
+630000	632000	find some dB
+632000	634000	so
+634000	636000	if R
+636000	638000	is R plus one over two
+638000	640000	minus M is larger equal
+640000	642000	one
+642000	644000	there it lists
+644000	646000	and
+646000	648000	that is not zero
+648000	650000	such that
+654000	656000	the operator
+656000	658000	B over T equals
+658000	660000	B
+660000	662000	plus two
+662000	664000	B
+664000	666000	and
+670000	672000	that is five
+672000	674000	almost right
+680000	682000	so what this means
+682000	684000	is
+684000	686000	you will find
+686000	688000	a sufficiently small T
+694000	696000	such that
+696000	698000	BT becomes
+698000	700000	similar
+708000	710000	and so you can reduce the rank
+710000	712000	by one
+712000	714000	and you can do this
+714000	716000	as long as
+716000	718000	rank
+718000	720000	R by one
+720000	722000	and you can do this
+722000	724000	as long as the kernel
+724000	726000	is larger equal to one
+726000	728000	and so that is why
+730000	732000	that is why we have this
+734000	736000	this
+736000	738000	which says that
+740000	742000	R
+742000	744000	R plus one over two
+744000	746000	must be smaller
+746000	748000	than
+748000	750000	M or in the complex case
+750000	752000	you can just
+752000	754000	replace everything
+754000	756000	that R
+756000	758000	is smaller than that
+762000	764000	strictly greater than
+764000	766000	rank double these here
+766000	768000	so if I just move the image
+768000	770000	to the left hand side
+770000	772000	isn't this
+772000	774000	you assume R
+774000	776000	right
+776000	778000	and this is
+778000	780000	just M by one
+780000	782000	so why is it
+782000	784000	strictly greater than
+784000	786000	any
+788000	790000	or am I
+790000	792000	you only can
+792000	794000	bound the term by a smaller
+794000	796000	equals
+798000	800000	in which case
+800000	802000	is that
+802000	804000	right now
+804000	806000	so the plastic example then is the rank one
+806000	808000	right
+808000	810000	so
+810000	812000	M is one
+812000	814000	so
+814000	816000	we know that the rank is
+816000	818000	you told us this cool thing
+818000	820000	where you got one constraint
+820000	822000	and the rank or even two constraints
+822000	824000	so you can see
+824000	826000	this is
+826000	828000	definitely true
+828000	830000	I'm sure about that one
+830000	832000	so what you can see from here
+832000	834000	this is just a feasibility thing
+834000	836000	and so
+836000	838000	this means
+838000	840000	so R can be
+840000	842000	you can just check it
+844000	846000	in that case
+846000	848000	for the
+850000	852000	for the
+852000	854000	for the complex
+854000	856000	case
+856000	858000	everything when M
+858000	860000	is
+860000	862000	less than four
+862000	864000	always find the rank one
+864000	866000	so up to three is fine
+866000	868000	and for real
+868000	870000	you can just check
+870000	872000	that this is for
+872000	874000	for M
+874000	876000	that's good
+876000	878000	and now I told you this the logic is
+878000	880000	there exists D not equal to zero
+880000	882000	such that BT be satisfied
+882000	884000	with the constraints
+884000	886000	the point is
+886000	888000	if I have
+888000	890000	maybe not
+890000	892000	it's obvious but maybe not
+892000	894000	if this is
+894000	896000	if this is
+896000	898000	larger or equal than one
+898000	900000	I can always
+900000	902000	from the kernel
+902000	904000	then maybe this
+904000	906000	D is from the kernel
+906000	908000	that makes
+908000	910000	that makes
+910000	912000	okay
+912000	914000	and then I can
+914000	916000	then I can just
+916000	918000	take any kind of addition
+918000	920000	and it still satisfies
+920000	922000	the constraints
+922000	924000	and from the continuity
+924000	926000	of the eigenvalues
+926000	928000	we know that
+928000	930000	there will be some sufficiently small T
+930000	932000	maybe I should write it like this
+932000	934000	such that BT becomes similar
+934000	936000	but then you are actually
+936000	938000	you know
+938000	940000	you take the characteristic polynomial
+940000	942000	and then it has roots
+942000	944000	the sufficiently small doesn't smell right
+944000	946000	why is T
+946000	948000	to be small
+948000	950000	I'd rather expect T to be quite large
+950000	952000	ah okay
+952000	954000	if you take
+954000	956000	the point of it
+956000	958000	there you've got a polynomial
+958000	960000	in T
+960000	962000	and by the fundamental theorem of algebra
+962000	964000	we've got
+964000	966000	I think that's what you're saying
+966000	968000	that's just
+968000	970000	I think
+970000	972000	the picture that T
+972000	974000	already has in mind is your increased T
+974000	976000	until you get to
+978000	980000	when it gets to existence it's kind of tricky
+980000	982000	because then right over the real numbers
+982000	984000	they might be having number roots
+984000	986000	right
+988000	990000	after the real game
+990000	992000	so to complex
+992000	994000	I'm happy with it
+994000	996000	but the fundamental theorem of algebra
+996000	998000	in this big field
+998000	1000000	which the real numbers are
+1000000	1002000	and in fact I think you want
+1002000	1004000	because it really could be right
+1004000	1006000	the T of A is the polynomial
+1006000	1008000	x squared plus 3 is 0
+1008000	1010000	which you can't do
+1010000	1012000	I cannot
+1012000	1014000	I think that there's something more going on
+1014000	1016000	isn't there
+1016000	1018000	yeah it's not the character of the polynomial
+1018000	1020000	but T is not the
+1020000	1022000	I don't know
+1022000	1024000	yeah I mean I put it in the
+1024000	1026000	generalized eigenvalue version
+1026000	1028000	of this what do you call that
+1028000	1030000	not character of the polynomial
+1030000	1032000	generalized character is probably
+1032000	1034000	probably right
+1034000	1036000	and so
+1036000	1038000	yeah
+1038000	1040000	there's something else going on
+1040000	1042000	like
+1042000	1044000	you can I mean
+1044000	1046000	isn't the idea that you add T and it's bigger and bigger and bigger
+1046000	1048000	and then you're going to go in
+1048000	1050000	feasible at some point
+1050000	1052000	no this is the whole point
+1054000	1056000	it's in the kernel of phi
+1056000	1058000	the point is phi is a linear function
+1058000	1060000	phi is linear
+1060000	1062000	and because of that
+1062000	1064000	I can take this ring now
+1064000	1066000	and I can see
+1066000	1068000	that I can take some D
+1068000	1070000	which is in the
+1070000	1072000	like it's in the
+1072000	1074000	it's in the kernel of this function
+1074000	1076000	which means it does not
+1076000	1078000	it does not alter
+1078000	1080000	the outcome of the
+1080000	1082000	of the constraints
+1082000	1084000	that's true
+1084000	1086000	but what's the
+1086000	1088000	story of T then
+1088000	1090000	it selects the right T
+1090000	1092000	that
+1092000	1094000	thing becomes singular
+1094000	1096000	singularity means
+1096000	1098000	the determinant is zero
+1100000	1102000	yeah I mean T most lambs
+1102000	1104000	you can always find a T that makes one of
+1104000	1106000	the eigenvalues zero
+1106000	1108000	whereas previously it was a strictly positive
+1108000	1110000	matrix phi
+1110000	1112000	I find a T so that you reduce the rank
+1112000	1114000	yeah but can T go infinitely negative
+1114000	1116000	but why can you find
+1116000	1118000	a D that compensates
+1118000	1120000	for an eigenvalue
+1120000	1122000	it's somehow
+1122000	1124000	circling around that maybe
+1124000	1126000	I think this is the
+1126000	1128000	the constraint
+1128000	1130000	that Tobias mentioned
+1134000	1136000	we made that argument
+1136000	1138000	but it's different
+1138000	1140000	with some
+1140000	1142000	with some
+1142000	1144000	but
+1144000	1146000	I'm going to try to
+1146000	1148000	do you
+1148000	1150000	mean that I can reduce to the
+1150000	1152000	top state
+1152000	1154000	and then
+1154000	1156000	then you turn
+1156000	1158000	one of the same
+1158000	1160000	one of the same
+1160000	1162000	I'm not
+1162000	1164000	sure if you know what you're doing
+1164000	1166000	but what we're basically doing up there
+1168000	1170000	with the center now we are
+1170000	1172000	moving from
+1172000	1174000	I'm not sure if you know what I'm talking about
+1174000	1176000	so this A that is
+1180000	1182000	the same old story of
+1182000	1184000	by leading up form
+1186000	1188000	to its
+1188000	1190000	reproducing current
+1196000	1198000	can I just push the determinant
+1198000	1200000	argument through and see where it breaks
+1202000	1204000	we shouldn't need anything to match it right
+1204000	1206000	like we're saying
+1206000	1208000	so we're saying the B
+1208000	1210000	term and then the same
+1210000	1212000	I think you want to
+1212000	1214000	factor out B because it's invertible
+1218000	1220000	you can make it into a characteristic
+1220000	1222000	polynomial of
+1222000	1224000	square root inverse B
+1224000	1226000	D square root inverse B
+1226000	1228000	and then also one of our
+1228000	1230000	T
+1246000	1248000	so then you're arguing that
+1248000	1250000	there exists a T
+1250000	1252000	which makes this thing
+1252000	1254000	okay for complexity
+1254000	1256000	it's fine
+1256000	1258000	complexity but even for real T
+1258000	1260000	because
+1262000	1264000	yeah
+1264000	1266000	so D is not positive
+1266000	1268000	D can be any evolution
+1268000	1270000	anything just not zero
+1270000	1272000	so you put the T as
+1272000	1274000	the D
+1274000	1276000	we'll try to make it without
+1278000	1280000	the point is
+1280000	1282000	is that D can have negative i
+1282000	1284000	that's allowed
+1284000	1286000	and now as soon as a negative i
+1286000	1288000	is positive
+1290000	1292000	I can't buy it now
+1292000	1294000	okay
+1294000	1296000	and this is the whole proof
+1296000	1298000	for it
+1298000	1300000	how do you
+1300000	1302000	argue that
+1302000	1304000	so there exists a T
+1304000	1306000	such as P0
+1306000	1308000	P0 is singular and so because
+1308000	1310000	rank was an R
+1310000	1312000	but how do you argue that
+1316000	1318000	right because that's the argument
+1318000	1320000	and we say that there is some B of P0
+1320000	1322000	which is singular so it does
+1322000	1324000	rank one less and we say that
+1324000	1326000	that's our new feasible solution
+1326000	1328000	it's a flexible string but you also need the positive
+1330000	1332000	D is in the column of 5
+1332000	1334000	so it's a symmetric matrix
+1336000	1338000	symmetric so you can
+1338000	1340000	always choose it to be
+1340000	1342000	whatever you want basically
+1344000	1346000	if it's in the column of 5
+1346000	1348000	it's either positive, it's fully positive
+1348000	1350000	in which case you put a minus sign in front of it
+1350000	1352000	or it's
+1352000	1354000	it will neither be positive nor
+1354000	1356000	neither positive nor negative in which case
+1356000	1358000	you just find the smallest eigenvalue of it
+1358000	1360000	and then put a minus sign in front of that
+1360000	1362000	and then you can always
+1362000	1364000	zero off at least
+1364000	1366000	I think the argument is right
+1366000	1368000	which has
+1368000	1370000	a largest
+1370000	1372000	negative eigenvalue
+1374000	1376000	everything is negative
+1376000	1378000	and it's strictly negative
+1378000	1380000	not
+1380000	1382000	how do you know
+1382000	1384000	oh I think it's not the number of minus signs
+1384000	1386000	what if it's neither
+1386000	1388000	no that's the idea
+1388000	1390000	how about I just write it out
+1390000	1392000	here
+1392000	1394000	it has some smallest eigenvalue
+1394000	1396000	some
+1396000	1398000	some eigenvalue
+1398000	1400000	more than two
+1400000	1402000	whatever right, symmetric
+1402000	1404000	and then these D's
+1404000	1406000	we'll just put them in D semi-water
+1406000	1408000	right
+1408000	1410000	so what if they're all positive
+1410000	1412000	then we put a minus sign
+1412000	1414000	in front of it
+1414000	1416000	there exists a D in the column
+1416000	1418000	so I'm allowed to multiply by minus one
+1418000	1420000	now the largest
+1420000	1422000	the largest negative eigenvalue
+1422000	1424000	which is T just right
+1424000	1426000	I'll zero off one of the
+1426000	1428000	the corresponding eigenvector
+1428000	1430000	of that identity
+1434000	1436000	and the other state positive
+1436000	1438000	the objective here isn't
+1438000	1440000	is just to zero off at least one eigenvector
+1440000	1442000	of that program matrix
+1442000	1444000	I think we know but also the
+1444000	1446000	resulting B of T has to be positive
+1446000	1448000	and it would be
+1448000	1450000	why
+1450000	1452000	because you just
+1452000	1454000	it's not sufficiently small
+1454000	1456000	it's supposed to
+1456000	1458000	sufficiently small because
+1458000	1460000	yeah, thanks
+1462000	1464000	you just take the
+1464000	1466000	the eigenvalue of T with
+1466000	1468000	with the smallest absolute
+1468000	1470000	value
+1470000	1472000	and the smallest absolute value
+1472000	1474000	well then just if it's
+1474000	1476000	minus or plus you decide
+1476000	1478000	why I have a T because the T can be anything
+1478000	1480000	from R
+1480000	1482000	and then you just push it
+1482000	1484000	until that one
+1484000	1486000	eigenvalue cancels
+1486000	1488000	the smallest eigenvalue
+1488000	1490000	of the B for example
+1490000	1492000	you just in the column
+1492000	1494000	here for example
+1494000	1496000	if you already rank
+1496000	1498000	deficient then it's fine
+1498000	1500000	if not in the strict interior
+1500000	1502000	then you can push it in direction
+1502000	1504000	and this leaves you in a
+1504000	1506000	column at least for small t
+1506000	1508000	and you will reach the boundary
+1508000	1510000	but it doesn't matter with which matrix
+1510000	1512000	you add because in order to
+1512000	1514000	say
+1514000	1516000	sufficiently small t in the column
+1516000	1518000	then it's already fine
+1518000	1520000	then you walk to another phase
+1522000	1524000	no that's not possible
+1524000	1526000	because the phase is defined
+1526000	1528000	by the AIs or the
+1528000	1530000	the intersection of the phase
+1530000	1532000	of the affine subspace
+1534000	1536000	oh
+1536000	1538000	yes
+1538000	1540000	still
+1540000	1542000	like B can have mixed eigenvalues
+1542000	1544000	which are both positive and negative
+1544000	1546000	we first of all cannot choose that because
+1546000	1548000	the kernel can be one-dimensional
+1548000	1550000	and we're just fixed with this kind of distribution of signs
+1552000	1554000	then flip all signs
+1554000	1556000	well we can flip all of them but it's some of them are positive
+1556000	1558000	some are negative
+1558000	1560000	but this
+1560000	1562000	but there are one
+1562000	1564000	let's say the positive signs
+1564000	1566000	the positive signs
+1566000	1568000	they do not work because they just make
+1568000	1570000	B more positive
+1570000	1572000	then it's already
+1572000	1574000	possible
+1574000	1576000	you don't take the most negative sign
+1576000	1578000	yes
+1578000	1580000	you just walk gradually t up until
+1580000	1582000	it hits the first zero crossing
+1584000	1586000	imagine like you perturb B by D
+1586000	1588000	and for very small t
+1588000	1590000	sure
+1590000	1592000	values hardly change
+1592000	1594000	so you can now make a plot
+1594000	1596000	where you plot the curves of eigenvalues
+1596000	1598000	and then you increase t this will give continuous functions
+1600000	1602000	and at some point the lowest one will cross zero
+1602000	1604000	and then you stop
+1604000	1606000	and then you still have a positive operate
+1606000	1608000	okay
+1608000	1610000	but I would want that to
+1610000	1612000	but
+1612000	1614000	optimization
+1614000	1616000	I mean here it's just inverse function theorem
+1616000	1618000	I think
+1618000	1620000	okay
+1620000	1622000	what's your favorite proof of the inverse function theorem
+1624000	1626000	non-trivial
+1626000	1628000	non-trivial
+1634000	1636000	so we have
+1636000	1638000	let's say with a feasible
+1638000	1640000	X
+1640000	1642000	right this is your
+1642000	1644000	this is your assumption
+1644000	1646000	and it's offering
+1646000	1648000	R
+1648000	1650000	and now
+1650000	1652000	that's an assumption
+1652000	1654000	no because that just means
+1654000	1656000	you have given the name to the rank of X
+1656000	1658000	you just named the rank
+1658000	1660000	you would find R to be the rank
+1660000	1662000	okay
+1662000	1664000	okay
+1664000	1666000	I have my problem I take one thing to the point
+1666000	1668000	which says rank R
+1668000	1670000	now I write my
+1670000	1672000	rank R thingy as well
+1672000	1674000	something from the other dimension of space
+1674000	1676000	transformation
+1676000	1678000	now I can write
+1678000	1680000	the whole thing
+1682000	1684000	now I can take the
+1684000	1686000	transformation and write this whole
+1686000	1688000	thing
+1688000	1690000	as optimization in the subspace
+1690000	1692000	R
+1692000	1694000	and B is basically
+1694000	1696000	you give me some C
+1696000	1698000	so I have a smaller space
+1700000	1702000	okay so far so good
+1702000	1704000	now next step why do I define this
+1704000	1706000	by
+1706000	1708000	some story
+1708000	1710000	I can define
+1710000	1712000	maybe you don't need it but for me it was
+1712000	1714000	very
+1714000	1716000	intuitive to then work with the rank
+1716000	1718000	now to theorem because it's just simple
+1718000	1720000	so now I am in the
+1720000	1722000	okay I have to take the
+1722000	1724000	subspace
+1724000	1726000	I could optimize it in the subspace
+1728000	1730000	what do I learn but I also
+1730000	1732000	have to optimize over all B
+1734000	1736000	now you start with something
+1736000	1738000	you start with some feasible point
+1738000	1740000	you go to the sort of compressed
+1740000	1742000	STP
+1742000	1744000	you look at the feasible subspace
+1744000	1746000	and D at the orthogonal
+1746000	1748000	subspace to the feasible subspace
+1748000	1750000	which is the kernel
+1750000	1752000	of this file
+1752000	1754000	and now you say you can always
+1754000	1756000	walk in this direction to reduce the rank
+1756000	1758000	by one
+1758000	1760000	to the point
+1760000	1762000	you start with the feasible point
+1762000	1764000	then if this condition there holds
+1764000	1766000	then you can find a perturbation
+1766000	1768000	which reduces the rank
+1768000	1770000	now you have a new feasible point
+1770000	1772000	and you can redo the whole program
+1772000	1774000	this was
+1774000	1776000	like a while loop
+1776000	1778000	so yeah
+1778000	1780000	and this is awesome in this introduction
+1780000	1782000	and this is also what I wanted to do
+1782000	1784000	because I think this proof is
+1784000	1786000	somewhat constructive not like the
+1786000	1788000	pataki proofs they are all like
+1788000	1790000	very static
+1790000	1792000	you have some things that you have worked through
+1792000	1794000	but this one is like
+1794000	1796000	if you want you could check all of those
+1796000	1798000	points and
+1798000	1800000	reduce
+1800000	1802000	the complex
+1802000	1804000	the complex
+1804000	1806000	pataki is still a bit different
+1806000	1808000	it uses that you can do some other
+1808000	1810000	tricks I don't know if you know about
+1810000	1812000	the balanced
+1812000	1814000	the balanced distribution
+1814000	1816000	of
+1816000	1818000	I don't think we want to know about that
+1818000	1820000	so I'm kind of bugged by this
+1820000	1822000	V, this V appears and disappears
+1822000	1824000	it's a horribly
+1824000	1826000	basis thinking I don't like that
+1826000	1828000	can you just skip the V
+1830000	1832000	well the V
+1832000	1834000	the V is just
+1834000	1836000	actually just the basis
+1836000	1838000	of the RR
+1838000	1840000	and
+1840000	1842000	where this comes from
+1842000	1844000	in your proof
+1844000	1846000	just strike those lines up
+1846000	1848000	I don't need them
+1848000	1850000	I need it to
+1850000	1852000	to
+1852000	1854000	reduce
+1854000	1856000	to get from
+1856000	1858000	N to PSDR
+1858000	1860000	we need it
+1860000	1862000	we want to compress
+1862000	1864000	if X is a state
+1864000	1866000	you want to compress to support
+1866000	1868000	subspace of the state
+1868000	1870000	we need to choose a basis
+1870000	1872000	we can throw it
+1872000	1874000	we don't need to choose a basis and throw it out
+1874000	1876000	I'm just being pedantic
+1876000	1878000	but this is the kind of thing where
+1878000	1880000	in formalization
+1880000	1882000	it's a pain in the ass to choose a basis
+1882000	1884000	formalize and throw it out again
+1884000	1886000	so I'm just sensitive to this
+1886000	1888000	okay we are fine
+1890000	1892000	good
+1892000	1894000	do we agree
+1894000	1896000	does it pass it?
+1896000	1898000	I have a feasible point
+1898000	1900000	but I want to
+1904000	1906000	okay so
+1906000	1908000	this is actually
+1908000	1910000	like you could say
+1910000	1912000	we could substitute this line
+1912000	1914000	by saying
+1914000	1916000	each phase
+1916000	1918000	of the
+1918000	1920000	each phase of the PSD
+1920000	1922000	end code is isomorphic
+1922000	1924000	to
+1924000	1926000	PSDR somewhere
+1926000	1928000	that's much better because I'm also thinking
+1928000	1930000	infinite dimensional here
+1930000	1932000	if you want to generalize this stuff
+1932000	1934000	if you want to generalize this
+1934000	1936000	you don't want to be choosing V
+1936000	1938000	V is okay
+1938000	1940000	because it's a support
+1940000	1942000	it's Henriksen
+1942000	1944000	when you want to start
+1944000	1946000	V, V transpose
+1946000	1948000	which is really the supporting protection
+1948000	1950000	it's not going to throw spaces in the support
+1950000	1952000	and that's
+1952000	1954000	right yeah thanks
+1954000	1956000	but actually
+1956000	1958000	I'm
+1958000	1960000	do you really want that in infinite dimension
+1960000	1962000	because if you're on a c-star algebra
+1962000	1964000	this board is somewhere outside
+1964000	1966000	of the c-star algebra maybe
+1966000	1968000	yeah now I'm already
+1968000	1970000	wondering ahead as it
+1970000	1972000	was
+1972000	1974000	so if this proof kind of looks okay
+1974000	1976000	then we can already
+1976000	1978000	the point of talking is
+1978000	1980000	how far does it go
+1980000	1982000	before I just
+1982000	1984000	I already did a B
+1984000	1986000	for my son
+1986000	1988000	and what it says is that if you have
+1988000	1990000	an interior point of a PSD code
+1990000	1992000	you fix a random or any
+1992000	1994000	direction in the operator
+1994000	1996000	space and you walk along the direction
+1996000	1998000	at some point you're going to be outside of the code
+1998000	2000000	because then you at some point have to hit
+2000000	2002000	a phase and we are just
+2002000	2004000	that's the singularity here
+2004000	2006000	and this just means that the code
+2006000	2008000	is pointed
+2008000	2010000	pointed current yeah yeah this holds
+2010000	2012000	for any pointed code okay that's
+2012000	2014000	actually that's very important comment right
+2014000	2016000	in fact
+2016000	2018000	the whole proof
+2018000	2020000	can go through for just a
+2020000	2022000	intermediate space
+2022000	2024000	except for you have to replace rank with like
+2024000	2026000	is an element of phase
+2026000	2028000	and then I can find a smaller phase
+2028000	2030000	they are not numbered by range
+2030000	2032000	because they are in horizon orbit
+2032000	2034000	because we lost the representation in terms of operators
+2034000	2036000	but you can just say like the phase
+2036000	2038000	of it I mentioned below
+2038000	2040000	a code you mentioned
+2040000	2042000	this is also one thing
+2042000	2044000	why I have
+2044000	2046000	another proof of that one
+2046000	2048000	because I tried to do it in the first place
+2048000	2050000	I learned at last now but
+2050000	2052000	I have a proof that is
+2052000	2054000	for an arbitrary
+2054000	2056000	phone
+2056000	2058000	just for
+2058000	2060000	for an Archimedia that's the point here
+2060000	2062000	yeah
+2062000	2064000	what does that really mean
+2064000	2066000	there is inside a cone
+2066000	2068000	you add a little bit
+2068000	2070000	yeah well for every element
+2070000	2072000	of the phase
+2072000	2074000	there are the
+2074000	2076000	t and the t such that
+2076000	2078000	t plus is in the cone
+2078000	2080000	yeah
+2080000	2082000	it's literally dump condition you want
+2088000	2090000	so but now
+2090000	2092000	and then so the
+2092000	2094000	one thing that works with PSD is that
+2094000	2096000	faces
+2096000	2098000	a complex combination of extreme points
+2098000	2100000	and extreme points of rank 1 projections
+2100000	2102000	and so that's how we connect rank
+2102000	2104000	to
+2104000	2106000	to whatever
+2106000	2108000	the constraints right and the minute we
+2108000	2110000	lose representations
+2110000	2112000	star representations
+2112000	2114000	on some Hilbert space
+2114000	2116000	the minute we can't say the word rank any longer
+2116000	2118000	then we lose that rank
+2118000	2120000	right is this what's happening
+2120000	2122000	it's very very rank but the connection
+2122000	2124000	to operate is lost if you don't
+2124000	2126000	have a star representation
+2130000	2132000	so
+2132000	2134000	well
+2134000	2136000	even though you can get
+2136000	2138000	you want to get
+2138000	2140000	a new space
+2140000	2142000	might be
+2142000	2144000	a general space
+2146000	2148000	I think
+2148000	2150000	if we want to see the words
+2150000	2152000	operators we need some kind of representation
+2152000	2154000	to say that it's not going to work
+2154000	2156000	for any point in the cone
+2156000	2158000	well
+2158000	2160000	you can find an operator representation
+2160000	2162000	but I can put this theorem
+2162000	2164000	the thing that dies
+2164000	2166000	is
+2166000	2168000	this won't be the same right
+2168000	2170000	we have to replay the rank first
+2170000	2172000	the thing is that you replace that r
+2172000	2174000	r plus 1 divided by 2 by the dimension
+2174000	2176000	of the face
+2176000	2178000	is the face
+2178000	2180000	it's literally the dimension of sin
+2180000	2182000	r which is just
+2182000	2184000	the span of psd r
+2184000	2186000	you're just saying that you replace that
+2186000	2188000	explicit r expression
+2188000	2190000	with the dimension of the
+2190000	2192000	fine span of the face
+2192000	2194000	but the connection to
+2194000	2196000	operate is right you don't have
+2196000	2198000	oh no then you just need to plug in the formula part
+2198000	2200000	the dimension of the face
+2200000	2202000	that's the only comment
+2202000	2204000	I wonder if
+2204000	2206000	in the other way
+2206000	2208000	then we get some
+2208000	2210000	over the
+2210000	2212000	chain's weight or something like that
+2212000	2214000	because
+2214000	2216000	those are just that
+2216000	2218000	they're just those r squares
+2218000	2220000	some of them and you have
+2220000	2222000	irreducible representation so their dimension
+2222000	2224000	is just kind of the diagonal
+2224000	2226000	and it's just that right
+2226000	2228000	okay
+2228000	2230000	then we have to put on the
+2230000	2232000	that dimension
+2232000	2234000	I don't know
+2234000	2236000	those are
+2236000	2238000	we have a cone
+2240000	2242000	and
+2242000	2244000	okay psd cone generalizes
+2244000	2246000	for some states
+2246000	2248000	the cone
+2248000	2250000	any areas for this right
+2250000	2252000	any
+2252000	2254000	okay so we have a cone and we have
+2254000	2256000	a linear optimization of the cone
+2256000	2258000	this is how it would start
+2258000	2260000	yeah
+2260000	2262000	you could do this
+2262000	2264000	T walking so you push
+2264000	2266000	the salt to the edge
+2266000	2268000	no next step would be well we want to
+2268000	2270000	write this cone as an image
+2270000	2272000	of some
+2272000	2274000	some other cone
+2274000	2276000	right that's what's happening here
+2278000	2280000	this VBV
+2280000	2282000	let's see the first line is saying
+2282000	2284000	you are inside of some face
+2284000	2286000	oh yeah
+2286000	2288000	now
+2288000	2290000	you just blink to the face
+2290000	2292000	everything
+2292000	2294000	that would be the
+2294000	2296000	the sign dimension of face
+2296000	2298000	would be r right
+2298000	2300000	no that would be the
+2302000	2304000	the second line
+2306000	2308000	this would be okay
+2308000	2310000	yeah I know I got it
+2310000	2312000	actually you can project
+2312000	2314000	you can project to a subspace of a face
+2314000	2316000	but this is not something to be well
+2316000	2318000	defined and you don't have to be able to
+2318000	2320000	cleanly project the whole cone into a face
+2320000	2322000	so I would just say like we are in a face
+2322000	2324000	it's
+2324000	2326000	like trying to redefine
+2326000	2328000	these for arbitrary cone might be
+2328000	2330000	I would rather not do that
+2330000	2332000	than just be in a face
+2334000	2336000	like because if the face can be
+2336000	2338000	smaller the cone can be bigger than the
+2338000	2340000	projected around the face and try to squeeze it
+2340000	2342000	this would be
+2342000	2344000	probably because you can do that
+2344000	2346000	this part
+2352000	2354000	the A heads just the projections
+2354000	2356000	of the A's to the face
+2362000	2364000	this is like a one column proof
+2364000	2366000	for what?
+2366000	2368000	one column proof
+2368000	2370000	in PRA format
+2372000	2374000	okay
+2374000	2376000	now here's the challenge
+2376000	2378000	can we make a one page PRL
+2380000	2382000	what's the
+2382000	2384000	tpt's baby
+2384000	2386000	it's like
+2386000	2388000	because
+2388000	2390000	this is referring to a very old
+2390000	2392000	challenge
+2392000	2394000	there's a standing challenge
+2394000	2396000	amongst the theoretical physics community
+2396000	2398000	which is a one page PRL
+2398000	2400000	published
+2400000	2402000	there is a one page in each paper
+2402000	2404000	shouldn't this be
+2404000	2406000	the application
+2406000	2408000	it doesn't need to fit the application
+2408000	2410000	in the other column
+2410000	2412000	it's a tricky bit
+2412000	2414000	the obvious
+2414000	2416000	application would always be something like
+2416000	2418000	a restrictive concept problem
+2418000	2420000	which is kind of
+2420000	2422000	just too boring right that cone is easy
+2422000	2424000	why do all this
+2424000	2426000	in a continuous
+2426000	2428000	area of blah blah blah
+2428000	2430000	I'm thinking more like GPT
+2430000	2432000	something right
+2432000	2434000	we're not talking just about quantum
+2434000	2436000	mechanics here we're talking about
+2436000	2438000	even in post-process
+2438000	2440000	but
+2440000	2442000	that's for a simple
+2442000	2444000	I know this cone is boring
+2444000	2446000	but if I give you a
+2446000	2448000	restrictive grand state problem
+2448000	2450000	on some internet dimension blah blah blah
+2450000	2452000	and I prove that the optimal solution will be still
+2452000	2454000	pure state
+2454000	2456000	I know that all those pure state variation
+2456000	2458000	I met this bull still has a chance to find out
+2458000	2460000	I'm not surprised by that
+2460000	2462000	I don't know why but I don't know
+2462000	2464000	but if I have as many constraints
+2464000	2466000	it will fail
+2466000	2468000	like
+2468000	2470000	we can see restricted grand state would be mean actually
+2470000	2472000	give me like minimum the energy
+2472000	2474000	such that the angular momentum
+2474000	2476000	will be bigger
+2476000	2478000	number
+2478000	2480000	and the energy
+2480000	2482000	should also be
+2482000	2484000	equal to 5
+2484000	2486000	now you have your 3
+2486000	2488000	I like the angular momentum angle that works
+2488000	2490000	or energy or whatever
+2492000	2494000	ok we have the identity, we have the Hamiltonian
+2494000	2496000	want to optimize and now we have
+2496000	2498000	a third that we can pick
+2498000	2500000	to make this have real bite
+2500000	2502000	now it would be a non-commuting
+2502000	2504000	constraint for Hamilton
+2504000	2506000	not some boring conservative quantity
+2506000	2508000	yeah
+2508000	2510000	and to have a bite
+2510000	2512000	it would have to look great
+2512000	2514000	because if you add just one more constraint
+2514000	2516000	it does go next
+2516000	2518000	that would make it really interesting
+2518000	2520000	now take your favorite pure state
+2520000	2522000	automation
+2522000	2524000	well
+2524000	2526000	which
+2526000	2528000	should be 20 right
+2528000	2530000	some Monte Carlo wave function
+2530000	2532000	everything that has wave function
+2532000	2534000	everything that seems pure state is dead
+2534000	2536000	and now we can
+2536000	2538000	show that it will still work here
+2538000	2540000	yeah
+2540000	2542000	but
+2542000	2544000	no
+2544000	2546000	this is not
+2546000	2548000	but since you are talking about
+2548000	2550000	optimization problems
+2550000	2552000	this becomes just one NMR
+2554000	2556000	we want to optimize
+2558000	2560000	so if you have an optimization
+2560000	2562000	that would directly get
+2562000	2564000	something like
+2564000	2566000	minus and X
+2566000	2568000	then you can get a plus point
+2568000	2570000	from the T
+2570000	2572000	another constraint
+2572000	2574000	you can see it from
+2574000	2576000	so plus
+2576000	2578000	you can see it from two directions
+2578000	2580000	you can either say
+2580000	2582000	ok we have some
+2582000	2584000	some X
+2584000	2586000	of red
+2586000	2588000	on some face
+2588000	2590000	of the C because we know that the maximum
+2590000	2592000	minimum
+2592000	2594000	will appear on the face
+2594000	2596000	this means
+2596000	2598000	this function
+2598000	2600000	also needs to satisfy
+2600000	2602000	CD
+2602000	2604000	equals zero because
+2604000	2606000	if it does not equal zero you can
+2606000	2608000	take the same argument as here and argue that the point
+2608000	2610000	that you found is not optimal
+2610000	2612000	and
+2612000	2614000	yeah
+2614000	2616000	Mr. Weed linear
+2616000	2618000	you know it would be cool
+2618000	2620000	if you are optimizing a non-linear function
+2620000	2622000	you know it could be
+2622000	2624000	not too great
+2624000	2626000	like entropies and stuff
+2636000	2638000	you said also yesterday
+2638000	2640000	that we get the problem with the regularity
+2640000	2642000	if we are into information
+2642000	2644000	oh yeah I didn't understand
+2644000	2646000	ok
+2646000	2648000	we have
+2648000	2650000	one with a high R
+2650000	2652000	can have
+2652000	2654000	a high M constraint
+2654000	2656000	for
+2656000	2658000	two for the complexes
+2658000	2660000	we can have two constraints
+2660000	2662000	one of the constraints
+2662000	2664000	one
+2664000	2666000	one constraint
+2668000	2670000	that means the Hamiltonian
+2670000	2672000	because Hamiltonian optimization would be
+2672000	2674000	H is the energy
+2674000	2676000	Traces the other one
+2676000	2678000	we have one free
+2678000	2680000	and it still rank one
+2680000	2682000	oh yeah
+2682000	2684000	ok so
+2684000	2686000	that's the angular momentum thing
+2686000	2688000	that's the problem if you do something
+2688000	2690000	and you stop maybe then
+2690000	2692000	you have a worse bond
+2692000	2694000	maybe you lose that one extra constraint
+2694000	2696000	it's you know
+2696000	2698000	rank nullity is just
+2698000	2700000	more inverse function
+2700000	2702000	is
+2702000	2704000	implicit function theorem stuff
+2704000	2706000	that it is exactly linear
+2710000	2712000	but
+2712000	2714000	if we go to
+2714000	2716000	to the
+2716000	2718000	if you have a magnetic field
+2718000	2720000	that breaks angular momentum
+2720000	2722000	total angular momentum is no longer conserved
+2722000	2724000	when you have a magnetic field
+2724000	2726000	you have an atom in a magnetic field
+2726000	2728000	right now we've already
+2728000	2730000	ok ground state is pure
+2730000	2732000	cool we know that
+2732000	2734000	put a hydrogen atom in a magnetic field
+2734000	2736000	that's great
+2736000	2738000	but
+2738000	2740000	that's another way
+2740000	2742000	to add a constraint
+2742000	2744000	now you want to
+2744000	2746000	you say
+2746000	2748000	the perturbation breaks
+2748000	2750000	the angular momentum
+2750000	2752000	so now you want to fix angular momentum
+2752000	2754000	despite this
+2754000	2756000	you want to
+2756000	2758000	ah
+2758000	2760000	you want to conserve that angular momentum
+2760000	2762000	you want to prescribe that
+2762000	2764000	prescribe the angular momentum
+2764000	2766000	yeah right
+2766000	2768000	then you can also prescribe
+2768000	2770000	like this
+2770000	2772000	yeah
+2772000	2774000	prescribes it
+2774000	2776000	that's physics now right
+2776000	2778000	the hydrogen atom
+2778000	2780000	it's in a magnetic field
+2780000	2782000	you want to push it down to the ground state
+2782000	2784000	you want to say ah
+2784000	2786000	I want to make sure that the total
+2786000	2788000	the magnetic field points in that way
+2788000	2790000	I want to make sure the total angular momentum is fixed by some number
+2792000	2794000	now you
+2794000	2796000	the angular momentum is in a different direction
+2796000	2798000	in a different direction is fixed
+2798000	2800000	cool
+2800000	2802000	but then why do you care
+2802000	2804000	because
+2804000	2806000	you have lots of them
+2806000	2808000	that becomes a bit of an issue
+2808000	2810000	if you have too much angular momentum
+2810000	2812000	the box is in the direction
+2816000	2818000	you measure A
+2818000	2820000	you put it down
+2820000	2822000	the other quantity
+2826000	2828000	so that's the kind of example that I think could
+2828000	2830000	make it physically very interesting
+2830000	2832000	you think about
+2832000	2834000	what are the quantities in physics
+2834000	2836000	there's more than just angular momentum
+2836000	2838000	we have momentum
+2838000	2840000	energy
+2840000	2842000	rapidity
+2842000	2844000	these are the standard conserves
+2844000	2846000	then we have PC and T but they're discreet
+2846000	2848000	then we have
+2850000	2852000	sorry
+2852000	2854000	yeah right
+2854000	2856000	we could go orbital right
+2856000	2858000	yeah
+2860000	2862000	fusible ones must be mixed
+2864000	2866000	I think that's interesting
+2866000	2868000	the minute you
+2868000	2870000	what would shock
+2870000	2872000	a condensed matter theory is
+2872000	2874000	if they're forced to use pure states
+2874000	2876000	it's not allowed to use pure states
+2876000	2878000	and what would shock a quantum computing person
+2878000	2880000	what do you mean I can't use
+2880000	2882000	quiscate with pure states
+2886000	2888000	I always assumed that that was fine
+2892000	2894000	most people
+2894000	2896000	in this group here
+2896000	2898000	mixed states are kind of like
+2898000	2900000	we will understand
+2900000	2902000	but that's not the majority
+2902000	2904000	view here in the world
+2904000	2906000	well I can tell
+2906000	2908000	I know from
+2908000	2910000	discussions at least at IEEE
+2910000	2912000	where there were many people from IBM
+2912000	2914000	they were like and I was asking the question
+2914000	2916000	if anyone considers mixed states
+2916000	2918000	they were like well we don't need mixed states
+2918000	2920000	that's just noise
+2920000	2922000	we think of ideal
+2922000	2924000	quantum computers
+2924000	2926000	and then every time the question happens
+2926000	2928000	and no I had like three or four talks
+2928000	2930000	I was attending and they were saying
+2930000	2932000	there was some interesting
+2932000	2934000	it was interesting
+2934000	2936000	to see that our method got better
+2936000	2938000	when we introduced noise to the picture
+2940000	2942000	so maybe this is also a way to pick up
+2944000	2946000	the interesting question is not so much
+2946000	2948000	really the rank that you need
+2948000	2950000	but the rank that you need
+2950000	2952000	is a certain error
+2954000	2956000	I mean the rank is super unstable
+2956000	2958000	you can always make it
+2966000	2968000	so they say okay you tell me
+2968000	2970000	I need full rank but if I can approximate
+2970000	2972000	the tool
+2972000	2974000	after precision by pure state
+2976000	2978000	but this shouldn't
+2978000	2980000	just it could be robust
+2980000	2982000	of course
+2982000	2984000	there is only one
+2984000	2986000	x that's a final
+2990000	2992000	sorry I think there was a little bit of this problem
+2992000	2994000	let's start with some feasible set
+2994000	2996000	and start the positive
+2996000	2998000	point is that
+2998000	3000000	are the extreme points of this feasible set
+3000000	3002000	really in the interior
+3002000	3004000	or can they always be expanded
+3004000	3006000	out to the community
+3006000	3008000	and touch the boundaries
+3008000	3010000	and somehow natural
+3010000	3012000	if I only have one type of plane
+3012000	3014000	I have to cut through
+3014000	3016000	to a state
+3016000	3018000	this is the weird bit for me
+3018000	3020000	I find this very strange
+3020000	3022000	this is some of the geometry and now it's also quite
+3022000	3024000	if I had tool
+3024000	3026000	it's hard to draw
+3026000	3028000	full dimension
+3030000	3032000	you have a feasible set
+3032000	3034000	but it's something
+3038000	3040000	and you cut your first type of plane
+3044000	3046000	it's clear that you're always
+3046000	3048000	on the outside
+3048000	3050000	but then you cut the second type of plane
+3058000	3060000	it really gets inside the base
+3060000	3062000	because this is triangular face
+3062000	3064000	and if I cut my second type of plane
+3064000	3066000	like this
+3066000	3068000	then I'm stuck inside the triangular face
+3068000	3070000	but I don't want any of it
+3070000	3072000	I have to fix up all of this
+3072000	3074000	if you do a bit of something too
+3074000	3076000	I know I remember all of this stuff
+3076000	3078000	that's right
+3078000	3080000	I'm sure you can stop all of this
+3082000	3084000	whatever
+3084000	3086000	I need another cut
+3086000	3088000	I need another cut
+3088000	3090000	and you're in the interior
+3090000	3092000	it's fine
+3092000	3094000	it's a better picture
+3098000	3100000	I can cut right in the middle
+3100000	3102000	that's true
+3102000	3104000	you have one point
+3104000	3106000	on the inside of the house
+3110000	3112000	it's okay
+3114000	3116000	okay
+3118000	3120000	okay, so now I have to cut
+3126000	3128000	it's zero
+3128000	3130000	I have to cut the
+3130000	3132000	screen point of the other
+3132000	3134000	next to the rail
+3134000	3136000	this is what it said
+3136000	3138000	there's only one physical point
+3138000	3140000	and this can be arbitrary
+3140000	3142000	only when it's completely mixed
+3142000	3144000	I'm very mistaken
+3144000	3146000	the thing is
+3146000	3148000	that M equals to 2
+3148000	3150000	where we have the ball
+3150000	3152000	that should still be rank 1
+3152000	3154000	but for the picture it's not
+3158000	3160000	is it probably because of dimension
+3160000	3162000	the reason is because
+3162000	3164000	the point is rank 0
+3164000	3166000	but like
+3166000	3168000	it's still the rank 1
+3168000	3170000	so we need some other
+3170000	3172000	quality saying that this should also be
+3172000	3174000	better than
+3174000	3176000	such other needs
+3176000	3178000	it needs more than any
+3182000	3184000	you can't depict it in two or three dimensions
+3184000	3186000	that's the problem
+3186000	3188000	I'm thinking more on
+3188000	3190000	if you say this should work on the column
+3190000	3192000	it should work on the column
+3192000	3194000	yes
+3194000	3196000	we have three point arcs where the dimension
+3196000	3198000	is 1
+3198000	3200000	and the dimension
+3200000	3202000	that faces 1
+3202000	3204000	so
+3204000	3206000	I want to have
+3206000	3208000	instead of
+3208000	3210000	I just want to make sure it's just 1
+3210000	3212000	that's true
+3214000	3216000	can we
+3216000	3218000	I mean it's been said aloud in words
+3218000	3220000	but maybe the transcription
+3220000	3222000	will save it
+3222000	3224000	but Martin had the proof
+3224000	3226000	in general possible imaginable
+3228000	3230000	this is obvious to you
+3230000	3232000	but not to me
+3232000	3234000	so I would
+3234000	3236000	we should write it down
+3236000	3238000	maybe we should write it down
+3238000	3240000	I can send you
+3240000	3242000	my form of book
+3242000	3244000	should be already for
+3244000	3246000	arbitrary calls
+3246000	3248000	this is just adapted to PST already
+3248000	3250000	it's clear in the room
+3252000	3254000	it's clear in the room
+3260000	3262000	it's a projection to the interface
+3264000	3266000	it's a good idea
+3266000	3268000	I don't think every call has a projection to everything
+3268000	3270000	I want
+3270000	3272000	I'd like to be embedding the space
+3272000	3274000	into the column
+3274000	3276000	yeah because the space can be like
+3276000	3278000	bigger
+3278000	3280000	and then there's a small space
+3280000	3282000	and I'm not exactly sure it's always exist
+3282000	3284000	but that's another real statement
+3284000	3286000	okay
+3286000	3288000	if you have time
+3288000	3290000	maybe we can just take my
+3290000	3292000	I have it written down of course
+3292000	3294000	and then we can adapt it to the
+3294000	3296000	most
+3296000	3298000	most general case
+3298000	3300000	that would be cool
+3300000	3302000	but I think it would be a
+3302000	3304000	B
+3304000	3306000	that's not the projection
+3306000	3308000	but
+3308000	3310000	that's the only thing we need to solve
+3310000	3312000	we have your problem
+3312000	3314000	I think RK
+3314000	3316000	no just for everything
+3316000	3318000	space
+3318000	3320000	yeah the question is
+3320000	3322000	if we already talk about giving up functions
+3322000	3324000	I'm not giving in calls
+3324000	3326000	how far are we away from
+3326000	3328000	star
+3328000	3330000	I think
+3330000	3332000	every typical CSR of the brain
+3332000	3334000	right
+3334000	3336000	we don't have any
+3336000	3338000	and also if you
+3338000	3340000	give me the form of star
+3340000	3342000	can we
+3342000	3344000	give it to
+3344000	3346000	the star
+3346000	3348000	the star
+3348000	3350000	the star
+3350000	3352000	the star
+3352000	3354000	the star
+3354000	3356000	the star
+3356000	3358000	the star
+3358000	3360000	we're going to modify
+3360000	3362000	the proof
+3362000	3364000	this is the correct
+3364000	3366000	way to start
+3366000	3368000	VV plus E
+3368000	3370000	notation game
+3370000	3372000	yeah good
+3372000	3374000	what's the next piece
+3374000	3376000	of terminology that needs to be
+3376000	3378000	defined
+3378000	3380000	we need to talk about faces
+3380000	3382000	we're going to be decoding up just one order
+3382000	3384000	the table
+3386000	3388000	okay so there's extra conditions
+3388000	3390000	okay so then we need
+3390000	3392000	a student
+3392000	3394000	right
+3394000	3396000	every
+3404000	3406000	all the way
+3406000	3408000	inside the interior
+3408000	3410000	no you actually need to assume this for
+3410000	3412000	V plus and every face
+3412000	3414000	okay
+3414000	3416000	and
+3418000	3420000	that's what
+3420000	3422000	faces would be possible
+3422000	3424000	but finally
+3424000	3426000	this is so far
+3426000	3428000	but it's also very interesting the infinite
+3428000	3430000	dimension right it's telling us what's
+3430000	3432000	going to work and what isn't
+3432000	3434000	and then so that these are the two assumptions
+3434000	3436000	so far is this enough
+3436000	3438000	I'm going to look through
+3438000	3440000	and you will be necessary
+3440000	3442000	so you can probably
+3442000	3444000	come up with like notes that from all the
+3444000	3446000	things that are supposed to be
+3446000	3448000	okay so let's
+3448000	3450000	assume that when we need it
+3450000	3452000	so what's the map here what's the
+3452000	3454000	place of five
+3458000	3460000	so if you want to take a visible point
+3460000	3462000	and you want to define the face
+3462000	3464000	of that visible point
+3466000	3468000	the easiest point to define a
+3468000	3470000	face is to say that these are
+3470000	3472000	all of the elements that could be majorized
+3472000	3474000	by a positive order of height point
+3474000	3476000	okay so I've just realized I need some more
+3476000	3478000	notation right man this is just
+3478000	3480000	the cone but we haven't sort of talked about
+3480000	3482000	this kind of strange space C
+3482000	3484000	yeah
+3484000	3486000	so C is a sort of awkward
+3486000	3488000	V
+3488000	3490000	V plus such that
+3490000	3492000	there is some
+3492000	3494000	functional X
+3494000	3496000	you call the A
+3496000	3498000	the A-K on being
+3498000	3500000	the B-J
+3500000	3502000	on the D-J
+3502000	3504000	and where
+3504000	3506000	A-J
+3506000	3508000	is in the other direction
+3508000	3510000	right
+3512000	3514000	then you have functional
+3514000	3516000	okay so now we've got C
+3516000	3518000	and now the point you made was
+3518000	3520000	if we got to do
+3522000	3524000	find the face
+3524000	3526000	find the face
+3526000	3528000	of your physical point
+3528000	3530000	oh yeah we need to be in the background
+3530000	3532000	so let X
+3532000	3534000	be the point
+3534000	3536000	yeah let X be the
+3536000	3538000	point
+3538000	3540000	and then
+3540000	3542000	you see the curve
+3542000	3544000	on the face of X
+3546000	3548000	that's the
+3548000	3550000	I would define this as the set of all elements
+3550000	3552000	in D plus that you can majorize by X
+3552000	3554000	my rule for X
+3554000	3556000	set of all points
+3556000	3558000	W
+3558000	3560000	in D plus
+3560000	3562000	such that
+3562000	3564000	you can majorize
+3564000	3566000	X
+3566000	3568000	X is larger than
+3572000	3574000	and by larger than we need your perspective
+3574000	3576000	of course
+3576000	3578000	by the way
+3578000	3580000	is that common
+3580000	3582000	knowledge that this is the face
+3582000	3584000	I really have to
+3584000	3586000	prove this for myself
+3586000	3588000	but this is something that is
+3588000	3590000	Alex came with the same question
+3590000	3592000	so it seems like
+3592000	3594000	I was
+3594000	3596000	wondering because it sounded like
+3596000	3598000	this condition is open in general
+3598000	3600000	like
+3600000	3602000	because you cannot majorize by zero
+3602000	3604000	that's usually not an admissible point
+3606000	3608000	if it's an open condition doesn't that
+3608000	3610000	kind of contradict extreme faces
+3612000	3614000	no
+3614000	3616000	because the extreme face of the whole code
+3616000	3618000	is one-dimensional
+3618000	3620000	yeah okay
+3620000	3622000	it's an extreme ray not an extreme
+3622000	3624000	point
+3624000	3626000	I see
+3626000	3628000	but a nice way to think about this
+3628000	3630000	is that it just tells you
+3630000	3632000	that X can be decomposed
+3632000	3634000	as one of
+3634000	3636000	W divided by lambda plus
+3636000	3638000	something else
+3638000	3640000	yeah no I was just wondering
+3640000	3642000	whether the face should always contain
+3642000	3644000	the endpoints of every line as well
+3648000	3650000	does that
+3650000	3652000	still work?
+3652000	3654000	yeah okay this still works
+3654000	3656000	I see
+3656000	3658000	yeah
+3658000	3660000	yeah okay
+3660000	3662000	no no okay I see
+3662000	3664000	so it's in a sense you could say it's
+3664000	3666000	like the smallest
+3666000	3668000	face is the one
+3668000	3670000	in the face of the point
+3670000	3672000	is the one where the point is an interior
+3672000	3674000	of the face
+3676000	3678000	yes exactly
+3678000	3680000	okay
+3680000	3682000	because then it makes sense for a point
+3682000	3684000	as well because then for a point
+3684000	3686000	it's the only interior point of that point
+3690000	3692000	okay
+3692000	3694000	yeah but I think I convinced myself
+3694000	3696000	yesterday that
+3696000	3698000	I was happy with this definition
+3700000	3702000	we found the face of X
+3704000	3706000	a bunch of points in this cone
+3706000	3708000	and this is now defining
+3708000	3710000	5 right
+3712000	3714000	the 5 is this map
+3714000	3716000	the 5 of
+3716000	3718000	the 5 is the
+3718000	3720000	the 5 is the
+3720000	3722000	the 5 is the
+3722000	3724000	the 5 is the
+3724000	3726000	on the face
+3726000	3728000	on the face
+3728000	3730000	no you don't because
+3730000	3732000	you can define the 5 on the whole of V
+3732000	3734000	and you just say now I restrict
+3734000	3736000	myself to this
+3736000	3738000	yeah
+3738000	3740000	so 5 is an
+3740000	3742000	all of V
+3742000	3744000	and it goes to just these constraints
+3744000	3746000	where I work with something
+3746000	3748000	here
+3748000	3750000	one of
+3752000	3754000	of
+3754000	3756000	of
+3756000	3758000	of V
+3758000	3760000	so that's the element of R to the N
+3760000	3762000	we're working
+3762000	3764000	in the real numbers
+3764000	3766000	mm-hmm
+3766000	3768000	there's also each of those p-addict fields
+3768000	3770000	and
+3772000	3774000	and then 5 restricted
+3774000	3776000	to
+3776000	3778000	I want to
+3778000	3780000	change the name
+3780000	3782000	I think that
+3782000	3784000	going
+3784000	3786000	so
+3786000	3788000	I'm restricted to add
+3788000	3790000	these are the
+3790000	3792000	step numbers
+3792000	3794000	now
+3794000	3796000	there's every function that's defined
+3796000	3798000	so
+3800000	3802000	so I'm going to use
+3802000	3804000	8
+3804000	3806000	8
+3806000	3808000	on
+3808000	3810000	on
+3810000	3812000	and then the dimension of F
+3812000	3814000	now is what sim R
+3814000	3816000	is
+3816000	3818000	mm-hmm
+3818000	3820000	mm-hmm
+3820000	3822000	dimension
+3822000	3824000	dimension of F
+3824000	3826000	dimension of F
+3826000	3828000	dimension of F
+3828000	3830000	dimension of F
+3830000	3832000	dimension of F is what
+3832000	3834000	is an allergist to sim R
+3834000	3836000	but we have to give it a
+3836000	3838000	maybe we'll just call it in the F
+3838000	3840000	mm-hmm
+3840000	3842000	I should just think linear
+3842000	3844000	a normal span of the
+3844000	3846000	because it's called a zero so it's
+3846000	3848000	we don't even have to give it a 5
+3848000	3850000	so we can embed
+3850000	3852000	a bit more space
+3852000	3854000	so
+3854000	3856000	F is a subcode
+3856000	3858000	and so then D F
+3858000	3860000	F
+3860000	3862000	mm-hmm
+3862000	3864000	F is a linear function
+3864000	3866000	on a D F dimension of space
+3866000	3868000	to an M dimension
+3868000	3870000	space
+3870000	3872000	okay this comes
+3872000	3874000	through right so then we have
+3874000	3876000	the rank now that
+3876000	3878000	says the full dimension
+3880000	3882000	it's dimper
+3884000	3886000	what's the union
+3886000	3888000	and I just
+3888000	3890000	now I'm using
+3890000	3892000	my brain the dim
+3892000	3894000	sim
+3894000	3896000	yeah this dim
+3896000	3898000	sim
+3898000	3900000	and dimker is
+3900000	3902000	the stuff that gets zapped
+3902000	3904000	on F
+3904000	3906000	on F
+3906000	3908000	and dim in
+3908000	3910000	the end
+3910000	3912000	or not end it's
+3912000	3914000	it's more like equal then
+3914000	3916000	there's a dim in
+3916000	3918000	and then this is smaller equal
+3918000	3920000	then
+3920000	3922000	then dimker
+3922000	3924000	right
+3924000	3926000	then
+3926000	3928000	then
+3928000	3930000	then so we are done
+3932000	3934000	no no no we still need this whole
+3934000	3936000	move into the base
+3936000	3938000	I don't want to fit on one board
+3938000	3940000	ah
+3940000	3942000	ah
+3942000	3944000	ah
+3944000	3946000	ah
+3946000	3948000	I should have written this more
+3948000	3950000	it's not that people don't think the name
+3950000	3952000	that comes from a thing
+3952000	3954000	you may complain about this
+3954000	3956000	um
+3956000	3958000	but do we do
+3958000	3960000	do we stick to just this feasibility case
+3960000	3962000	or should we
+3962000	3964000	make the
+3964000	3966000	optimize what you say right
+3966000	3968000	that's the game
+3968000	3970000	the argument is a standard
+3970000	3972000	programming argument right
+3972000	3974000	feasibility equals optimality
+3974000	3976000	it's just the same thing
+3976000	3978000	I think
+3978000	3980000	if you're from optimality I agree
+3980000	3982000	but for everyone else
+3982000	3984000	it's a pain
+3984000	3986000	it's a footnote
+3986000	3988000	it's a pain
+3988000	3990000	okay
+3990000	3992000	you say
+3992000	3994000	it is obvious that
+3994000	3996000	and then it's fine
+3996000	3998000	you need to deal a bit
+3998000	4000000	you're dealing differently with it right
+4000000	4002000	on the one on one case you say okay
+4002000	4004000	then I find another solution
+4004000	4006000	with different rank on the other hand you say okay
+4006000	4008000	if I find some D that is not
+4008000	4010000	within the current
+4010000	4012000	that is within the kernel of all A's
+4012000	4014000	but not within the kernel of C
+4014000	4016000	then I can find a phase that is actually
+4016000	4018000	better
+4018000	4020000	like has a better value
+4020000	4022000	then
+4022000	4024000	but okay
+4024000	4026000	yeah but you can choose D
+4026000	4028000	and you like
+4028000	4030000	but you can only pick one
+4030000	4032000	from the kernel of the constraint
+4032000	4034000	right
+4034000	4036000	the D has created the kernel
+4036000	4038000	the D is from the kernel of the constraint
+4038000	4040000	you cannot choose an example
+4040000	4042000	but then you can still like DT
+4042000	4044000	then you can still choose this
+4044000	4046000	DT and you can walk in any direction of the T
+4046000	4048000	without disturbing the constraint
+4048000	4050000	but
+4050000	4052000	only one
+4052000	4054000	can prove it
+4054000	4056000	it can be that you maintain
+4056000	4058000	in the form for one direction
+4058000	4060000	which will be grouped up to the regular
+4060000	4062000	and you have to walk in the other direction
+4062000	4064000	as the code implies then
+4064000	4066000	was there exist D in the kernel
+4066000	4068000	by it
+4068000	4070000	such that
+4074000	4076000	such that
+4076000	4078000	X which is now being
+4084000	4086000	this is
+4086000	4088000	minus
+4102000	4104000	when that is satisfied
+4104000	4106000	there really is something to be found
+4106000	4108000	and you add it to the D
+4110000	4112000	and then you walk
+4112000	4114000	in
+4114000	4116000	faced
+4118000	4120000	how will you do that
+4120000	4122000	in your algebra
+4122000	4124000	where we are
+4124000	4126000	because this thing is not going to work
+4128000	4130000	so what am I missing
+4130000	4132000	it's because
+4132000	4134000	you're like
+4134000	4136000	calling
+4136000	4138000	assume
+4138000	4140000	because the code is pointed
+4140000	4142000	which we did
+4142000	4144000	actually it was written up
+4144000	4146000	and then
+4146000	4148000	I think
+4148000	4150000	in the code
+4150000	4152000	the code contained
+4152000	4154000	are real long
+4154000	4156000	and those are not pointed because
+4156000	4158000	you think the minus of the code is the real line
+4158000	4160000	difference
+4160000	4162000	okay
+4162000	4164000	I'm going to write that
+4164000	4166000	you'll say
+4166000	4168000	this is the T circuit
+4168000	4170000	okay
+4170000	4172000	I would like to get the argument
+4172000	4174000	there
+4174000	4176000	so according to the code
+4176000	4178000	is the code
+4178000	4180000	and if you take the minus of the code
+4180000	4182000	so you flip the sign of everything
+4182000	4184000	and you take the intersection
+4184000	4186000	that's only zero
+4186000	4188000	but if you're copying the line
+4188000	4190000	and you flip the sign of the line
+4190000	4192000	it's nothing to itself
+4192000	4194000	and the intersection of that code
+4194000	4196000	with itself would be the line
+4196000	4198000	okay
+4198000	4200000	there
+4200000	4202000	I think that's kind of cool
+4202000	4204000	okay
+4204000	4206000	and then now we're kind of done
+4206000	4208000	right that was the end of it
+4208000	4210000	well I know you have to argue that
+4210000	4212000	therefore you can choose to be
+4212000	4214000	okay
+4214000	4216000	yeah there's not a Zonsla in this situation
+4216000	4218000	so hopefully this is
+4218000	4220000	there would be some unfortunately
+4220000	4222000	from there right
+4222000	4224000	in your box
+4224000	4226000	that was weird wasn't it
+4226000	4228000	but here
+4228000	4230000	we have a line and we intersect it with the face
+4230000	4232000	the intersection should be
+4232000	4234000	well
+4234000	4236000	zero
+4236000	4238000	we have a line
+4238000	4240000	that sometimes in the code
+4240000	4242000	so it has to intersect some face
+4242000	4244000	but probably it'll have a lot of page
+4244000	4246000	5300
+4246000	4248000	okay
+4248000	4250000	okay
+4250000	4252000	okay
+4252000	4254000	and we brought the problem
+4254000	4256000	what
+4256000	4258000	that's a geometry
+4258000	4260000	okay
+4260000	4262000	okay
+4262000	4264000	okay
+4264000	4266000	you have to get some help
+4266000	4268000	okay
+4268000	4270000	okay
+4276000	4278000	okay
+4278000	4280000	to be looked up
+4280000	4282000	but it's one of these
+4282000	4284000	obviously true things that's probably
+4284000	4286000	ridiculously true
+4286000	4288000	yeah
+4288000	4290000	and finite dimension is kind of easy
+4290000	4292000	because you have
+4292000	4294000	supporting hyper planes
+4294000	4296000	I mean
+4296000	4298000	it feels like a hyper plane separation argument
+4298000	4300000	is going to help, it's going to be there
+4300000	4302000	which makes it a Zonsla
+4302000	4304000	argument in infinite dimensions
+4304000	4306000	which is cool
+4308000	4310000	let's fight
+4310000	4312000	actually
+4312000	4314000	if you use the separable space
+4314000	4316000	you don't need Zonsla anymore I think
+4316000	4318000	it's accountable
+4318000	4320000	yeah
+4320000	4322000	okay
+4322000	4324000	how do we know that
+4324000	4326000	finite
+4326000	4328000	that's assumption
+4330000	4332000	I mean this may be not right
+4332000	4334000	in which case if you want to do iteration
+4334000	4336000	it's probably not good
+4336000	4338000	okay
+4338000	4340000	if we use the same one
+4340000	4342000	yeah
+4342000	4344000	yeah yeah yeah
+4344000	4346000	this argument is useless
+4346000	4348000	if it's not finite
+4348000	4350000	in which you use finite
+4350000	4352000	should help right
+4352000	4354000	it was here
+4354000	4356000	it was here it was just written down
+4356000	4358000	with a weasel
+4358000	4360000	yeah
+4360000	4362000	it has to be finite then for this argument to work
+4362000	4364000	but that feels the opportunity
+4364000	4366000	but I
+4366000	4368000	I know
+4368000	4370000	you can still go to a smaller space
+4370000	4372000	and if it's infinite dimension
+4372000	4374000	then you have an infinite regress right
+4374000	4376000	so you
+4376000	4378000	okay
+4378000	4380000	but in this
+4380000	4382000	proof you had
+4382000	4384000	written already there the argument
+4384000	4386000	was somehow about the number of constraints
+4386000	4388000	why this phase was finite dimensional
+4388000	4390000	because you would parametrize it by
+4390000	4392000	the finite dimensional commutants
+4392000	4394000	ah
+4394000	4396000	so maybe that's where we do need the commutant
+4396000	4398000	huh
+4398000	4400000	but it feels like this shouldn't need that
+4400000	4402000	still right now
+4402000	4404000	let's play the game where the phase is infinite dimension
+4404000	4406000	but
+4406000	4408000	countably infinite like none of this weird
+4408000	4410000	friggin
+4410000	4412000	then you could just take the intersection
+4412000	4414000	that you always go to a smaller space right
+4414000	4416000	but then the kernel
+4416000	4418000	the constraint development
+4418000	4420000	it's huge
+4420000	4422000	yeah it's okay
+4422000	4424000	the phase is infinite dimensional
+4424000	4426000	the problem is way way big
+4426000	4428000	and I cannot just pick one existing point
+4428000	4430000	but just
+4430000	4432000	try something smarter
+4432000	4434000	well just pick one random
+4434000	4436000	and then you go down
+4436000	4438000	and then you just take the infinite
+4438000	4440000	you just keep there's an infinite regress
+4440000	4442000	take the intersection over all these smaller
+4442000	4444000	smaller phases
+4444000	4446000	ximos
+4446000	4448000	ximos
+4448000	4450000	sorry
+4450000	4452000	I was going to ask you a question
+4452000	4454000	you have to
+4454000	4456000	there could be
+4456000	4458000	something at once there
+4458000	4460000	you just have to take something out
+4460000	4462000	so but then
+4462000	4464000	there's something finite here
+4464000	4466000	right it's not the dimension
+4466000	4468000	of the kernel it's rather
+4468000	4470000	the thing that you
+4470000	4472000	the thing that you chop off
+4472000	4474000	I mean you know that
+4474000	4476000	the difference between
+4476000	4478000	the phase dimension and the kernel dimension is finite
+4478000	4480000	yeah right
+4480000	4482000	yeah
+4482000	4484000	so this sum off
+4488000	4490000	but I mean in the C-style algebraic
+4490000	4492000	case wasn't the argument that
+4492000	4494000	assume you have no constraints
+4494000	4496000	then
+4496000	4498000	you just have a pure state which
+4498000	4500000	and then you are somehow required that this is an exposed phase
+4500000	4502000	and when you cut it
+4502000	4504000	with another constraint
+4504000	4506000	type of plane
+4506000	4508000	and you somehow go up from like a one
+4508000	4510000	dimensional thing to higher dimensions
+4510000	4512000	that's why it remains finite
+4512000	4514000	and you don't start with something that's
+4514000	4516000	infinite dimensional when you have zero constraints
+4518000	4520000	exactly that
+4520000	4522000	I think we have to use this
+4522000	4524000	in a sense so if there are
+4524000	4526000	zero constraints this df
+4526000	4528000	would not be infinite dimension
+4530000	4532000	no
+4532000	4534000	it's one dimension
+4538000	4540000	I don't know what's the most general setting
+4540000	4542000	where pure state
+4542000	4544000	I mean where's
+4544000	4546000	extreme point of a cone
+4546000	4548000	when is
+4548000	4550000	that
+4550000	4552000	I mean is that always
+4552000	4554000	one dimensional in a sense
+4554000	4556000	or are there some pathological
+4556000	4558000	logical settings
+4560000	4562000	or
+4566000	4568000	what's the extreme way it's going
+4568000	4570000	come on
+4576000	4578000	well let's summarize where we are right now
+4578000	4580000	because we've gotten somewhere I think
+4580000	4582000	yeah
+4582000	4584000	if the world is finite dimensional here
+4584000	4586000	it's all good right are we cool
+4586000	4588000	are we cool
+4588000	4590000	everything's infinite dimensional but df
+4592000	4594000	is the dimension of this
+4594000	4596000	face is finite then cool
+4596000	4598000	right
+4598000	4600000	so now we're into this slightly weird
+4600000	4602000	zone where not weird
+4602000	4604000	I mean maybe this is generic
+4604000	4606000	where we should invert the argument
+4606000	4608000	somehow when that's infinity
+4612000	4614000	if we have a finite
+4614000	4616000	rank solution
+4616000	4618000	this finite rank cannot be bigger
+4618000	4620000	yeah if we have a finite
+4620000	4622000	rank solution then it cannot be bigger
+4622000	4624000	so this works
+4624000	4626000	I understood Alex's point
+4626000	4628000	as to now we chose
+4628000	4630000	at the moment chose x
+4630000	4632000	arbitrarily
+4632000	4634000	we should take anything to the point here
+4634000	4636000	but maybe we have to be slightly
+4636000	4638000	smarter in our initial choice
+4640000	4642000	which is reasonable comment right
+4642000	4644000	if you have any information use it
+4644000	4646000	but chopping down
+4646000	4648000	if I readily introduce
+4648000	4650000	constraints you can maybe guarantee
+4650000	4652000	but not
+4652000	4654000	use the x
+4654000	4656000	to add constraints
+4658000	4660000	if you have no constraint
+4660000	4662000	you just have the linear
+4662000	4664000	intersection of the column
+4664000	4666000	the optimal linear function
+4666000	4668000	oh
+4672000	4674000	yeah
+4674000	4676000	there are many of them
+4676000	4678000	at least one constraint
+4678000	4680000	yeah
+4680000	4682000	for me there's always one
+4682000	4684000	because it's a state
+4684000	4686000	yeah
+4688000	4690000	your argument would be
+4690000	4692000	if I had one constraint
+4692000	4694000	my
+4694000	4696000	the
+4696000	4698000	dimension of the case would be
+4698000	4700000	finite dimension
+4700000	4702000	then I can find one
+4706000	4708000	now I want to make sure that
+4708000	4710000	I introduce new constraints
+4710000	4712000	which could kick me out of that
+4712000	4714000	I have to find another case
+4714000	4716000	introduce constraints
+4716000	4718000	maybe if you stick to the rank setting
+4718000	4720000	you blow off the rank but say it's finite
+4720000	4722000	introduce it again
+4724000	4726000	it looks like it's 1230
+4726000	4728000	usually
+4728000	4730000	the time when people in this country
+4730000	4732000	find it a good thing to do at the time
+4736000	4738000	no I also need to do other things
+4738000	4740000	I have this video recorded
+4740000	4742000	I'll try it and just transcribe
+4742000	4744000	it into a minimal tech
+4744000	4746000	like this argument
+4746000	4748000	a lot of this discussion can be just
+4748000	4750000	dropped but
+4750000	4752000	we'll see what happens
+4752000	4754000	just that way that no one has the right
+4754000	4756000	if that fails only though
+4756000	4758000	it would be great
+4758000	4760000	if someone takes a photograph and can reconstruct
+4760000	4762000	this proof
+4764000	4766000	I think I have my proof anyway
+4766000	4768000	your proof is cool
+4768000	4770000	like it's
+4770000	4772000	I will just
+4772000	4774000	maybe
+4774000	4776000	that one
+4776000	4778000	I mean it's super electrical
+4778000	4780000	like it flies
+4780000	4782000	and I'm not
+4782000	4784000	totally joking about the one big PRL
+4784000	4786000	but
+4786000	4788000	what is the way
+4788000	4790000	now should I
+4790000	4792000	create an overlay as in the old times
+4792000	4794000	or is it not going to be anything
+4794000	4796000	Timo, old times
+4796000	4798000	we don't do this anymore
+4798000	4800000	that's why I'm asking
+4800000	4802000	there'll be a github
+4802000	4804000	do you know what
+4804000	4806000	that's what I'm doing also
+4806000	4808000	you can create an overlay
+4808000	4810000	but connect it to github
+4810000	4812000	I've been waiting
+4812000	4814000	I've been waiting for this moment
+4814000	4816000	I hate an overlay with a burning passion
+4816000	4818000	yeah me too
+4818000	4820000	but there are people who like to use it
+4820000	4822000	yeah well they're going to learn that I hate
+4822000	4824000	a burning passion
+4824000	4826000	I would rather share on github
+4826000	4828000	where you can check it out
+4828000	4830000	it's sort of the only thing
+4830000	4832000	make some kind of
+4832000	4834000	make a call and make some kind of system
+4834000	4836000	where he would go through the history of the github
+4836000	4838000	repo and decide
+4838000	4840000	like or there are authors based on the holy book
+4844000	4846000	do you know what
+4846000	4848000	I'm going to ask Claude when he transcribes this
+4848000	4850000	who's the main author of them
+4852000	4854000	very curious
+4854000	4856000	I love him
+4856000	4858000	that's why alphabetic is beautiful
+4858000	4860000	actually
+4860000	4862000	they called me to use certified random
+4862000	4864000	certified random
+4864000	4866000	yeah I would just like to use it
+4866000	4868000	for my
+4868000	4870000	we have access to real random
+4870000	4872000	that's okay for you
+4872000	4874000	if you don't need another thesis
+4874000	4876000	I would like to use it
+4876000	4878000	I need some fillery
+4878000	4880000	my coat is more
+4880000	4882000	cool
+4882000	4884000	alright that was very interesting
+4884000	4886000	thank you
+4886000	4888000	thanks
+4888000	4890000	bye
+4890000	4892000	bye bye
+4902000	4904000	yeah for sure

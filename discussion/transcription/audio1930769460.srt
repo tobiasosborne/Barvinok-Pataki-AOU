@@ -1,0 +1,8624 @@
+1
+00:00:00,000 --> 00:00:02,000
+Let's see if we can do that.
+
+2
+00:00:06,000 --> 00:00:08,000
+Okay, discussion.
+
+3
+00:00:20,000 --> 00:00:22,000
+I'm going to start with CW.
+
+4
+00:00:22,000 --> 00:00:24,000
+I'm going to start with the training method.
+
+5
+00:00:24,000 --> 00:00:26,000
+Mm-hmm.
+
+6
+00:00:26,000 --> 00:00:28,000
+Yeah?
+
+7
+00:00:28,000 --> 00:00:30,000
+Oh.
+
+8
+00:00:30,000 --> 00:00:32,000
+So, the easier one.
+
+9
+00:00:34,000 --> 00:00:36,000
+Take my speed to my speed stats.
+
+10
+00:00:36,000 --> 00:00:38,000
+Yeah, go ahead.
+
+11
+00:00:38,000 --> 00:00:40,000
+I've looked at that very closely.
+
+12
+00:00:40,000 --> 00:00:42,000
+Yeah?
+
+13
+00:00:42,000 --> 00:00:44,000
+I have very detailed notes.
+
+14
+00:00:44,000 --> 00:00:46,000
+Okay.
+
+15
+00:00:46,000 --> 00:00:48,000
+Alex is there.
+
+16
+00:00:48,000 --> 00:00:50,000
+Is that it?
+
+17
+00:00:50,000 --> 00:00:52,000
+Well, you can say the second, okay?
+
+18
+00:00:54,000 --> 00:00:56,000
+Alex?
+
+19
+00:00:56,000 --> 00:00:58,000
+I hear you.
+
+20
+00:00:58,000 --> 00:01:00,000
+Okay, of course.
+
+21
+00:01:00,000 --> 00:01:02,000
+So, according to Alex, just so you know, yeah?
+
+22
+00:01:02,000 --> 00:01:04,000
+Yeah, yeah, sure.
+
+23
+00:01:04,000 --> 00:01:06,000
+I will just mainly listen
+
+24
+00:01:06,000 --> 00:01:08,000
+and I don't know how much time
+
+25
+00:01:08,000 --> 00:01:10,000
+I really got.
+
+26
+00:01:10,000 --> 00:01:12,000
+My daughter wakes up, I have to take care of her.
+
+27
+00:01:12,000 --> 00:01:14,000
+We understand.
+
+28
+00:01:14,000 --> 00:01:16,000
+It's all cool.
+
+29
+00:01:16,000 --> 00:01:18,000
+Yeah, because I'll use this transcription then,
+
+30
+00:01:18,000 --> 00:01:20,000
+like you'll get it to be auto transcribed.
+
+31
+00:01:20,000 --> 00:01:22,000
+And then you can...
+
+32
+00:01:22,000 --> 00:01:24,000
+Yeah, sure.
+
+33
+00:01:24,000 --> 00:01:26,000
+You can turn on the light
+
+34
+00:01:26,000 --> 00:01:28,000
+so that Claude can better see.
+
+35
+00:01:30,000 --> 00:01:32,000
+I should have just let Claude join this meeting there.
+
+36
+00:01:32,000 --> 00:01:34,000
+Yeah.
+
+37
+00:01:34,000 --> 00:01:36,000
+Well, the telecom said
+
+38
+00:01:36,000 --> 00:01:38,000
+that they will put
+
+39
+00:01:38,000 --> 00:01:40,000
+the chatbot
+
+40
+00:01:40,000 --> 00:01:42,000
+or AI into their
+
+41
+00:01:42,000 --> 00:01:44,000
+into their landline.
+
+42
+00:01:44,000 --> 00:01:46,000
+No, mobile line.
+
+43
+00:01:46,000 --> 00:01:48,000
+And then...
+
+44
+00:01:48,000 --> 00:01:50,000
+But you can request it in the beginning
+
+45
+00:01:50,000 --> 00:01:52,000
+of the call
+
+46
+00:01:52,000 --> 00:01:54,000
+or at the end you can ask for summary
+
+47
+00:01:54,000 --> 00:01:56,000
+and stuff like that
+
+48
+00:01:56,000 --> 00:01:58,000
+or ask questions during the call.
+
+49
+00:01:58,000 --> 00:02:00,000
+What?
+
+50
+00:02:00,000 --> 00:02:02,000
+Lightly...
+
+51
+00:02:02,000 --> 00:02:04,000
+concerning.
+
+52
+00:02:04,000 --> 00:02:06,000
+Okay, well, good.
+
+53
+00:02:06,000 --> 00:02:08,000
+I think it's already clear that this is not possible.
+
+54
+00:02:08,000 --> 00:02:10,000
+Impossible.
+
+55
+00:02:10,000 --> 00:02:12,000
+You'd have to opt in
+
+56
+00:02:12,000 --> 00:02:14,000
+actually with an in signature, I think.
+
+57
+00:02:14,000 --> 00:02:16,000
+I think that's the only way.
+
+58
+00:02:16,000 --> 00:02:18,000
+Both parties, absolutely.
+
+59
+00:02:18,000 --> 00:02:20,000
+Yeah, good.
+
+60
+00:02:20,000 --> 00:02:22,000
+Yeah, I think...
+
+61
+00:02:22,000 --> 00:02:24,000
+I thought that the best way maybe is
+
+62
+00:02:24,000 --> 00:02:26,000
+that I show you
+
+63
+00:02:26,000 --> 00:02:28,000
+just a short sketch of the proof
+
+64
+00:02:28,000 --> 00:02:30,000
+I have for positive semi-definite
+
+65
+00:02:30,000 --> 00:02:32,000
+matrices because it's...
+
+66
+00:02:32,000 --> 00:02:34,000
+I would say it's pretty much straight forward.
+
+67
+00:02:34,000 --> 00:02:36,000
+And
+
+68
+00:02:36,000 --> 00:02:38,000
+you have to say, I mean, we can start
+
+69
+00:02:38,000 --> 00:02:40,000
+with the problem of just feasibility
+
+70
+00:02:40,000 --> 00:02:42,000
+because optimality
+
+71
+00:02:42,000 --> 00:02:44,000
+just comes with another
+
+72
+00:02:44,000 --> 00:02:46,000
+with an additional constraint
+
+73
+00:02:46,000 --> 00:02:48,000
+like I said.
+
+74
+00:02:48,000 --> 00:02:50,000
+It's most
+
+75
+00:02:50,000 --> 00:02:52,000
+more or less the same thing.
+
+76
+00:02:52,000 --> 00:02:54,000
+The simplest thing first.
+
+77
+00:02:54,000 --> 00:02:56,000
+Okay, so let's say
+
+78
+00:02:56,000 --> 00:02:58,000
+I don't want to...
+
+79
+00:02:58,000 --> 00:03:00,000
+Okay.
+
+80
+00:03:00,000 --> 00:03:02,000
+Let's say we have some
+
+81
+00:03:04,000 --> 00:03:06,000
+set C
+
+82
+00:03:06,000 --> 00:03:08,000
+and
+
+83
+00:03:08,000 --> 00:03:10,000
+that is X
+
+84
+00:03:10,000 --> 00:03:12,000
+I will write this populist
+
+85
+00:03:12,000 --> 00:03:14,000
+you just...
+
+86
+00:03:14,000 --> 00:03:16,000
+make it too complex
+
+87
+00:03:18,000 --> 00:03:20,000
+and
+
+88
+00:03:20,000 --> 00:03:22,000
+we will also get it from
+
+89
+00:03:22,000 --> 00:03:24,000
+reals to complex numbers.
+
+90
+00:03:24,000 --> 00:03:26,000
+Just one check.
+
+91
+00:03:26,000 --> 00:03:28,000
+We have to change one number.
+
+92
+00:03:28,000 --> 00:03:30,000
+These are real positive
+
+93
+00:03:30,000 --> 00:03:32,000
+symmetric.
+
+94
+00:03:32,000 --> 00:03:34,000
+Let's start by real positive symmetric
+
+95
+00:03:34,000 --> 00:03:36,000
+matrices.
+
+96
+00:03:36,000 --> 00:03:38,000
+Well, yeah.
+
+97
+00:03:38,000 --> 00:03:40,000
+And what we're looking for
+
+98
+00:03:40,000 --> 00:03:42,000
+is that they
+
+99
+00:03:42,000 --> 00:03:44,000
+obey
+
+100
+00:03:44,000 --> 00:03:46,000
+some
+
+101
+00:03:46,000 --> 00:03:48,000
+some
+
+102
+00:03:48,000 --> 00:03:50,000
+positive relations
+
+103
+00:03:50,000 --> 00:03:52,000
+for all I
+
+104
+00:03:54,000 --> 00:03:56,000
+and...
+
+105
+00:03:56,000 --> 00:03:58,000
+Yeah.
+
+106
+00:03:58,000 --> 00:04:00,000
+Yeah, so you can write it as trace
+
+107
+00:04:00,000 --> 00:04:02,000
+it's just because I was too lazy
+
+108
+00:04:02,000 --> 00:04:04,000
+at some point to always write trace.
+
+109
+00:04:04,000 --> 00:04:06,000
+And
+
+110
+00:04:06,000 --> 00:04:08,000
+so we can write X of A
+
+111
+00:04:10,000 --> 00:04:12,000
+which...
+
+112
+00:04:12,000 --> 00:04:14,000
+When we go to...
+
+113
+00:04:14,000 --> 00:04:16,000
+Okay, maybe you're right.
+
+114
+00:04:16,000 --> 00:04:18,000
+Yeah.
+
+115
+00:04:18,000 --> 00:04:20,000
+Just stick with this for now.
+
+116
+00:04:20,000 --> 00:04:22,000
+Just stick with this because in the end
+
+117
+00:04:22,000 --> 00:04:24,000
+it becomes kind of important.
+
+118
+00:04:24,000 --> 00:04:26,000
+So, and the proof is
+
+119
+00:04:26,000 --> 00:04:28,000
+as I said is pretty much straightforward.
+
+120
+00:04:28,000 --> 00:04:30,000
+We assume
+
+121
+00:04:34,000 --> 00:04:36,000
+that there is...
+
+122
+00:04:36,000 --> 00:04:38,000
+We assume
+
+123
+00:04:40,000 --> 00:04:42,000
+this
+
+124
+00:04:42,000 --> 00:04:44,000
+X
+
+125
+00:04:44,000 --> 00:04:46,000
+element C
+
+126
+00:04:46,000 --> 00:04:48,000
+such that
+
+127
+00:04:50,000 --> 00:04:52,000
+the
+
+128
+00:04:52,000 --> 00:04:54,000
+rank
+
+129
+00:04:54,000 --> 00:04:56,000
+of X
+
+130
+00:04:56,000 --> 00:04:58,000
+equals R.
+
+131
+00:04:58,000 --> 00:05:00,000
+So
+
+132
+00:05:00,000 --> 00:05:02,000
+what it follows from this is that
+
+133
+00:05:02,000 --> 00:05:04,000
+you can write X
+
+134
+00:05:04,000 --> 00:05:06,000
+as B
+
+135
+00:05:08,000 --> 00:05:10,000
+that one
+
+136
+00:05:10,000 --> 00:05:12,000
+VB
+
+137
+00:05:12,000 --> 00:05:14,000
+VT
+
+138
+00:05:14,000 --> 00:05:16,000
+and
+
+139
+00:05:16,000 --> 00:05:18,000
+B
+
+140
+00:05:18,000 --> 00:05:20,000
+is
+
+141
+00:05:20,000 --> 00:05:22,000
+positive definite.
+
+142
+00:05:22,000 --> 00:05:24,000
+So it's a material.
+
+143
+00:05:24,000 --> 00:05:26,000
+Clear?
+
+144
+00:05:26,000 --> 00:05:28,000
+And by the way
+
+145
+00:05:28,000 --> 00:05:30,000
+you can also determine these
+
+146
+00:05:30,000 --> 00:05:32,000
+up front if you know.
+
+147
+00:05:32,000 --> 00:05:34,000
+Do you want the Vs to be R by N matrices now?
+
+148
+00:05:34,000 --> 00:05:36,000
+Yeah.
+
+149
+00:05:36,000 --> 00:05:38,000
+Yeah.
+
+150
+00:05:38,000 --> 00:05:40,000
+So,
+
+151
+00:05:40,000 --> 00:05:42,000
+some
+
+152
+00:05:42,000 --> 00:05:44,000
+are N matrix
+
+153
+00:05:46,000 --> 00:05:48,000
+and they are
+
+154
+00:05:48,000 --> 00:05:50,000
+like...
+
+155
+00:05:50,000 --> 00:05:52,000
+You can see this
+
+156
+00:05:52,000 --> 00:05:54,000
+pretty fast.
+
+157
+00:05:54,000 --> 00:05:56,000
+They are orthogonal to the kernel
+
+158
+00:05:56,000 --> 00:05:58,000
+of X of R.
+
+159
+00:05:58,000 --> 00:06:00,000
+The columns of it are
+
+160
+00:06:00,000 --> 00:06:02,000
+some vectors that
+
+161
+00:06:02,000 --> 00:06:04,000
+span all following the company.
+
+162
+00:06:04,000 --> 00:06:06,000
+And so when you're here
+
+163
+00:06:06,000 --> 00:06:08,000
+you can
+
+164
+00:06:10,000 --> 00:06:12,000
+you can define
+
+165
+00:06:12,000 --> 00:06:14,000
+how we will
+
+166
+00:06:14,000 --> 00:06:16,000
+define
+
+167
+00:06:18,000 --> 00:06:20,000
+the problem in a hat
+
+168
+00:06:20,000 --> 00:06:22,000
+is equal to
+
+169
+00:06:22,000 --> 00:06:24,000
+VT
+
+170
+00:06:24,000 --> 00:06:26,000
+VI
+
+171
+00:06:26,000 --> 00:06:28,000
+V
+
+172
+00:06:28,000 --> 00:06:30,000
+and therefore
+
+173
+00:06:32,000 --> 00:06:34,000
+any feasible X
+
+174
+00:06:34,000 --> 00:06:36,000
+can be written
+
+175
+00:06:36,000 --> 00:06:38,000
+as
+
+176
+00:06:44,000 --> 00:06:46,000
+AI
+
+177
+00:06:48,000 --> 00:06:50,000
+equals
+
+178
+00:06:50,000 --> 00:06:52,000
+VI. So we know
+
+179
+00:06:52,000 --> 00:06:54,000
+that this is true
+
+180
+00:06:56,000 --> 00:06:58,000
+and since this
+
+181
+00:06:58,000 --> 00:07:00,000
+is feasible we will
+
+182
+00:07:00,000 --> 00:07:02,000
+define another function
+
+183
+00:07:02,000 --> 00:07:04,000
+and
+
+184
+00:07:04,000 --> 00:07:06,000
+I will just
+
+185
+00:07:06,000 --> 00:07:08,000
+call this function
+
+186
+00:07:08,000 --> 00:07:10,000
+PI and
+
+187
+00:07:10,000 --> 00:07:12,000
+it goes
+
+188
+00:07:12,000 --> 00:07:14,000
+from the symmetric
+
+189
+00:07:16,000 --> 00:07:18,000
+R by R matrices
+
+190
+00:07:20,000 --> 00:07:22,000
+to
+
+191
+00:07:24,000 --> 00:07:26,000
+to
+
+192
+00:07:28,000 --> 00:07:30,000
+the
+
+193
+00:07:32,000 --> 00:07:34,000
+space RR. This
+
+194
+00:07:34,000 --> 00:07:36,000
+composition is being recorded on Zoom
+
+195
+00:07:36,000 --> 00:07:38,000
+just so you know.
+
+196
+00:07:40,000 --> 00:07:42,000
+And each
+
+197
+00:07:42,000 --> 00:07:44,000
+like
+
+198
+00:07:44,000 --> 00:07:46,000
+this five takes in
+
+199
+00:07:46,000 --> 00:07:48,000
+a second
+
+200
+00:07:48,000 --> 00:07:50,000
+this five takes in
+
+201
+00:07:50,000 --> 00:07:52,000
+some
+
+202
+00:07:54,000 --> 00:07:56,000
+V
+
+203
+00:07:56,000 --> 00:07:58,000
+and the I component of it
+
+204
+00:07:58,000 --> 00:08:00,000
+is simply
+
+205
+00:08:02,000 --> 00:08:04,000
+AI
+
+206
+00:08:04,000 --> 00:08:06,000
+V
+
+207
+00:08:06,000 --> 00:08:08,000
+and now it's pretty much straightforward.
+
+208
+00:08:10,000 --> 00:08:12,000
+You know from
+
+209
+00:08:12,000 --> 00:08:14,000
+from the rank
+
+210
+00:08:14,000 --> 00:08:16,000
+nullity
+
+211
+00:08:16,000 --> 00:08:18,000
+theorem
+
+212
+00:08:22,000 --> 00:08:24,000
+you know that
+
+213
+00:08:26,000 --> 00:08:28,000
+the
+
+214
+00:08:28,000 --> 00:08:30,000
+value
+
+215
+00:08:30,000 --> 00:08:32,000
+that
+
+216
+00:08:32,000 --> 00:08:34,000
+difference
+
+217
+00:08:36,000 --> 00:08:38,000
+in R
+
+218
+00:08:38,000 --> 00:08:40,000
+must be equal
+
+219
+00:08:40,000 --> 00:08:42,000
+to
+
+220
+00:08:42,000 --> 00:08:44,000
+the
+
+221
+00:08:44,000 --> 00:08:46,000
+random
+
+222
+00:08:46,000 --> 00:08:48,000
+five
+
+223
+00:08:48,000 --> 00:08:50,000
+of
+
+224
+00:08:50,000 --> 00:08:52,000
+the
+
+225
+00:08:52,000 --> 00:08:54,000
+image fine
+
+226
+00:08:54,000 --> 00:08:56,000
+and
+
+227
+00:08:56,000 --> 00:08:58,000
+and
+
+228
+00:08:58,000 --> 00:09:00,000
+you know that
+
+229
+00:09:00,000 --> 00:09:02,000
+this is equal to
+
+230
+00:09:02,000 --> 00:09:04,000
+the real dimension of it
+
+231
+00:09:04,000 --> 00:09:06,000
+R times
+
+232
+00:09:06,000 --> 00:09:08,000
+R plus one over two
+
+233
+00:09:10,000 --> 00:09:12,000
+and you know that
+
+234
+00:09:12,000 --> 00:09:14,000
+the image of
+
+235
+00:09:14,000 --> 00:09:16,000
+five
+
+236
+00:09:16,000 --> 00:09:18,000
+I have to check something this is
+
+237
+00:09:18,000 --> 00:09:20,000
+sorry this is not R this is N
+
+238
+00:09:20,000 --> 00:09:22,000
+and
+
+239
+00:09:22,000 --> 00:09:24,000
+so well now it depends
+
+240
+00:09:24,000 --> 00:09:26,000
+on how these
+
+241
+00:09:26,000 --> 00:09:28,000
+type of things that
+
+242
+00:09:28,000 --> 00:09:30,000
+are defined by the AI
+
+243
+00:09:30,000 --> 00:09:32,000
+within the
+
+244
+00:09:32,000 --> 00:09:34,000
+ambience space but you can say that this
+
+245
+00:09:34,000 --> 00:09:36,000
+is at most M.
+
+246
+00:09:36,000 --> 00:09:38,000
+So what you see from here is
+
+247
+00:09:38,000 --> 00:09:40,000
+that
+
+248
+00:09:40,000 --> 00:09:42,000
+the dimension
+
+249
+00:09:42,000 --> 00:09:44,000
+of
+
+250
+00:09:44,000 --> 00:09:46,000
+serial I
+
+251
+00:09:46,000 --> 00:09:48,000
+and
+
+252
+00:09:48,000 --> 00:09:50,000
+and
+
+253
+00:09:50,000 --> 00:09:52,000
+must be
+
+254
+00:09:52,000 --> 00:09:54,000
+here
+
+255
+00:10:16,000 --> 00:10:18,000
+and
+
+256
+00:10:18,000 --> 00:10:20,000
+so
+
+257
+00:10:20,000 --> 00:10:22,000
+this means
+
+258
+00:10:22,000 --> 00:10:24,000
+if this is
+
+259
+00:10:24,000 --> 00:10:26,000
+a number that is larger
+
+260
+00:10:26,000 --> 00:10:28,000
+or equal larger equal than one
+
+261
+00:10:28,000 --> 00:10:30,000
+and you will always
+
+262
+00:10:30,000 --> 00:10:32,000
+find some dB
+
+263
+00:10:32,000 --> 00:10:34,000
+so
+
+264
+00:10:34,000 --> 00:10:36,000
+if R
+
+265
+00:10:36,000 --> 00:10:38,000
+is R plus one over two
+
+266
+00:10:38,000 --> 00:10:40,000
+minus M is larger equal
+
+267
+00:10:40,000 --> 00:10:42,000
+one
+
+268
+00:10:42,000 --> 00:10:44,000
+there it lists
+
+269
+00:10:44,000 --> 00:10:46,000
+and
+
+270
+00:10:46,000 --> 00:10:48,000
+that is not zero
+
+271
+00:10:48,000 --> 00:10:50,000
+such that
+
+272
+00:10:54,000 --> 00:10:56,000
+the operator
+
+273
+00:10:56,000 --> 00:10:58,000
+B over T equals
+
+274
+00:10:58,000 --> 00:11:00,000
+B
+
+275
+00:11:00,000 --> 00:11:02,000
+plus two
+
+276
+00:11:02,000 --> 00:11:04,000
+B
+
+277
+00:11:04,000 --> 00:11:06,000
+and
+
+278
+00:11:10,000 --> 00:11:12,000
+that is five
+
+279
+00:11:12,000 --> 00:11:14,000
+almost right
+
+280
+00:11:20,000 --> 00:11:22,000
+so what this means
+
+281
+00:11:22,000 --> 00:11:24,000
+is
+
+282
+00:11:24,000 --> 00:11:26,000
+you will find
+
+283
+00:11:26,000 --> 00:11:28,000
+a sufficiently small T
+
+284
+00:11:34,000 --> 00:11:36,000
+such that
+
+285
+00:11:36,000 --> 00:11:38,000
+BT becomes
+
+286
+00:11:38,000 --> 00:11:40,000
+similar
+
+287
+00:11:48,000 --> 00:11:50,000
+and so you can reduce the rank
+
+288
+00:11:50,000 --> 00:11:52,000
+by one
+
+289
+00:11:52,000 --> 00:11:54,000
+and you can do this
+
+290
+00:11:54,000 --> 00:11:56,000
+as long as
+
+291
+00:11:56,000 --> 00:11:58,000
+rank
+
+292
+00:11:58,000 --> 00:12:00,000
+R by one
+
+293
+00:12:00,000 --> 00:12:02,000
+and you can do this
+
+294
+00:12:02,000 --> 00:12:04,000
+as long as the kernel
+
+295
+00:12:04,000 --> 00:12:06,000
+is larger equal to one
+
+296
+00:12:06,000 --> 00:12:08,000
+and so that is why
+
+297
+00:12:10,000 --> 00:12:12,000
+that is why we have this
+
+298
+00:12:14,000 --> 00:12:16,000
+this
+
+299
+00:12:16,000 --> 00:12:18,000
+which says that
+
+300
+00:12:20,000 --> 00:12:22,000
+R
+
+301
+00:12:22,000 --> 00:12:24,000
+R plus one over two
+
+302
+00:12:24,000 --> 00:12:26,000
+must be smaller
+
+303
+00:12:26,000 --> 00:12:28,000
+than
+
+304
+00:12:28,000 --> 00:12:30,000
+M or in the complex case
+
+305
+00:12:30,000 --> 00:12:32,000
+you can just
+
+306
+00:12:32,000 --> 00:12:34,000
+replace everything
+
+307
+00:12:34,000 --> 00:12:36,000
+that R
+
+308
+00:12:36,000 --> 00:12:38,000
+is smaller than that
+
+309
+00:12:42,000 --> 00:12:44,000
+strictly greater than
+
+310
+00:12:44,000 --> 00:12:46,000
+rank double these here
+
+311
+00:12:46,000 --> 00:12:48,000
+so if I just move the image
+
+312
+00:12:48,000 --> 00:12:50,000
+to the left hand side
+
+313
+00:12:50,000 --> 00:12:52,000
+isn't this
+
+314
+00:12:52,000 --> 00:12:54,000
+you assume R
+
+315
+00:12:54,000 --> 00:12:56,000
+right
+
+316
+00:12:56,000 --> 00:12:58,000
+and this is
+
+317
+00:12:58,000 --> 00:13:00,000
+just M by one
+
+318
+00:13:00,000 --> 00:13:02,000
+so why is it
+
+319
+00:13:02,000 --> 00:13:04,000
+strictly greater than
+
+320
+00:13:04,000 --> 00:13:06,000
+any
+
+321
+00:13:08,000 --> 00:13:10,000
+or am I
+
+322
+00:13:10,000 --> 00:13:12,000
+you only can
+
+323
+00:13:12,000 --> 00:13:14,000
+bound the term by a smaller
+
+324
+00:13:14,000 --> 00:13:16,000
+equals
+
+325
+00:13:18,000 --> 00:13:20,000
+in which case
+
+326
+00:13:20,000 --> 00:13:22,000
+is that
+
+327
+00:13:22,000 --> 00:13:24,000
+right now
+
+328
+00:13:24,000 --> 00:13:26,000
+so the plastic example then is the rank one
+
+329
+00:13:26,000 --> 00:13:28,000
+right
+
+330
+00:13:28,000 --> 00:13:30,000
+so
+
+331
+00:13:30,000 --> 00:13:32,000
+M is one
+
+332
+00:13:32,000 --> 00:13:34,000
+so
+
+333
+00:13:34,000 --> 00:13:36,000
+we know that the rank is
+
+334
+00:13:36,000 --> 00:13:38,000
+you told us this cool thing
+
+335
+00:13:38,000 --> 00:13:40,000
+where you got one constraint
+
+336
+00:13:40,000 --> 00:13:42,000
+and the rank or even two constraints
+
+337
+00:13:42,000 --> 00:13:44,000
+so you can see
+
+338
+00:13:44,000 --> 00:13:46,000
+this is
+
+339
+00:13:46,000 --> 00:13:48,000
+definitely true
+
+340
+00:13:48,000 --> 00:13:50,000
+I'm sure about that one
+
+341
+00:13:50,000 --> 00:13:52,000
+so what you can see from here
+
+342
+00:13:52,000 --> 00:13:54,000
+this is just a feasibility thing
+
+343
+00:13:54,000 --> 00:13:56,000
+and so
+
+344
+00:13:56,000 --> 00:13:58,000
+this means
+
+345
+00:13:58,000 --> 00:14:00,000
+so R can be
+
+346
+00:14:00,000 --> 00:14:02,000
+you can just check it
+
+347
+00:14:04,000 --> 00:14:06,000
+in that case
+
+348
+00:14:06,000 --> 00:14:08,000
+for the
+
+349
+00:14:10,000 --> 00:14:12,000
+for the
+
+350
+00:14:12,000 --> 00:14:14,000
+for the complex
+
+351
+00:14:14,000 --> 00:14:16,000
+case
+
+352
+00:14:16,000 --> 00:14:18,000
+everything when M
+
+353
+00:14:18,000 --> 00:14:20,000
+is
+
+354
+00:14:20,000 --> 00:14:22,000
+less than four
+
+355
+00:14:22,000 --> 00:14:24,000
+always find the rank one
+
+356
+00:14:24,000 --> 00:14:26,000
+so up to three is fine
+
+357
+00:14:26,000 --> 00:14:28,000
+and for real
+
+358
+00:14:28,000 --> 00:14:30,000
+you can just check
+
+359
+00:14:30,000 --> 00:14:32,000
+that this is for
+
+360
+00:14:32,000 --> 00:14:34,000
+for M
+
+361
+00:14:34,000 --> 00:14:36,000
+that's good
+
+362
+00:14:36,000 --> 00:14:38,000
+and now I told you this the logic is
+
+363
+00:14:38,000 --> 00:14:40,000
+there exists D not equal to zero
+
+364
+00:14:40,000 --> 00:14:42,000
+such that BT be satisfied
+
+365
+00:14:42,000 --> 00:14:44,000
+with the constraints
+
+366
+00:14:44,000 --> 00:14:46,000
+the point is
+
+367
+00:14:46,000 --> 00:14:48,000
+if I have
+
+368
+00:14:48,000 --> 00:14:50,000
+maybe not
+
+369
+00:14:50,000 --> 00:14:52,000
+it's obvious but maybe not
+
+370
+00:14:52,000 --> 00:14:54,000
+if this is
+
+371
+00:14:54,000 --> 00:14:56,000
+if this is
+
+372
+00:14:56,000 --> 00:14:58,000
+larger or equal than one
+
+373
+00:14:58,000 --> 00:15:00,000
+I can always
+
+374
+00:15:00,000 --> 00:15:02,000
+from the kernel
+
+375
+00:15:02,000 --> 00:15:04,000
+then maybe this
+
+376
+00:15:04,000 --> 00:15:06,000
+D is from the kernel
+
+377
+00:15:06,000 --> 00:15:08,000
+that makes
+
+378
+00:15:08,000 --> 00:15:10,000
+that makes
+
+379
+00:15:10,000 --> 00:15:12,000
+okay
+
+380
+00:15:12,000 --> 00:15:14,000
+and then I can
+
+381
+00:15:14,000 --> 00:15:16,000
+then I can just
+
+382
+00:15:16,000 --> 00:15:18,000
+take any kind of addition
+
+383
+00:15:18,000 --> 00:15:20,000
+and it still satisfies
+
+384
+00:15:20,000 --> 00:15:22,000
+the constraints
+
+385
+00:15:22,000 --> 00:15:24,000
+and from the continuity
+
+386
+00:15:24,000 --> 00:15:26,000
+of the eigenvalues
+
+387
+00:15:26,000 --> 00:15:28,000
+we know that
+
+388
+00:15:28,000 --> 00:15:30,000
+there will be some sufficiently small T
+
+389
+00:15:30,000 --> 00:15:32,000
+maybe I should write it like this
+
+390
+00:15:32,000 --> 00:15:34,000
+such that BT becomes similar
+
+391
+00:15:34,000 --> 00:15:36,000
+but then you are actually
+
+392
+00:15:36,000 --> 00:15:38,000
+you know
+
+393
+00:15:38,000 --> 00:15:40,000
+you take the characteristic polynomial
+
+394
+00:15:40,000 --> 00:15:42,000
+and then it has roots
+
+395
+00:15:42,000 --> 00:15:44,000
+the sufficiently small doesn't smell right
+
+396
+00:15:44,000 --> 00:15:46,000
+why is T
+
+397
+00:15:46,000 --> 00:15:48,000
+to be small
+
+398
+00:15:48,000 --> 00:15:50,000
+I'd rather expect T to be quite large
+
+399
+00:15:50,000 --> 00:15:52,000
+ah okay
+
+400
+00:15:52,000 --> 00:15:54,000
+if you take
+
+401
+00:15:54,000 --> 00:15:56,000
+the point of it
+
+402
+00:15:56,000 --> 00:15:58,000
+there you've got a polynomial
+
+403
+00:15:58,000 --> 00:16:00,000
+in T
+
+404
+00:16:00,000 --> 00:16:02,000
+and by the fundamental theorem of algebra
+
+405
+00:16:02,000 --> 00:16:04,000
+we've got
+
+406
+00:16:04,000 --> 00:16:06,000
+I think that's what you're saying
+
+407
+00:16:06,000 --> 00:16:08,000
+that's just
+
+408
+00:16:08,000 --> 00:16:10,000
+I think
+
+409
+00:16:10,000 --> 00:16:12,000
+the picture that T
+
+410
+00:16:12,000 --> 00:16:14,000
+already has in mind is your increased T
+
+411
+00:16:14,000 --> 00:16:16,000
+until you get to
+
+412
+00:16:18,000 --> 00:16:20,000
+when it gets to existence it's kind of tricky
+
+413
+00:16:20,000 --> 00:16:22,000
+because then right over the real numbers
+
+414
+00:16:22,000 --> 00:16:24,000
+they might be having number roots
+
+415
+00:16:24,000 --> 00:16:26,000
+right
+
+416
+00:16:28,000 --> 00:16:30,000
+after the real game
+
+417
+00:16:30,000 --> 00:16:32,000
+so to complex
+
+418
+00:16:32,000 --> 00:16:34,000
+I'm happy with it
+
+419
+00:16:34,000 --> 00:16:36,000
+but the fundamental theorem of algebra
+
+420
+00:16:36,000 --> 00:16:38,000
+in this big field
+
+421
+00:16:38,000 --> 00:16:40,000
+which the real numbers are
+
+422
+00:16:40,000 --> 00:16:42,000
+and in fact I think you want
+
+423
+00:16:42,000 --> 00:16:44,000
+because it really could be right
+
+424
+00:16:44,000 --> 00:16:46,000
+the T of A is the polynomial
+
+425
+00:16:46,000 --> 00:16:48,000
+x squared plus 3 is 0
+
+426
+00:16:48,000 --> 00:16:50,000
+which you can't do
+
+427
+00:16:50,000 --> 00:16:52,000
+I cannot
+
+428
+00:16:52,000 --> 00:16:54,000
+I think that there's something more going on
+
+429
+00:16:54,000 --> 00:16:56,000
+isn't there
+
+430
+00:16:56,000 --> 00:16:58,000
+yeah it's not the character of the polynomial
+
+431
+00:16:58,000 --> 00:17:00,000
+but T is not the
+
+432
+00:17:00,000 --> 00:17:02,000
+I don't know
+
+433
+00:17:02,000 --> 00:17:04,000
+yeah I mean I put it in the
+
+434
+00:17:04,000 --> 00:17:06,000
+generalized eigenvalue version
+
+435
+00:17:06,000 --> 00:17:08,000
+of this what do you call that
+
+436
+00:17:08,000 --> 00:17:10,000
+not character of the polynomial
+
+437
+00:17:10,000 --> 00:17:12,000
+generalized character is probably
+
+438
+00:17:12,000 --> 00:17:14,000
+probably right
+
+439
+00:17:14,000 --> 00:17:16,000
+and so
+
+440
+00:17:16,000 --> 00:17:18,000
+yeah
+
+441
+00:17:18,000 --> 00:17:20,000
+there's something else going on
+
+442
+00:17:20,000 --> 00:17:22,000
+like
+
+443
+00:17:22,000 --> 00:17:24,000
+you can I mean
+
+444
+00:17:24,000 --> 00:17:26,000
+isn't the idea that you add T and it's bigger and bigger and bigger
+
+445
+00:17:26,000 --> 00:17:28,000
+and then you're going to go in
+
+446
+00:17:28,000 --> 00:17:30,000
+feasible at some point
+
+447
+00:17:30,000 --> 00:17:32,000
+no this is the whole point
+
+448
+00:17:34,000 --> 00:17:36,000
+it's in the kernel of phi
+
+449
+00:17:36,000 --> 00:17:38,000
+the point is phi is a linear function
+
+450
+00:17:38,000 --> 00:17:40,000
+phi is linear
+
+451
+00:17:40,000 --> 00:17:42,000
+and because of that
+
+452
+00:17:42,000 --> 00:17:44,000
+I can take this ring now
+
+453
+00:17:44,000 --> 00:17:46,000
+and I can see
+
+454
+00:17:46,000 --> 00:17:48,000
+that I can take some D
+
+455
+00:17:48,000 --> 00:17:50,000
+which is in the
+
+456
+00:17:50,000 --> 00:17:52,000
+like it's in the
+
+457
+00:17:52,000 --> 00:17:54,000
+it's in the kernel of this function
+
+458
+00:17:54,000 --> 00:17:56,000
+which means it does not
+
+459
+00:17:56,000 --> 00:17:58,000
+it does not alter
+
+460
+00:17:58,000 --> 00:18:00,000
+the outcome of the
+
+461
+00:18:00,000 --> 00:18:02,000
+of the constraints
+
+462
+00:18:02,000 --> 00:18:04,000
+that's true
+
+463
+00:18:04,000 --> 00:18:06,000
+but what's the
+
+464
+00:18:06,000 --> 00:18:08,000
+story of T then
+
+465
+00:18:08,000 --> 00:18:10,000
+it selects the right T
+
+466
+00:18:10,000 --> 00:18:12,000
+that
+
+467
+00:18:12,000 --> 00:18:14,000
+thing becomes singular
+
+468
+00:18:14,000 --> 00:18:16,000
+singularity means
+
+469
+00:18:16,000 --> 00:18:18,000
+the determinant is zero
+
+470
+00:18:20,000 --> 00:18:22,000
+yeah I mean T most lambs
+
+471
+00:18:22,000 --> 00:18:24,000
+you can always find a T that makes one of
+
+472
+00:18:24,000 --> 00:18:26,000
+the eigenvalues zero
+
+473
+00:18:26,000 --> 00:18:28,000
+whereas previously it was a strictly positive
+
+474
+00:18:28,000 --> 00:18:30,000
+matrix phi
+
+475
+00:18:30,000 --> 00:18:32,000
+I find a T so that you reduce the rank
+
+476
+00:18:32,000 --> 00:18:34,000
+yeah but can T go infinitely negative
+
+477
+00:18:34,000 --> 00:18:36,000
+but why can you find
+
+478
+00:18:36,000 --> 00:18:38,000
+a D that compensates
+
+479
+00:18:38,000 --> 00:18:40,000
+for an eigenvalue
+
+480
+00:18:40,000 --> 00:18:42,000
+it's somehow
+
+481
+00:18:42,000 --> 00:18:44,000
+circling around that maybe
+
+482
+00:18:44,000 --> 00:18:46,000
+I think this is the
+
+483
+00:18:46,000 --> 00:18:48,000
+the constraint
+
+484
+00:18:48,000 --> 00:18:50,000
+that Tobias mentioned
+
+485
+00:18:54,000 --> 00:18:56,000
+we made that argument
+
+486
+00:18:56,000 --> 00:18:58,000
+but it's different
+
+487
+00:18:58,000 --> 00:19:00,000
+with some
+
+488
+00:19:00,000 --> 00:19:02,000
+with some
+
+489
+00:19:02,000 --> 00:19:04,000
+but
+
+490
+00:19:04,000 --> 00:19:06,000
+I'm going to try to
+
+491
+00:19:06,000 --> 00:19:08,000
+do you
+
+492
+00:19:08,000 --> 00:19:10,000
+mean that I can reduce to the
+
+493
+00:19:10,000 --> 00:19:12,000
+top state
+
+494
+00:19:12,000 --> 00:19:14,000
+and then
+
+495
+00:19:14,000 --> 00:19:16,000
+then you turn
+
+496
+00:19:16,000 --> 00:19:18,000
+one of the same
+
+497
+00:19:18,000 --> 00:19:20,000
+one of the same
+
+498
+00:19:20,000 --> 00:19:22,000
+I'm not
+
+499
+00:19:22,000 --> 00:19:24,000
+sure if you know what you're doing
+
+500
+00:19:24,000 --> 00:19:26,000
+but what we're basically doing up there
+
+501
+00:19:28,000 --> 00:19:30,000
+with the center now we are
+
+502
+00:19:30,000 --> 00:19:32,000
+moving from
+
+503
+00:19:32,000 --> 00:19:34,000
+I'm not sure if you know what I'm talking about
+
+504
+00:19:34,000 --> 00:19:36,000
+so this A that is
+
+505
+00:19:40,000 --> 00:19:42,000
+the same old story of
+
+506
+00:19:42,000 --> 00:19:44,000
+by leading up form
+
+507
+00:19:46,000 --> 00:19:48,000
+to its
+
+508
+00:19:48,000 --> 00:19:50,000
+reproducing current
+
+509
+00:19:56,000 --> 00:19:58,000
+can I just push the determinant
+
+510
+00:19:58,000 --> 00:20:00,000
+argument through and see where it breaks
+
+511
+00:20:02,000 --> 00:20:04,000
+we shouldn't need anything to match it right
+
+512
+00:20:04,000 --> 00:20:06,000
+like we're saying
+
+513
+00:20:06,000 --> 00:20:08,000
+so we're saying the B
+
+514
+00:20:08,000 --> 00:20:10,000
+term and then the same
+
+515
+00:20:10,000 --> 00:20:12,000
+I think you want to
+
+516
+00:20:12,000 --> 00:20:14,000
+factor out B because it's invertible
+
+517
+00:20:18,000 --> 00:20:20,000
+you can make it into a characteristic
+
+518
+00:20:20,000 --> 00:20:22,000
+polynomial of
+
+519
+00:20:22,000 --> 00:20:24,000
+square root inverse B
+
+520
+00:20:24,000 --> 00:20:26,000
+D square root inverse B
+
+521
+00:20:26,000 --> 00:20:28,000
+and then also one of our
+
+522
+00:20:28,000 --> 00:20:30,000
+T
+
+523
+00:20:46,000 --> 00:20:48,000
+so then you're arguing that
+
+524
+00:20:48,000 --> 00:20:50,000
+there exists a T
+
+525
+00:20:50,000 --> 00:20:52,000
+which makes this thing
+
+526
+00:20:52,000 --> 00:20:54,000
+okay for complexity
+
+527
+00:20:54,000 --> 00:20:56,000
+it's fine
+
+528
+00:20:56,000 --> 00:20:58,000
+complexity but even for real T
+
+529
+00:20:58,000 --> 00:21:00,000
+because
+
+530
+00:21:02,000 --> 00:21:04,000
+yeah
+
+531
+00:21:04,000 --> 00:21:06,000
+so D is not positive
+
+532
+00:21:06,000 --> 00:21:08,000
+D can be any evolution
+
+533
+00:21:08,000 --> 00:21:10,000
+anything just not zero
+
+534
+00:21:10,000 --> 00:21:12,000
+so you put the T as
+
+535
+00:21:12,000 --> 00:21:14,000
+the D
+
+536
+00:21:14,000 --> 00:21:16,000
+we'll try to make it without
+
+537
+00:21:18,000 --> 00:21:20,000
+the point is
+
+538
+00:21:20,000 --> 00:21:22,000
+is that D can have negative i
+
+539
+00:21:22,000 --> 00:21:24,000
+that's allowed
+
+540
+00:21:24,000 --> 00:21:26,000
+and now as soon as a negative i
+
+541
+00:21:26,000 --> 00:21:28,000
+is positive
+
+542
+00:21:30,000 --> 00:21:32,000
+I can't buy it now
+
+543
+00:21:32,000 --> 00:21:34,000
+okay
+
+544
+00:21:34,000 --> 00:21:36,000
+and this is the whole proof
+
+545
+00:21:36,000 --> 00:21:38,000
+for it
+
+546
+00:21:38,000 --> 00:21:40,000
+how do you
+
+547
+00:21:40,000 --> 00:21:42,000
+argue that
+
+548
+00:21:42,000 --> 00:21:44,000
+so there exists a T
+
+549
+00:21:44,000 --> 00:21:46,000
+such as P0
+
+550
+00:21:46,000 --> 00:21:48,000
+P0 is singular and so because
+
+551
+00:21:48,000 --> 00:21:50,000
+rank was an R
+
+552
+00:21:50,000 --> 00:21:52,000
+but how do you argue that
+
+553
+00:21:56,000 --> 00:21:58,000
+right because that's the argument
+
+554
+00:21:58,000 --> 00:22:00,000
+and we say that there is some B of P0
+
+555
+00:22:00,000 --> 00:22:02,000
+which is singular so it does
+
+556
+00:22:02,000 --> 00:22:04,000
+rank one less and we say that
+
+557
+00:22:04,000 --> 00:22:06,000
+that's our new feasible solution
+
+558
+00:22:06,000 --> 00:22:08,000
+it's a flexible string but you also need the positive
+
+559
+00:22:10,000 --> 00:22:12,000
+D is in the column of 5
+
+560
+00:22:12,000 --> 00:22:14,000
+so it's a symmetric matrix
+
+561
+00:22:16,000 --> 00:22:18,000
+symmetric so you can
+
+562
+00:22:18,000 --> 00:22:20,000
+always choose it to be
+
+563
+00:22:20,000 --> 00:22:22,000
+whatever you want basically
+
+564
+00:22:24,000 --> 00:22:26,000
+if it's in the column of 5
+
+565
+00:22:26,000 --> 00:22:28,000
+it's either positive, it's fully positive
+
+566
+00:22:28,000 --> 00:22:30,000
+in which case you put a minus sign in front of it
+
+567
+00:22:30,000 --> 00:22:32,000
+or it's
+
+568
+00:22:32,000 --> 00:22:34,000
+it will neither be positive nor
+
+569
+00:22:34,000 --> 00:22:36,000
+neither positive nor negative in which case
+
+570
+00:22:36,000 --> 00:22:38,000
+you just find the smallest eigenvalue of it
+
+571
+00:22:38,000 --> 00:22:40,000
+and then put a minus sign in front of that
+
+572
+00:22:40,000 --> 00:22:42,000
+and then you can always
+
+573
+00:22:42,000 --> 00:22:44,000
+zero off at least
+
+574
+00:22:44,000 --> 00:22:46,000
+I think the argument is right
+
+575
+00:22:46,000 --> 00:22:48,000
+which has
+
+576
+00:22:48,000 --> 00:22:50,000
+a largest
+
+577
+00:22:50,000 --> 00:22:52,000
+negative eigenvalue
+
+578
+00:22:54,000 --> 00:22:56,000
+everything is negative
+
+579
+00:22:56,000 --> 00:22:58,000
+and it's strictly negative
+
+580
+00:22:58,000 --> 00:23:00,000
+not
+
+581
+00:23:00,000 --> 00:23:02,000
+how do you know
+
+582
+00:23:02,000 --> 00:23:04,000
+oh I think it's not the number of minus signs
+
+583
+00:23:04,000 --> 00:23:06,000
+what if it's neither
+
+584
+00:23:06,000 --> 00:23:08,000
+no that's the idea
+
+585
+00:23:08,000 --> 00:23:10,000
+how about I just write it out
+
+586
+00:23:10,000 --> 00:23:12,000
+here
+
+587
+00:23:12,000 --> 00:23:14,000
+it has some smallest eigenvalue
+
+588
+00:23:14,000 --> 00:23:16,000
+some
+
+589
+00:23:16,000 --> 00:23:18,000
+some eigenvalue
+
+590
+00:23:18,000 --> 00:23:20,000
+more than two
+
+591
+00:23:20,000 --> 00:23:22,000
+whatever right, symmetric
+
+592
+00:23:22,000 --> 00:23:24,000
+and then these D's
+
+593
+00:23:24,000 --> 00:23:26,000
+we'll just put them in D semi-water
+
+594
+00:23:26,000 --> 00:23:28,000
+right
+
+595
+00:23:28,000 --> 00:23:30,000
+so what if they're all positive
+
+596
+00:23:30,000 --> 00:23:32,000
+then we put a minus sign
+
+597
+00:23:32,000 --> 00:23:34,000
+in front of it
+
+598
+00:23:34,000 --> 00:23:36,000
+there exists a D in the column
+
+599
+00:23:36,000 --> 00:23:38,000
+so I'm allowed to multiply by minus one
+
+600
+00:23:38,000 --> 00:23:40,000
+now the largest
+
+601
+00:23:40,000 --> 00:23:42,000
+the largest negative eigenvalue
+
+602
+00:23:42,000 --> 00:23:44,000
+which is T just right
+
+603
+00:23:44,000 --> 00:23:46,000
+I'll zero off one of the
+
+604
+00:23:46,000 --> 00:23:48,000
+the corresponding eigenvector
+
+605
+00:23:48,000 --> 00:23:50,000
+of that identity
+
+606
+00:23:54,000 --> 00:23:56,000
+and the other state positive
+
+607
+00:23:56,000 --> 00:23:58,000
+the objective here isn't
+
+608
+00:23:58,000 --> 00:24:00,000
+is just to zero off at least one eigenvector
+
+609
+00:24:00,000 --> 00:24:02,000
+of that program matrix
+
+610
+00:24:02,000 --> 00:24:04,000
+I think we know but also the
+
+611
+00:24:04,000 --> 00:24:06,000
+resulting B of T has to be positive
+
+612
+00:24:06,000 --> 00:24:08,000
+and it would be
+
+613
+00:24:08,000 --> 00:24:10,000
+why
+
+614
+00:24:10,000 --> 00:24:12,000
+because you just
+
+615
+00:24:12,000 --> 00:24:14,000
+it's not sufficiently small
+
+616
+00:24:14,000 --> 00:24:16,000
+it's supposed to
+
+617
+00:24:16,000 --> 00:24:18,000
+sufficiently small because
+
+618
+00:24:18,000 --> 00:24:20,000
+yeah, thanks
+
+619
+00:24:22,000 --> 00:24:24,000
+you just take the
+
+620
+00:24:24,000 --> 00:24:26,000
+the eigenvalue of T with
+
+621
+00:24:26,000 --> 00:24:28,000
+with the smallest absolute
+
+622
+00:24:28,000 --> 00:24:30,000
+value
+
+623
+00:24:30,000 --> 00:24:32,000
+and the smallest absolute value
+
+624
+00:24:32,000 --> 00:24:34,000
+well then just if it's
+
+625
+00:24:34,000 --> 00:24:36,000
+minus or plus you decide
+
+626
+00:24:36,000 --> 00:24:38,000
+why I have a T because the T can be anything
+
+627
+00:24:38,000 --> 00:24:40,000
+from R
+
+628
+00:24:40,000 --> 00:24:42,000
+and then you just push it
+
+629
+00:24:42,000 --> 00:24:44,000
+until that one
+
+630
+00:24:44,000 --> 00:24:46,000
+eigenvalue cancels
+
+631
+00:24:46,000 --> 00:24:48,000
+the smallest eigenvalue
+
+632
+00:24:48,000 --> 00:24:50,000
+of the B for example
+
+633
+00:24:50,000 --> 00:24:52,000
+you just in the column
+
+634
+00:24:52,000 --> 00:24:54,000
+here for example
+
+635
+00:24:54,000 --> 00:24:56,000
+if you already rank
+
+636
+00:24:56,000 --> 00:24:58,000
+deficient then it's fine
+
+637
+00:24:58,000 --> 00:25:00,000
+if not in the strict interior
+
+638
+00:25:00,000 --> 00:25:02,000
+then you can push it in direction
+
+639
+00:25:02,000 --> 00:25:04,000
+and this leaves you in a
+
+640
+00:25:04,000 --> 00:25:06,000
+column at least for small t
+
+641
+00:25:06,000 --> 00:25:08,000
+and you will reach the boundary
+
+642
+00:25:08,000 --> 00:25:10,000
+but it doesn't matter with which matrix
+
+643
+00:25:10,000 --> 00:25:12,000
+you add because in order to
+
+644
+00:25:12,000 --> 00:25:14,000
+say
+
+645
+00:25:14,000 --> 00:25:16,000
+sufficiently small t in the column
+
+646
+00:25:16,000 --> 00:25:18,000
+then it's already fine
+
+647
+00:25:18,000 --> 00:25:20,000
+then you walk to another phase
+
+648
+00:25:22,000 --> 00:25:24,000
+no that's not possible
+
+649
+00:25:24,000 --> 00:25:26,000
+because the phase is defined
+
+650
+00:25:26,000 --> 00:25:28,000
+by the AIs or the
+
+651
+00:25:28,000 --> 00:25:30,000
+the intersection of the phase
+
+652
+00:25:30,000 --> 00:25:32,000
+of the affine subspace
+
+653
+00:25:34,000 --> 00:25:36,000
+oh
+
+654
+00:25:36,000 --> 00:25:38,000
+yes
+
+655
+00:25:38,000 --> 00:25:40,000
+still
+
+656
+00:25:40,000 --> 00:25:42,000
+like B can have mixed eigenvalues
+
+657
+00:25:42,000 --> 00:25:44,000
+which are both positive and negative
+
+658
+00:25:44,000 --> 00:25:46,000
+we first of all cannot choose that because
+
+659
+00:25:46,000 --> 00:25:48,000
+the kernel can be one-dimensional
+
+660
+00:25:48,000 --> 00:25:50,000
+and we're just fixed with this kind of distribution of signs
+
+661
+00:25:52,000 --> 00:25:54,000
+then flip all signs
+
+662
+00:25:54,000 --> 00:25:56,000
+well we can flip all of them but it's some of them are positive
+
+663
+00:25:56,000 --> 00:25:58,000
+some are negative
+
+664
+00:25:58,000 --> 00:26:00,000
+but this
+
+665
+00:26:00,000 --> 00:26:02,000
+but there are one
+
+666
+00:26:02,000 --> 00:26:04,000
+let's say the positive signs
+
+667
+00:26:04,000 --> 00:26:06,000
+the positive signs
+
+668
+00:26:06,000 --> 00:26:08,000
+they do not work because they just make
+
+669
+00:26:08,000 --> 00:26:10,000
+B more positive
+
+670
+00:26:10,000 --> 00:26:12,000
+then it's already
+
+671
+00:26:12,000 --> 00:26:14,000
+possible
+
+672
+00:26:14,000 --> 00:26:16,000
+you don't take the most negative sign
+
+673
+00:26:16,000 --> 00:26:18,000
+yes
+
+674
+00:26:18,000 --> 00:26:20,000
+you just walk gradually t up until
+
+675
+00:26:20,000 --> 00:26:22,000
+it hits the first zero crossing
+
+676
+00:26:24,000 --> 00:26:26,000
+imagine like you perturb B by D
+
+677
+00:26:26,000 --> 00:26:28,000
+and for very small t
+
+678
+00:26:28,000 --> 00:26:30,000
+sure
+
+679
+00:26:30,000 --> 00:26:32,000
+values hardly change
+
+680
+00:26:32,000 --> 00:26:34,000
+so you can now make a plot
+
+681
+00:26:34,000 --> 00:26:36,000
+where you plot the curves of eigenvalues
+
+682
+00:26:36,000 --> 00:26:38,000
+and then you increase t this will give continuous functions
+
+683
+00:26:40,000 --> 00:26:42,000
+and at some point the lowest one will cross zero
+
+684
+00:26:42,000 --> 00:26:44,000
+and then you stop
+
+685
+00:26:44,000 --> 00:26:46,000
+and then you still have a positive operate
+
+686
+00:26:46,000 --> 00:26:48,000
+okay
+
+687
+00:26:48,000 --> 00:26:50,000
+but I would want that to
+
+688
+00:26:50,000 --> 00:26:52,000
+but
+
+689
+00:26:52,000 --> 00:26:54,000
+optimization
+
+690
+00:26:54,000 --> 00:26:56,000
+I mean here it's just inverse function theorem
+
+691
+00:26:56,000 --> 00:26:58,000
+I think
+
+692
+00:26:58,000 --> 00:27:00,000
+okay
+
+693
+00:27:00,000 --> 00:27:02,000
+what's your favorite proof of the inverse function theorem
+
+694
+00:27:04,000 --> 00:27:06,000
+non-trivial
+
+695
+00:27:06,000 --> 00:27:08,000
+non-trivial
+
+696
+00:27:14,000 --> 00:27:16,000
+so we have
+
+697
+00:27:16,000 --> 00:27:18,000
+let's say with a feasible
+
+698
+00:27:18,000 --> 00:27:20,000
+X
+
+699
+00:27:20,000 --> 00:27:22,000
+right this is your
+
+700
+00:27:22,000 --> 00:27:24,000
+this is your assumption
+
+701
+00:27:24,000 --> 00:27:26,000
+and it's offering
+
+702
+00:27:26,000 --> 00:27:28,000
+R
+
+703
+00:27:28,000 --> 00:27:30,000
+and now
+
+704
+00:27:30,000 --> 00:27:32,000
+that's an assumption
+
+705
+00:27:32,000 --> 00:27:34,000
+no because that just means
+
+706
+00:27:34,000 --> 00:27:36,000
+you have given the name to the rank of X
+
+707
+00:27:36,000 --> 00:27:38,000
+you just named the rank
+
+708
+00:27:38,000 --> 00:27:40,000
+you would find R to be the rank
+
+709
+00:27:40,000 --> 00:27:42,000
+okay
+
+710
+00:27:42,000 --> 00:27:44,000
+okay
+
+711
+00:27:44,000 --> 00:27:46,000
+I have my problem I take one thing to the point
+
+712
+00:27:46,000 --> 00:27:48,000
+which says rank R
+
+713
+00:27:48,000 --> 00:27:50,000
+now I write my
+
+714
+00:27:50,000 --> 00:27:52,000
+rank R thingy as well
+
+715
+00:27:52,000 --> 00:27:54,000
+something from the other dimension of space
+
+716
+00:27:54,000 --> 00:27:56,000
+transformation
+
+717
+00:27:56,000 --> 00:27:58,000
+now I can write
+
+718
+00:27:58,000 --> 00:28:00,000
+the whole thing
+
+719
+00:28:02,000 --> 00:28:04,000
+now I can take the
+
+720
+00:28:04,000 --> 00:28:06,000
+transformation and write this whole
+
+721
+00:28:06,000 --> 00:28:08,000
+thing
+
+722
+00:28:08,000 --> 00:28:10,000
+as optimization in the subspace
+
+723
+00:28:10,000 --> 00:28:12,000
+R
+
+724
+00:28:12,000 --> 00:28:14,000
+and B is basically
+
+725
+00:28:14,000 --> 00:28:16,000
+you give me some C
+
+726
+00:28:16,000 --> 00:28:18,000
+so I have a smaller space
+
+727
+00:28:20,000 --> 00:28:22,000
+okay so far so good
+
+728
+00:28:22,000 --> 00:28:24,000
+now next step why do I define this
+
+729
+00:28:24,000 --> 00:28:26,000
+by
+
+730
+00:28:26,000 --> 00:28:28,000
+some story
+
+731
+00:28:28,000 --> 00:28:30,000
+I can define
+
+732
+00:28:30,000 --> 00:28:32,000
+maybe you don't need it but for me it was
+
+733
+00:28:32,000 --> 00:28:34,000
+very
+
+734
+00:28:34,000 --> 00:28:36,000
+intuitive to then work with the rank
+
+735
+00:28:36,000 --> 00:28:38,000
+now to theorem because it's just simple
+
+736
+00:28:38,000 --> 00:28:40,000
+so now I am in the
+
+737
+00:28:40,000 --> 00:28:42,000
+okay I have to take the
+
+738
+00:28:42,000 --> 00:28:44,000
+subspace
+
+739
+00:28:44,000 --> 00:28:46,000
+I could optimize it in the subspace
+
+740
+00:28:48,000 --> 00:28:50,000
+what do I learn but I also
+
+741
+00:28:50,000 --> 00:28:52,000
+have to optimize over all B
+
+742
+00:28:54,000 --> 00:28:56,000
+now you start with something
+
+743
+00:28:56,000 --> 00:28:58,000
+you start with some feasible point
+
+744
+00:28:58,000 --> 00:29:00,000
+you go to the sort of compressed
+
+745
+00:29:00,000 --> 00:29:02,000
+STP
+
+746
+00:29:02,000 --> 00:29:04,000
+you look at the feasible subspace
+
+747
+00:29:04,000 --> 00:29:06,000
+and D at the orthogonal
+
+748
+00:29:06,000 --> 00:29:08,000
+subspace to the feasible subspace
+
+749
+00:29:08,000 --> 00:29:10,000
+which is the kernel
+
+750
+00:29:10,000 --> 00:29:12,000
+of this file
+
+751
+00:29:12,000 --> 00:29:14,000
+and now you say you can always
+
+752
+00:29:14,000 --> 00:29:16,000
+walk in this direction to reduce the rank
+
+753
+00:29:16,000 --> 00:29:18,000
+by one
+
+754
+00:29:18,000 --> 00:29:20,000
+to the point
+
+755
+00:29:20,000 --> 00:29:22,000
+you start with the feasible point
+
+756
+00:29:22,000 --> 00:29:24,000
+then if this condition there holds
+
+757
+00:29:24,000 --> 00:29:26,000
+then you can find a perturbation
+
+758
+00:29:26,000 --> 00:29:28,000
+which reduces the rank
+
+759
+00:29:28,000 --> 00:29:30,000
+now you have a new feasible point
+
+760
+00:29:30,000 --> 00:29:32,000
+and you can redo the whole program
+
+761
+00:29:32,000 --> 00:29:34,000
+this was
+
+762
+00:29:34,000 --> 00:29:36,000
+like a while loop
+
+763
+00:29:36,000 --> 00:29:38,000
+so yeah
+
+764
+00:29:38,000 --> 00:29:40,000
+and this is awesome in this introduction
+
+765
+00:29:40,000 --> 00:29:42,000
+and this is also what I wanted to do
+
+766
+00:29:42,000 --> 00:29:44,000
+because I think this proof is
+
+767
+00:29:44,000 --> 00:29:46,000
+somewhat constructive not like the
+
+768
+00:29:46,000 --> 00:29:48,000
+pataki proofs they are all like
+
+769
+00:29:48,000 --> 00:29:50,000
+very static
+
+770
+00:29:50,000 --> 00:29:52,000
+you have some things that you have worked through
+
+771
+00:29:52,000 --> 00:29:54,000
+but this one is like
+
+772
+00:29:54,000 --> 00:29:56,000
+if you want you could check all of those
+
+773
+00:29:56,000 --> 00:29:58,000
+points and
+
+774
+00:29:58,000 --> 00:30:00,000
+reduce
+
+775
+00:30:00,000 --> 00:30:02,000
+the complex
+
+776
+00:30:02,000 --> 00:30:04,000
+the complex
+
+777
+00:30:04,000 --> 00:30:06,000
+pataki is still a bit different
+
+778
+00:30:06,000 --> 00:30:08,000
+it uses that you can do some other
+
+779
+00:30:08,000 --> 00:30:10,000
+tricks I don't know if you know about
+
+780
+00:30:10,000 --> 00:30:12,000
+the balanced
+
+781
+00:30:12,000 --> 00:30:14,000
+the balanced distribution
+
+782
+00:30:14,000 --> 00:30:16,000
+of
+
+783
+00:30:16,000 --> 00:30:18,000
+I don't think we want to know about that
+
+784
+00:30:18,000 --> 00:30:20,000
+so I'm kind of bugged by this
+
+785
+00:30:20,000 --> 00:30:22,000
+V, this V appears and disappears
+
+786
+00:30:22,000 --> 00:30:24,000
+it's a horribly
+
+787
+00:30:24,000 --> 00:30:26,000
+basis thinking I don't like that
+
+788
+00:30:26,000 --> 00:30:28,000
+can you just skip the V
+
+789
+00:30:30,000 --> 00:30:32,000
+well the V
+
+790
+00:30:32,000 --> 00:30:34,000
+the V is just
+
+791
+00:30:34,000 --> 00:30:36,000
+actually just the basis
+
+792
+00:30:36,000 --> 00:30:38,000
+of the RR
+
+793
+00:30:38,000 --> 00:30:40,000
+and
+
+794
+00:30:40,000 --> 00:30:42,000
+where this comes from
+
+795
+00:30:42,000 --> 00:30:44,000
+in your proof
+
+796
+00:30:44,000 --> 00:30:46,000
+just strike those lines up
+
+797
+00:30:46,000 --> 00:30:48,000
+I don't need them
+
+798
+00:30:48,000 --> 00:30:50,000
+I need it to
+
+799
+00:30:50,000 --> 00:30:52,000
+to
+
+800
+00:30:52,000 --> 00:30:54,000
+reduce
+
+801
+00:30:54,000 --> 00:30:56,000
+to get from
+
+802
+00:30:56,000 --> 00:30:58,000
+N to PSDR
+
+803
+00:30:58,000 --> 00:31:00,000
+we need it
+
+804
+00:31:00,000 --> 00:31:02,000
+we want to compress
+
+805
+00:31:02,000 --> 00:31:04,000
+if X is a state
+
+806
+00:31:04,000 --> 00:31:06,000
+you want to compress to support
+
+807
+00:31:06,000 --> 00:31:08,000
+subspace of the state
+
+808
+00:31:08,000 --> 00:31:10,000
+we need to choose a basis
+
+809
+00:31:10,000 --> 00:31:12,000
+we can throw it
+
+810
+00:31:12,000 --> 00:31:14,000
+we don't need to choose a basis and throw it out
+
+811
+00:31:14,000 --> 00:31:16,000
+I'm just being pedantic
+
+812
+00:31:16,000 --> 00:31:18,000
+but this is the kind of thing where
+
+813
+00:31:18,000 --> 00:31:20,000
+in formalization
+
+814
+00:31:20,000 --> 00:31:22,000
+it's a pain in the ass to choose a basis
+
+815
+00:31:22,000 --> 00:31:24,000
+formalize and throw it out again
+
+816
+00:31:24,000 --> 00:31:26,000
+so I'm just sensitive to this
+
+817
+00:31:26,000 --> 00:31:28,000
+okay we are fine
+
+818
+00:31:30,000 --> 00:31:32,000
+good
+
+819
+00:31:32,000 --> 00:31:34,000
+do we agree
+
+820
+00:31:34,000 --> 00:31:36,000
+does it pass it?
+
+821
+00:31:36,000 --> 00:31:38,000
+I have a feasible point
+
+822
+00:31:38,000 --> 00:31:40,000
+but I want to
+
+823
+00:31:44,000 --> 00:31:46,000
+okay so
+
+824
+00:31:46,000 --> 00:31:48,000
+this is actually
+
+825
+00:31:48,000 --> 00:31:50,000
+like you could say
+
+826
+00:31:50,000 --> 00:31:52,000
+we could substitute this line
+
+827
+00:31:52,000 --> 00:31:54,000
+by saying
+
+828
+00:31:54,000 --> 00:31:56,000
+each phase
+
+829
+00:31:56,000 --> 00:31:58,000
+of the
+
+830
+00:31:58,000 --> 00:32:00,000
+each phase of the PSD
+
+831
+00:32:00,000 --> 00:32:02,000
+end code is isomorphic
+
+832
+00:32:02,000 --> 00:32:04,000
+to
+
+833
+00:32:04,000 --> 00:32:06,000
+PSDR somewhere
+
+834
+00:32:06,000 --> 00:32:08,000
+that's much better because I'm also thinking
+
+835
+00:32:08,000 --> 00:32:10,000
+infinite dimensional here
+
+836
+00:32:10,000 --> 00:32:12,000
+if you want to generalize this stuff
+
+837
+00:32:12,000 --> 00:32:14,000
+if you want to generalize this
+
+838
+00:32:14,000 --> 00:32:16,000
+you don't want to be choosing V
+
+839
+00:32:16,000 --> 00:32:18,000
+V is okay
+
+840
+00:32:18,000 --> 00:32:20,000
+because it's a support
+
+841
+00:32:20,000 --> 00:32:22,000
+it's Henriksen
+
+842
+00:32:22,000 --> 00:32:24,000
+when you want to start
+
+843
+00:32:24,000 --> 00:32:26,000
+V, V transpose
+
+844
+00:32:26,000 --> 00:32:28,000
+which is really the supporting protection
+
+845
+00:32:28,000 --> 00:32:30,000
+it's not going to throw spaces in the support
+
+846
+00:32:30,000 --> 00:32:32,000
+and that's
+
+847
+00:32:32,000 --> 00:32:34,000
+right yeah thanks
+
+848
+00:32:34,000 --> 00:32:36,000
+but actually
+
+849
+00:32:36,000 --> 00:32:38,000
+I'm
+
+850
+00:32:38,000 --> 00:32:40,000
+do you really want that in infinite dimension
+
+851
+00:32:40,000 --> 00:32:42,000
+because if you're on a c-star algebra
+
+852
+00:32:42,000 --> 00:32:44,000
+this board is somewhere outside
+
+853
+00:32:44,000 --> 00:32:46,000
+of the c-star algebra maybe
+
+854
+00:32:46,000 --> 00:32:48,000
+yeah now I'm already
+
+855
+00:32:48,000 --> 00:32:50,000
+wondering ahead as it
+
+856
+00:32:50,000 --> 00:32:52,000
+was
+
+857
+00:32:52,000 --> 00:32:54,000
+so if this proof kind of looks okay
+
+858
+00:32:54,000 --> 00:32:56,000
+then we can already
+
+859
+00:32:56,000 --> 00:32:58,000
+the point of talking is
+
+860
+00:32:58,000 --> 00:33:00,000
+how far does it go
+
+861
+00:33:00,000 --> 00:33:02,000
+before I just
+
+862
+00:33:02,000 --> 00:33:04,000
+I already did a B
+
+863
+00:33:04,000 --> 00:33:06,000
+for my son
+
+864
+00:33:06,000 --> 00:33:08,000
+and what it says is that if you have
+
+865
+00:33:08,000 --> 00:33:10,000
+an interior point of a PSD code
+
+866
+00:33:10,000 --> 00:33:12,000
+you fix a random or any
+
+867
+00:33:12,000 --> 00:33:14,000
+direction in the operator
+
+868
+00:33:14,000 --> 00:33:16,000
+space and you walk along the direction
+
+869
+00:33:16,000 --> 00:33:18,000
+at some point you're going to be outside of the code
+
+870
+00:33:18,000 --> 00:33:20,000
+because then you at some point have to hit
+
+871
+00:33:20,000 --> 00:33:22,000
+a phase and we are just
+
+872
+00:33:22,000 --> 00:33:24,000
+that's the singularity here
+
+873
+00:33:24,000 --> 00:33:26,000
+and this just means that the code
+
+874
+00:33:26,000 --> 00:33:28,000
+is pointed
+
+875
+00:33:28,000 --> 00:33:30,000
+pointed current yeah yeah this holds
+
+876
+00:33:30,000 --> 00:33:32,000
+for any pointed code okay that's
+
+877
+00:33:32,000 --> 00:33:34,000
+actually that's very important comment right
+
+878
+00:33:34,000 --> 00:33:36,000
+in fact
+
+879
+00:33:36,000 --> 00:33:38,000
+the whole proof
+
+880
+00:33:38,000 --> 00:33:40,000
+can go through for just a
+
+881
+00:33:40,000 --> 00:33:42,000
+intermediate space
+
+882
+00:33:42,000 --> 00:33:44,000
+except for you have to replace rank with like
+
+883
+00:33:44,000 --> 00:33:46,000
+is an element of phase
+
+884
+00:33:46,000 --> 00:33:48,000
+and then I can find a smaller phase
+
+885
+00:33:48,000 --> 00:33:50,000
+they are not numbered by range
+
+886
+00:33:50,000 --> 00:33:52,000
+because they are in horizon orbit
+
+887
+00:33:52,000 --> 00:33:54,000
+because we lost the representation in terms of operators
+
+888
+00:33:54,000 --> 00:33:56,000
+but you can just say like the phase
+
+889
+00:33:56,000 --> 00:33:58,000
+of it I mentioned below
+
+890
+00:33:58,000 --> 00:34:00,000
+a code you mentioned
+
+891
+00:34:00,000 --> 00:34:02,000
+this is also one thing
+
+892
+00:34:02,000 --> 00:34:04,000
+why I have
+
+893
+00:34:04,000 --> 00:34:06,000
+another proof of that one
+
+894
+00:34:06,000 --> 00:34:08,000
+because I tried to do it in the first place
+
+895
+00:34:08,000 --> 00:34:10,000
+I learned at last now but
+
+896
+00:34:10,000 --> 00:34:12,000
+I have a proof that is
+
+897
+00:34:12,000 --> 00:34:14,000
+for an arbitrary
+
+898
+00:34:14,000 --> 00:34:16,000
+phone
+
+899
+00:34:16,000 --> 00:34:18,000
+just for
+
+900
+00:34:18,000 --> 00:34:20,000
+for an Archimedia that's the point here
+
+901
+00:34:20,000 --> 00:34:22,000
+yeah
+
+902
+00:34:22,000 --> 00:34:24,000
+what does that really mean
+
+903
+00:34:24,000 --> 00:34:26,000
+there is inside a cone
+
+904
+00:34:26,000 --> 00:34:28,000
+you add a little bit
+
+905
+00:34:28,000 --> 00:34:30,000
+yeah well for every element
+
+906
+00:34:30,000 --> 00:34:32,000
+of the phase
+
+907
+00:34:32,000 --> 00:34:34,000
+there are the
+
+908
+00:34:34,000 --> 00:34:36,000
+t and the t such that
+
+909
+00:34:36,000 --> 00:34:38,000
+t plus is in the cone
+
+910
+00:34:38,000 --> 00:34:40,000
+yeah
+
+911
+00:34:40,000 --> 00:34:42,000
+it's literally dump condition you want
+
+912
+00:34:48,000 --> 00:34:50,000
+so but now
+
+913
+00:34:50,000 --> 00:34:52,000
+and then so the
+
+914
+00:34:52,000 --> 00:34:54,000
+one thing that works with PSD is that
+
+915
+00:34:54,000 --> 00:34:56,000
+faces
+
+916
+00:34:56,000 --> 00:34:58,000
+a complex combination of extreme points
+
+917
+00:34:58,000 --> 00:35:00,000
+and extreme points of rank 1 projections
+
+918
+00:35:00,000 --> 00:35:02,000
+and so that's how we connect rank
+
+919
+00:35:02,000 --> 00:35:04,000
+to
+
+920
+00:35:04,000 --> 00:35:06,000
+to whatever
+
+921
+00:35:06,000 --> 00:35:08,000
+the constraints right and the minute we
+
+922
+00:35:08,000 --> 00:35:10,000
+lose representations
+
+923
+00:35:10,000 --> 00:35:12,000
+star representations
+
+924
+00:35:12,000 --> 00:35:14,000
+on some Hilbert space
+
+925
+00:35:14,000 --> 00:35:16,000
+the minute we can't say the word rank any longer
+
+926
+00:35:16,000 --> 00:35:18,000
+then we lose that rank
+
+927
+00:35:18,000 --> 00:35:20,000
+right is this what's happening
+
+928
+00:35:20,000 --> 00:35:22,000
+it's very very rank but the connection
+
+929
+00:35:22,000 --> 00:35:24,000
+to operate is lost if you don't
+
+930
+00:35:24,000 --> 00:35:26,000
+have a star representation
+
+931
+00:35:30,000 --> 00:35:32,000
+so
+
+932
+00:35:32,000 --> 00:35:34,000
+well
+
+933
+00:35:34,000 --> 00:35:36,000
+even though you can get
+
+934
+00:35:36,000 --> 00:35:38,000
+you want to get
+
+935
+00:35:38,000 --> 00:35:40,000
+a new space
+
+936
+00:35:40,000 --> 00:35:42,000
+might be
+
+937
+00:35:42,000 --> 00:35:44,000
+a general space
+
+938
+00:35:46,000 --> 00:35:48,000
+I think
+
+939
+00:35:48,000 --> 00:35:50,000
+if we want to see the words
+
+940
+00:35:50,000 --> 00:35:52,000
+operators we need some kind of representation
+
+941
+00:35:52,000 --> 00:35:54,000
+to say that it's not going to work
+
+942
+00:35:54,000 --> 00:35:56,000
+for any point in the cone
+
+943
+00:35:56,000 --> 00:35:58,000
+well
+
+944
+00:35:58,000 --> 00:36:00,000
+you can find an operator representation
+
+945
+00:36:00,000 --> 00:36:02,000
+but I can put this theorem
+
+946
+00:36:02,000 --> 00:36:04,000
+the thing that dies
+
+947
+00:36:04,000 --> 00:36:06,000
+is
+
+948
+00:36:06,000 --> 00:36:08,000
+this won't be the same right
+
+949
+00:36:08,000 --> 00:36:10,000
+we have to replay the rank first
+
+950
+00:36:10,000 --> 00:36:12,000
+the thing is that you replace that r
+
+951
+00:36:12,000 --> 00:36:14,000
+r plus 1 divided by 2 by the dimension
+
+952
+00:36:14,000 --> 00:36:16,000
+of the face
+
+953
+00:36:16,000 --> 00:36:18,000
+is the face
+
+954
+00:36:18,000 --> 00:36:20,000
+it's literally the dimension of sin
+
+955
+00:36:20,000 --> 00:36:22,000
+r which is just
+
+956
+00:36:22,000 --> 00:36:24,000
+the span of psd r
+
+957
+00:36:24,000 --> 00:36:26,000
+you're just saying that you replace that
+
+958
+00:36:26,000 --> 00:36:28,000
+explicit r expression
+
+959
+00:36:28,000 --> 00:36:30,000
+with the dimension of the
+
+960
+00:36:30,000 --> 00:36:32,000
+fine span of the face
+
+961
+00:36:32,000 --> 00:36:34,000
+but the connection to
+
+962
+00:36:34,000 --> 00:36:36,000
+operate is right you don't have
+
+963
+00:36:36,000 --> 00:36:38,000
+oh no then you just need to plug in the formula part
+
+964
+00:36:38,000 --> 00:36:40,000
+the dimension of the face
+
+965
+00:36:40,000 --> 00:36:42,000
+that's the only comment
+
+966
+00:36:42,000 --> 00:36:44,000
+I wonder if
+
+967
+00:36:44,000 --> 00:36:46,000
+in the other way
+
+968
+00:36:46,000 --> 00:36:48,000
+then we get some
+
+969
+00:36:48,000 --> 00:36:50,000
+over the
+
+970
+00:36:50,000 --> 00:36:52,000
+chain's weight or something like that
+
+971
+00:36:52,000 --> 00:36:54,000
+because
+
+972
+00:36:54,000 --> 00:36:56,000
+those are just that
+
+973
+00:36:56,000 --> 00:36:58,000
+they're just those r squares
+
+974
+00:36:58,000 --> 00:37:00,000
+some of them and you have
+
+975
+00:37:00,000 --> 00:37:02,000
+irreducible representation so their dimension
+
+976
+00:37:02,000 --> 00:37:04,000
+is just kind of the diagonal
+
+977
+00:37:04,000 --> 00:37:06,000
+and it's just that right
+
+978
+00:37:06,000 --> 00:37:08,000
+okay
+
+979
+00:37:08,000 --> 00:37:10,000
+then we have to put on the
+
+980
+00:37:10,000 --> 00:37:12,000
+that dimension
+
+981
+00:37:12,000 --> 00:37:14,000
+I don't know
+
+982
+00:37:14,000 --> 00:37:16,000
+those are
+
+983
+00:37:16,000 --> 00:37:18,000
+we have a cone
+
+984
+00:37:20,000 --> 00:37:22,000
+and
+
+985
+00:37:22,000 --> 00:37:24,000
+okay psd cone generalizes
+
+986
+00:37:24,000 --> 00:37:26,000
+for some states
+
+987
+00:37:26,000 --> 00:37:28,000
+the cone
+
+988
+00:37:28,000 --> 00:37:30,000
+any areas for this right
+
+989
+00:37:30,000 --> 00:37:32,000
+any
+
+990
+00:37:32,000 --> 00:37:34,000
+okay so we have a cone and we have
+
+991
+00:37:34,000 --> 00:37:36,000
+a linear optimization of the cone
+
+992
+00:37:36,000 --> 00:37:38,000
+this is how it would start
+
+993
+00:37:38,000 --> 00:37:40,000
+yeah
+
+994
+00:37:40,000 --> 00:37:42,000
+you could do this
+
+995
+00:37:42,000 --> 00:37:44,000
+T walking so you push
+
+996
+00:37:44,000 --> 00:37:46,000
+the salt to the edge
+
+997
+00:37:46,000 --> 00:37:48,000
+no next step would be well we want to
+
+998
+00:37:48,000 --> 00:37:50,000
+write this cone as an image
+
+999
+00:37:50,000 --> 00:37:52,000
+of some
+
+1000
+00:37:52,000 --> 00:37:54,000
+some other cone
+
+1001
+00:37:54,000 --> 00:37:56,000
+right that's what's happening here
+
+1002
+00:37:58,000 --> 00:38:00,000
+this VBV
+
+1003
+00:38:00,000 --> 00:38:02,000
+let's see the first line is saying
+
+1004
+00:38:02,000 --> 00:38:04,000
+you are inside of some face
+
+1005
+00:38:04,000 --> 00:38:06,000
+oh yeah
+
+1006
+00:38:06,000 --> 00:38:08,000
+now
+
+1007
+00:38:08,000 --> 00:38:10,000
+you just blink to the face
+
+1008
+00:38:10,000 --> 00:38:12,000
+everything
+
+1009
+00:38:12,000 --> 00:38:14,000
+that would be the
+
+1010
+00:38:14,000 --> 00:38:16,000
+the sign dimension of face
+
+1011
+00:38:16,000 --> 00:38:18,000
+would be r right
+
+1012
+00:38:18,000 --> 00:38:20,000
+no that would be the
+
+1013
+00:38:22,000 --> 00:38:24,000
+the second line
+
+1014
+00:38:26,000 --> 00:38:28,000
+this would be okay
+
+1015
+00:38:28,000 --> 00:38:30,000
+yeah I know I got it
+
+1016
+00:38:30,000 --> 00:38:32,000
+actually you can project
+
+1017
+00:38:32,000 --> 00:38:34,000
+you can project to a subspace of a face
+
+1018
+00:38:34,000 --> 00:38:36,000
+but this is not something to be well
+
+1019
+00:38:36,000 --> 00:38:38,000
+defined and you don't have to be able to
+
+1020
+00:38:38,000 --> 00:38:40,000
+cleanly project the whole cone into a face
+
+1021
+00:38:40,000 --> 00:38:42,000
+so I would just say like we are in a face
+
+1022
+00:38:42,000 --> 00:38:44,000
+it's
+
+1023
+00:38:44,000 --> 00:38:46,000
+like trying to redefine
+
+1024
+00:38:46,000 --> 00:38:48,000
+these for arbitrary cone might be
+
+1025
+00:38:48,000 --> 00:38:50,000
+I would rather not do that
+
+1026
+00:38:50,000 --> 00:38:52,000
+than just be in a face
+
+1027
+00:38:54,000 --> 00:38:56,000
+like because if the face can be
+
+1028
+00:38:56,000 --> 00:38:58,000
+smaller the cone can be bigger than the
+
+1029
+00:38:58,000 --> 00:39:00,000
+projected around the face and try to squeeze it
+
+1030
+00:39:00,000 --> 00:39:02,000
+this would be
+
+1031
+00:39:02,000 --> 00:39:04,000
+probably because you can do that
+
+1032
+00:39:04,000 --> 00:39:06,000
+this part
+
+1033
+00:39:12,000 --> 00:39:14,000
+the A heads just the projections
+
+1034
+00:39:14,000 --> 00:39:16,000
+of the A's to the face
+
+1035
+00:39:22,000 --> 00:39:24,000
+this is like a one column proof
+
+1036
+00:39:24,000 --> 00:39:26,000
+for what?
+
+1037
+00:39:26,000 --> 00:39:28,000
+one column proof
+
+1038
+00:39:28,000 --> 00:39:30,000
+in PRA format
+
+1039
+00:39:32,000 --> 00:39:34,000
+okay
+
+1040
+00:39:34,000 --> 00:39:36,000
+now here's the challenge
+
+1041
+00:39:36,000 --> 00:39:38,000
+can we make a one page PRL
+
+1042
+00:39:40,000 --> 00:39:42,000
+what's the
+
+1043
+00:39:42,000 --> 00:39:44,000
+tpt's baby
+
+1044
+00:39:44,000 --> 00:39:46,000
+it's like
+
+1045
+00:39:46,000 --> 00:39:48,000
+because
+
+1046
+00:39:48,000 --> 00:39:50,000
+this is referring to a very old
+
+1047
+00:39:50,000 --> 00:39:52,000
+challenge
+
+1048
+00:39:52,000 --> 00:39:54,000
+there's a standing challenge
+
+1049
+00:39:54,000 --> 00:39:56,000
+amongst the theoretical physics community
+
+1050
+00:39:56,000 --> 00:39:58,000
+which is a one page PRL
+
+1051
+00:39:58,000 --> 00:40:00,000
+published
+
+1052
+00:40:00,000 --> 00:40:02,000
+there is a one page in each paper
+
+1053
+00:40:02,000 --> 00:40:04,000
+shouldn't this be
+
+1054
+00:40:04,000 --> 00:40:06,000
+the application
+
+1055
+00:40:06,000 --> 00:40:08,000
+it doesn't need to fit the application
+
+1056
+00:40:08,000 --> 00:40:10,000
+in the other column
+
+1057
+00:40:10,000 --> 00:40:12,000
+it's a tricky bit
+
+1058
+00:40:12,000 --> 00:40:14,000
+the obvious
+
+1059
+00:40:14,000 --> 00:40:16,000
+application would always be something like
+
+1060
+00:40:16,000 --> 00:40:18,000
+a restrictive concept problem
+
+1061
+00:40:18,000 --> 00:40:20,000
+which is kind of
+
+1062
+00:40:20,000 --> 00:40:22,000
+just too boring right that cone is easy
+
+1063
+00:40:22,000 --> 00:40:24,000
+why do all this
+
+1064
+00:40:24,000 --> 00:40:26,000
+in a continuous
+
+1065
+00:40:26,000 --> 00:40:28,000
+area of blah blah blah
+
+1066
+00:40:28,000 --> 00:40:30,000
+I'm thinking more like GPT
+
+1067
+00:40:30,000 --> 00:40:32,000
+something right
+
+1068
+00:40:32,000 --> 00:40:34,000
+we're not talking just about quantum
+
+1069
+00:40:34,000 --> 00:40:36,000
+mechanics here we're talking about
+
+1070
+00:40:36,000 --> 00:40:38,000
+even in post-process
+
+1071
+00:40:38,000 --> 00:40:40,000
+but
+
+1072
+00:40:40,000 --> 00:40:42,000
+that's for a simple
+
+1073
+00:40:42,000 --> 00:40:44,000
+I know this cone is boring
+
+1074
+00:40:44,000 --> 00:40:46,000
+but if I give you a
+
+1075
+00:40:46,000 --> 00:40:48,000
+restrictive grand state problem
+
+1076
+00:40:48,000 --> 00:40:50,000
+on some internet dimension blah blah blah
+
+1077
+00:40:50,000 --> 00:40:52,000
+and I prove that the optimal solution will be still
+
+1078
+00:40:52,000 --> 00:40:54,000
+pure state
+
+1079
+00:40:54,000 --> 00:40:56,000
+I know that all those pure state variation
+
+1080
+00:40:56,000 --> 00:40:58,000
+I met this bull still has a chance to find out
+
+1081
+00:40:58,000 --> 00:41:00,000
+I'm not surprised by that
+
+1082
+00:41:00,000 --> 00:41:02,000
+I don't know why but I don't know
+
+1083
+00:41:02,000 --> 00:41:04,000
+but if I have as many constraints
+
+1084
+00:41:04,000 --> 00:41:06,000
+it will fail
+
+1085
+00:41:06,000 --> 00:41:08,000
+like
+
+1086
+00:41:08,000 --> 00:41:10,000
+we can see restricted grand state would be mean actually
+
+1087
+00:41:10,000 --> 00:41:12,000
+give me like minimum the energy
+
+1088
+00:41:12,000 --> 00:41:14,000
+such that the angular momentum
+
+1089
+00:41:14,000 --> 00:41:16,000
+will be bigger
+
+1090
+00:41:16,000 --> 00:41:18,000
+number
+
+1091
+00:41:18,000 --> 00:41:20,000
+and the energy
+
+1092
+00:41:20,000 --> 00:41:22,000
+should also be
+
+1093
+00:41:22,000 --> 00:41:24,000
+equal to 5
+
+1094
+00:41:24,000 --> 00:41:26,000
+now you have your 3
+
+1095
+00:41:26,000 --> 00:41:28,000
+I like the angular momentum angle that works
+
+1096
+00:41:28,000 --> 00:41:30,000
+or energy or whatever
+
+1097
+00:41:32,000 --> 00:41:34,000
+ok we have the identity, we have the Hamiltonian
+
+1098
+00:41:34,000 --> 00:41:36,000
+want to optimize and now we have
+
+1099
+00:41:36,000 --> 00:41:38,000
+a third that we can pick
+
+1100
+00:41:38,000 --> 00:41:40,000
+to make this have real bite
+
+1101
+00:41:40,000 --> 00:41:42,000
+now it would be a non-commuting
+
+1102
+00:41:42,000 --> 00:41:44,000
+constraint for Hamilton
+
+1103
+00:41:44,000 --> 00:41:46,000
+not some boring conservative quantity
+
+1104
+00:41:46,000 --> 00:41:48,000
+yeah
+
+1105
+00:41:48,000 --> 00:41:50,000
+and to have a bite
+
+1106
+00:41:50,000 --> 00:41:52,000
+it would have to look great
+
+1107
+00:41:52,000 --> 00:41:54,000
+because if you add just one more constraint
+
+1108
+00:41:54,000 --> 00:41:56,000
+it does go next
+
+1109
+00:41:56,000 --> 00:41:58,000
+that would make it really interesting
+
+1110
+00:41:58,000 --> 00:42:00,000
+now take your favorite pure state
+
+1111
+00:42:00,000 --> 00:42:02,000
+automation
+
+1112
+00:42:02,000 --> 00:42:04,000
+well
+
+1113
+00:42:04,000 --> 00:42:06,000
+which
+
+1114
+00:42:06,000 --> 00:42:08,000
+should be 20 right
+
+1115
+00:42:08,000 --> 00:42:10,000
+some Monte Carlo wave function
+
+1116
+00:42:10,000 --> 00:42:12,000
+everything that has wave function
+
+1117
+00:42:12,000 --> 00:42:14,000
+everything that seems pure state is dead
+
+1118
+00:42:14,000 --> 00:42:16,000
+and now we can
+
+1119
+00:42:16,000 --> 00:42:18,000
+show that it will still work here
+
+1120
+00:42:18,000 --> 00:42:20,000
+yeah
+
+1121
+00:42:20,000 --> 00:42:22,000
+but
+
+1122
+00:42:22,000 --> 00:42:24,000
+no
+
+1123
+00:42:24,000 --> 00:42:26,000
+this is not
+
+1124
+00:42:26,000 --> 00:42:28,000
+but since you are talking about
+
+1125
+00:42:28,000 --> 00:42:30,000
+optimization problems
+
+1126
+00:42:30,000 --> 00:42:32,000
+this becomes just one NMR
+
+1127
+00:42:34,000 --> 00:42:36,000
+we want to optimize
+
+1128
+00:42:38,000 --> 00:42:40,000
+so if you have an optimization
+
+1129
+00:42:40,000 --> 00:42:42,000
+that would directly get
+
+1130
+00:42:42,000 --> 00:42:44,000
+something like
+
+1131
+00:42:44,000 --> 00:42:46,000
+minus and X
+
+1132
+00:42:46,000 --> 00:42:48,000
+then you can get a plus point
+
+1133
+00:42:48,000 --> 00:42:50,000
+from the T
+
+1134
+00:42:50,000 --> 00:42:52,000
+another constraint
+
+1135
+00:42:52,000 --> 00:42:54,000
+you can see it from
+
+1136
+00:42:54,000 --> 00:42:56,000
+so plus
+
+1137
+00:42:56,000 --> 00:42:58,000
+you can see it from two directions
+
+1138
+00:42:58,000 --> 00:43:00,000
+you can either say
+
+1139
+00:43:00,000 --> 00:43:02,000
+ok we have some
+
+1140
+00:43:02,000 --> 00:43:04,000
+some X
+
+1141
+00:43:04,000 --> 00:43:06,000
+of red
+
+1142
+00:43:06,000 --> 00:43:08,000
+on some face
+
+1143
+00:43:08,000 --> 00:43:10,000
+of the C because we know that the maximum
+
+1144
+00:43:10,000 --> 00:43:12,000
+minimum
+
+1145
+00:43:12,000 --> 00:43:14,000
+will appear on the face
+
+1146
+00:43:14,000 --> 00:43:16,000
+this means
+
+1147
+00:43:16,000 --> 00:43:18,000
+this function
+
+1148
+00:43:18,000 --> 00:43:20,000
+also needs to satisfy
+
+1149
+00:43:20,000 --> 00:43:22,000
+CD
+
+1150
+00:43:22,000 --> 00:43:24,000
+equals zero because
+
+1151
+00:43:24,000 --> 00:43:26,000
+if it does not equal zero you can
+
+1152
+00:43:26,000 --> 00:43:28,000
+take the same argument as here and argue that the point
+
+1153
+00:43:28,000 --> 00:43:30,000
+that you found is not optimal
+
+1154
+00:43:30,000 --> 00:43:32,000
+and
+
+1155
+00:43:32,000 --> 00:43:34,000
+yeah
+
+1156
+00:43:34,000 --> 00:43:36,000
+Mr. Weed linear
+
+1157
+00:43:36,000 --> 00:43:38,000
+you know it would be cool
+
+1158
+00:43:38,000 --> 00:43:40,000
+if you are optimizing a non-linear function
+
+1159
+00:43:40,000 --> 00:43:42,000
+you know it could be
+
+1160
+00:43:42,000 --> 00:43:44,000
+not too great
+
+1161
+00:43:44,000 --> 00:43:46,000
+like entropies and stuff
+
+1162
+00:43:56,000 --> 00:43:58,000
+you said also yesterday
+
+1163
+00:43:58,000 --> 00:44:00,000
+that we get the problem with the regularity
+
+1164
+00:44:00,000 --> 00:44:02,000
+if we are into information
+
+1165
+00:44:02,000 --> 00:44:04,000
+oh yeah I didn't understand
+
+1166
+00:44:04,000 --> 00:44:06,000
+ok
+
+1167
+00:44:06,000 --> 00:44:08,000
+we have
+
+1168
+00:44:08,000 --> 00:44:10,000
+one with a high R
+
+1169
+00:44:10,000 --> 00:44:12,000
+can have
+
+1170
+00:44:12,000 --> 00:44:14,000
+a high M constraint
+
+1171
+00:44:14,000 --> 00:44:16,000
+for
+
+1172
+00:44:16,000 --> 00:44:18,000
+two for the complexes
+
+1173
+00:44:18,000 --> 00:44:20,000
+we can have two constraints
+
+1174
+00:44:20,000 --> 00:44:22,000
+one of the constraints
+
+1175
+00:44:22,000 --> 00:44:24,000
+one
+
+1176
+00:44:24,000 --> 00:44:26,000
+one constraint
+
+1177
+00:44:28,000 --> 00:44:30,000
+that means the Hamiltonian
+
+1178
+00:44:30,000 --> 00:44:32,000
+because Hamiltonian optimization would be
+
+1179
+00:44:32,000 --> 00:44:34,000
+H is the energy
+
+1180
+00:44:34,000 --> 00:44:36,000
+Traces the other one
+
+1181
+00:44:36,000 --> 00:44:38,000
+we have one free
+
+1182
+00:44:38,000 --> 00:44:40,000
+and it still rank one
+
+1183
+00:44:40,000 --> 00:44:42,000
+oh yeah
+
+1184
+00:44:42,000 --> 00:44:44,000
+ok so
+
+1185
+00:44:44,000 --> 00:44:46,000
+that's the angular momentum thing
+
+1186
+00:44:46,000 --> 00:44:48,000
+that's the problem if you do something
+
+1187
+00:44:48,000 --> 00:44:50,000
+and you stop maybe then
+
+1188
+00:44:50,000 --> 00:44:52,000
+you have a worse bond
+
+1189
+00:44:52,000 --> 00:44:54,000
+maybe you lose that one extra constraint
+
+1190
+00:44:54,000 --> 00:44:56,000
+it's you know
+
+1191
+00:44:56,000 --> 00:44:58,000
+rank nullity is just
+
+1192
+00:44:58,000 --> 00:45:00,000
+more inverse function
+
+1193
+00:45:00,000 --> 00:45:02,000
+is
+
+1194
+00:45:02,000 --> 00:45:04,000
+implicit function theorem stuff
+
+1195
+00:45:04,000 --> 00:45:06,000
+that it is exactly linear
+
+1196
+00:45:10,000 --> 00:45:12,000
+but
+
+1197
+00:45:12,000 --> 00:45:14,000
+if we go to
+
+1198
+00:45:14,000 --> 00:45:16,000
+to the
+
+1199
+00:45:16,000 --> 00:45:18,000
+if you have a magnetic field
+
+1200
+00:45:18,000 --> 00:45:20,000
+that breaks angular momentum
+
+1201
+00:45:20,000 --> 00:45:22,000
+total angular momentum is no longer conserved
+
+1202
+00:45:22,000 --> 00:45:24,000
+when you have a magnetic field
+
+1203
+00:45:24,000 --> 00:45:26,000
+you have an atom in a magnetic field
+
+1204
+00:45:26,000 --> 00:45:28,000
+right now we've already
+
+1205
+00:45:28,000 --> 00:45:30,000
+ok ground state is pure
+
+1206
+00:45:30,000 --> 00:45:32,000
+cool we know that
+
+1207
+00:45:32,000 --> 00:45:34,000
+put a hydrogen atom in a magnetic field
+
+1208
+00:45:34,000 --> 00:45:36,000
+that's great
+
+1209
+00:45:36,000 --> 00:45:38,000
+but
+
+1210
+00:45:38,000 --> 00:45:40,000
+that's another way
+
+1211
+00:45:40,000 --> 00:45:42,000
+to add a constraint
+
+1212
+00:45:42,000 --> 00:45:44,000
+now you want to
+
+1213
+00:45:44,000 --> 00:45:46,000
+you say
+
+1214
+00:45:46,000 --> 00:45:48,000
+the perturbation breaks
+
+1215
+00:45:48,000 --> 00:45:50,000
+the angular momentum
+
+1216
+00:45:50,000 --> 00:45:52,000
+so now you want to fix angular momentum
+
+1217
+00:45:52,000 --> 00:45:54,000
+despite this
+
+1218
+00:45:54,000 --> 00:45:56,000
+you want to
+
+1219
+00:45:56,000 --> 00:45:58,000
+ah
+
+1220
+00:45:58,000 --> 00:46:00,000
+you want to conserve that angular momentum
+
+1221
+00:46:00,000 --> 00:46:02,000
+you want to prescribe that
+
+1222
+00:46:02,000 --> 00:46:04,000
+prescribe the angular momentum
+
+1223
+00:46:04,000 --> 00:46:06,000
+yeah right
+
+1224
+00:46:06,000 --> 00:46:08,000
+then you can also prescribe
+
+1225
+00:46:08,000 --> 00:46:10,000
+like this
+
+1226
+00:46:10,000 --> 00:46:12,000
+yeah
+
+1227
+00:46:12,000 --> 00:46:14,000
+prescribes it
+
+1228
+00:46:14,000 --> 00:46:16,000
+that's physics now right
+
+1229
+00:46:16,000 --> 00:46:18,000
+the hydrogen atom
+
+1230
+00:46:18,000 --> 00:46:20,000
+it's in a magnetic field
+
+1231
+00:46:20,000 --> 00:46:22,000
+you want to push it down to the ground state
+
+1232
+00:46:22,000 --> 00:46:24,000
+you want to say ah
+
+1233
+00:46:24,000 --> 00:46:26,000
+I want to make sure that the total
+
+1234
+00:46:26,000 --> 00:46:28,000
+the magnetic field points in that way
+
+1235
+00:46:28,000 --> 00:46:30,000
+I want to make sure the total angular momentum is fixed by some number
+
+1236
+00:46:32,000 --> 00:46:34,000
+now you
+
+1237
+00:46:34,000 --> 00:46:36,000
+the angular momentum is in a different direction
+
+1238
+00:46:36,000 --> 00:46:38,000
+in a different direction is fixed
+
+1239
+00:46:38,000 --> 00:46:40,000
+cool
+
+1240
+00:46:40,000 --> 00:46:42,000
+but then why do you care
+
+1241
+00:46:42,000 --> 00:46:44,000
+because
+
+1242
+00:46:44,000 --> 00:46:46,000
+you have lots of them
+
+1243
+00:46:46,000 --> 00:46:48,000
+that becomes a bit of an issue
+
+1244
+00:46:48,000 --> 00:46:50,000
+if you have too much angular momentum
+
+1245
+00:46:50,000 --> 00:46:52,000
+the box is in the direction
+
+1246
+00:46:56,000 --> 00:46:58,000
+you measure A
+
+1247
+00:46:58,000 --> 00:47:00,000
+you put it down
+
+1248
+00:47:00,000 --> 00:47:02,000
+the other quantity
+
+1249
+00:47:06,000 --> 00:47:08,000
+so that's the kind of example that I think could
+
+1250
+00:47:08,000 --> 00:47:10,000
+make it physically very interesting
+
+1251
+00:47:10,000 --> 00:47:12,000
+you think about
+
+1252
+00:47:12,000 --> 00:47:14,000
+what are the quantities in physics
+
+1253
+00:47:14,000 --> 00:47:16,000
+there's more than just angular momentum
+
+1254
+00:47:16,000 --> 00:47:18,000
+we have momentum
+
+1255
+00:47:18,000 --> 00:47:20,000
+energy
+
+1256
+00:47:20,000 --> 00:47:22,000
+rapidity
+
+1257
+00:47:22,000 --> 00:47:24,000
+these are the standard conserves
+
+1258
+00:47:24,000 --> 00:47:26,000
+then we have PC and T but they're discreet
+
+1259
+00:47:26,000 --> 00:47:28,000
+then we have
+
+1260
+00:47:30,000 --> 00:47:32,000
+sorry
+
+1261
+00:47:32,000 --> 00:47:34,000
+yeah right
+
+1262
+00:47:34,000 --> 00:47:36,000
+we could go orbital right
+
+1263
+00:47:36,000 --> 00:47:38,000
+yeah
+
+1264
+00:47:40,000 --> 00:47:42,000
+fusible ones must be mixed
+
+1265
+00:47:44,000 --> 00:47:46,000
+I think that's interesting
+
+1266
+00:47:46,000 --> 00:47:48,000
+the minute you
+
+1267
+00:47:48,000 --> 00:47:50,000
+what would shock
+
+1268
+00:47:50,000 --> 00:47:52,000
+a condensed matter theory is
+
+1269
+00:47:52,000 --> 00:47:54,000
+if they're forced to use pure states
+
+1270
+00:47:54,000 --> 00:47:56,000
+it's not allowed to use pure states
+
+1271
+00:47:56,000 --> 00:47:58,000
+and what would shock a quantum computing person
+
+1272
+00:47:58,000 --> 00:48:00,000
+what do you mean I can't use
+
+1273
+00:48:00,000 --> 00:48:02,000
+quiscate with pure states
+
+1274
+00:48:06,000 --> 00:48:08,000
+I always assumed that that was fine
+
+1275
+00:48:12,000 --> 00:48:14,000
+most people
+
+1276
+00:48:14,000 --> 00:48:16,000
+in this group here
+
+1277
+00:48:16,000 --> 00:48:18,000
+mixed states are kind of like
+
+1278
+00:48:18,000 --> 00:48:20,000
+we will understand
+
+1279
+00:48:20,000 --> 00:48:22,000
+but that's not the majority
+
+1280
+00:48:22,000 --> 00:48:24,000
+view here in the world
+
+1281
+00:48:24,000 --> 00:48:26,000
+well I can tell
+
+1282
+00:48:26,000 --> 00:48:28,000
+I know from
+
+1283
+00:48:28,000 --> 00:48:30,000
+discussions at least at IEEE
+
+1284
+00:48:30,000 --> 00:48:32,000
+where there were many people from IBM
+
+1285
+00:48:32,000 --> 00:48:34,000
+they were like and I was asking the question
+
+1286
+00:48:34,000 --> 00:48:36,000
+if anyone considers mixed states
+
+1287
+00:48:36,000 --> 00:48:38,000
+they were like well we don't need mixed states
+
+1288
+00:48:38,000 --> 00:48:40,000
+that's just noise
+
+1289
+00:48:40,000 --> 00:48:42,000
+we think of ideal
+
+1290
+00:48:42,000 --> 00:48:44,000
+quantum computers
+
+1291
+00:48:44,000 --> 00:48:46,000
+and then every time the question happens
+
+1292
+00:48:46,000 --> 00:48:48,000
+and no I had like three or four talks
+
+1293
+00:48:48,000 --> 00:48:50,000
+I was attending and they were saying
+
+1294
+00:48:50,000 --> 00:48:52,000
+there was some interesting
+
+1295
+00:48:52,000 --> 00:48:54,000
+it was interesting
+
+1296
+00:48:54,000 --> 00:48:56,000
+to see that our method got better
+
+1297
+00:48:56,000 --> 00:48:58,000
+when we introduced noise to the picture
+
+1298
+00:49:00,000 --> 00:49:02,000
+so maybe this is also a way to pick up
+
+1299
+00:49:04,000 --> 00:49:06,000
+the interesting question is not so much
+
+1300
+00:49:06,000 --> 00:49:08,000
+really the rank that you need
+
+1301
+00:49:08,000 --> 00:49:10,000
+but the rank that you need
+
+1302
+00:49:10,000 --> 00:49:12,000
+is a certain error
+
+1303
+00:49:14,000 --> 00:49:16,000
+I mean the rank is super unstable
+
+1304
+00:49:16,000 --> 00:49:18,000
+you can always make it
+
+1305
+00:49:26,000 --> 00:49:28,000
+so they say okay you tell me
+
+1306
+00:49:28,000 --> 00:49:30,000
+I need full rank but if I can approximate
+
+1307
+00:49:30,000 --> 00:49:32,000
+the tool
+
+1308
+00:49:32,000 --> 00:49:34,000
+after precision by pure state
+
+1309
+00:49:36,000 --> 00:49:38,000
+but this shouldn't
+
+1310
+00:49:38,000 --> 00:49:40,000
+just it could be robust
+
+1311
+00:49:40,000 --> 00:49:42,000
+of course
+
+1312
+00:49:42,000 --> 00:49:44,000
+there is only one
+
+1313
+00:49:44,000 --> 00:49:46,000
+x that's a final
+
+1314
+00:49:50,000 --> 00:49:52,000
+sorry I think there was a little bit of this problem
+
+1315
+00:49:52,000 --> 00:49:54,000
+let's start with some feasible set
+
+1316
+00:49:54,000 --> 00:49:56,000
+and start the positive
+
+1317
+00:49:56,000 --> 00:49:58,000
+point is that
+
+1318
+00:49:58,000 --> 00:50:00,000
+are the extreme points of this feasible set
+
+1319
+00:50:00,000 --> 00:50:02,000
+really in the interior
+
+1320
+00:50:02,000 --> 00:50:04,000
+or can they always be expanded
+
+1321
+00:50:04,000 --> 00:50:06,000
+out to the community
+
+1322
+00:50:06,000 --> 00:50:08,000
+and touch the boundaries
+
+1323
+00:50:08,000 --> 00:50:10,000
+and somehow natural
+
+1324
+00:50:10,000 --> 00:50:12,000
+if I only have one type of plane
+
+1325
+00:50:12,000 --> 00:50:14,000
+I have to cut through
+
+1326
+00:50:14,000 --> 00:50:16,000
+to a state
+
+1327
+00:50:16,000 --> 00:50:18,000
+this is the weird bit for me
+
+1328
+00:50:18,000 --> 00:50:20,000
+I find this very strange
+
+1329
+00:50:20,000 --> 00:50:22,000
+this is some of the geometry and now it's also quite
+
+1330
+00:50:22,000 --> 00:50:24,000
+if I had tool
+
+1331
+00:50:24,000 --> 00:50:26,000
+it's hard to draw
+
+1332
+00:50:26,000 --> 00:50:28,000
+full dimension
+
+1333
+00:50:30,000 --> 00:50:32,000
+you have a feasible set
+
+1334
+00:50:32,000 --> 00:50:34,000
+but it's something
+
+1335
+00:50:38,000 --> 00:50:40,000
+and you cut your first type of plane
+
+1336
+00:50:44,000 --> 00:50:46,000
+it's clear that you're always
+
+1337
+00:50:46,000 --> 00:50:48,000
+on the outside
+
+1338
+00:50:48,000 --> 00:50:50,000
+but then you cut the second type of plane
+
+1339
+00:50:58,000 --> 00:51:00,000
+it really gets inside the base
+
+1340
+00:51:00,000 --> 00:51:02,000
+because this is triangular face
+
+1341
+00:51:02,000 --> 00:51:04,000
+and if I cut my second type of plane
+
+1342
+00:51:04,000 --> 00:51:06,000
+like this
+
+1343
+00:51:06,000 --> 00:51:08,000
+then I'm stuck inside the triangular face
+
+1344
+00:51:08,000 --> 00:51:10,000
+but I don't want any of it
+
+1345
+00:51:10,000 --> 00:51:12,000
+I have to fix up all of this
+
+1346
+00:51:12,000 --> 00:51:14,000
+if you do a bit of something too
+
+1347
+00:51:14,000 --> 00:51:16,000
+I know I remember all of this stuff
+
+1348
+00:51:16,000 --> 00:51:18,000
+that's right
+
+1349
+00:51:18,000 --> 00:51:20,000
+I'm sure you can stop all of this
+
+1350
+00:51:22,000 --> 00:51:24,000
+whatever
+
+1351
+00:51:24,000 --> 00:51:26,000
+I need another cut
+
+1352
+00:51:26,000 --> 00:51:28,000
+I need another cut
+
+1353
+00:51:28,000 --> 00:51:30,000
+and you're in the interior
+
+1354
+00:51:30,000 --> 00:51:32,000
+it's fine
+
+1355
+00:51:32,000 --> 00:51:34,000
+it's a better picture
+
+1356
+00:51:38,000 --> 00:51:40,000
+I can cut right in the middle
+
+1357
+00:51:40,000 --> 00:51:42,000
+that's true
+
+1358
+00:51:42,000 --> 00:51:44,000
+you have one point
+
+1359
+00:51:44,000 --> 00:51:46,000
+on the inside of the house
+
+1360
+00:51:50,000 --> 00:51:52,000
+it's okay
+
+1361
+00:51:54,000 --> 00:51:56,000
+okay
+
+1362
+00:51:58,000 --> 00:52:00,000
+okay, so now I have to cut
+
+1363
+00:52:06,000 --> 00:52:08,000
+it's zero
+
+1364
+00:52:08,000 --> 00:52:10,000
+I have to cut the
+
+1365
+00:52:10,000 --> 00:52:12,000
+screen point of the other
+
+1366
+00:52:12,000 --> 00:52:14,000
+next to the rail
+
+1367
+00:52:14,000 --> 00:52:16,000
+this is what it said
+
+1368
+00:52:16,000 --> 00:52:18,000
+there's only one physical point
+
+1369
+00:52:18,000 --> 00:52:20,000
+and this can be arbitrary
+
+1370
+00:52:20,000 --> 00:52:22,000
+only when it's completely mixed
+
+1371
+00:52:22,000 --> 00:52:24,000
+I'm very mistaken
+
+1372
+00:52:24,000 --> 00:52:26,000
+the thing is
+
+1373
+00:52:26,000 --> 00:52:28,000
+that M equals to 2
+
+1374
+00:52:28,000 --> 00:52:30,000
+where we have the ball
+
+1375
+00:52:30,000 --> 00:52:32,000
+that should still be rank 1
+
+1376
+00:52:32,000 --> 00:52:34,000
+but for the picture it's not
+
+1377
+00:52:38,000 --> 00:52:40,000
+is it probably because of dimension
+
+1378
+00:52:40,000 --> 00:52:42,000
+the reason is because
+
+1379
+00:52:42,000 --> 00:52:44,000
+the point is rank 0
+
+1380
+00:52:44,000 --> 00:52:46,000
+but like
+
+1381
+00:52:46,000 --> 00:52:48,000
+it's still the rank 1
+
+1382
+00:52:48,000 --> 00:52:50,000
+so we need some other
+
+1383
+00:52:50,000 --> 00:52:52,000
+quality saying that this should also be
+
+1384
+00:52:52,000 --> 00:52:54,000
+better than
+
+1385
+00:52:54,000 --> 00:52:56,000
+such other needs
+
+1386
+00:52:56,000 --> 00:52:58,000
+it needs more than any
+
+1387
+00:53:02,000 --> 00:53:04,000
+you can't depict it in two or three dimensions
+
+1388
+00:53:04,000 --> 00:53:06,000
+that's the problem
+
+1389
+00:53:06,000 --> 00:53:08,000
+I'm thinking more on
+
+1390
+00:53:08,000 --> 00:53:10,000
+if you say this should work on the column
+
+1391
+00:53:10,000 --> 00:53:12,000
+it should work on the column
+
+1392
+00:53:12,000 --> 00:53:14,000
+yes
+
+1393
+00:53:14,000 --> 00:53:16,000
+we have three point arcs where the dimension
+
+1394
+00:53:16,000 --> 00:53:18,000
+is 1
+
+1395
+00:53:18,000 --> 00:53:20,000
+and the dimension
+
+1396
+00:53:20,000 --> 00:53:22,000
+that faces 1
+
+1397
+00:53:22,000 --> 00:53:24,000
+so
+
+1398
+00:53:24,000 --> 00:53:26,000
+I want to have
+
+1399
+00:53:26,000 --> 00:53:28,000
+instead of
+
+1400
+00:53:28,000 --> 00:53:30,000
+I just want to make sure it's just 1
+
+1401
+00:53:30,000 --> 00:53:32,000
+that's true
+
+1402
+00:53:34,000 --> 00:53:36,000
+can we
+
+1403
+00:53:36,000 --> 00:53:38,000
+I mean it's been said aloud in words
+
+1404
+00:53:38,000 --> 00:53:40,000
+but maybe the transcription
+
+1405
+00:53:40,000 --> 00:53:42,000
+will save it
+
+1406
+00:53:42,000 --> 00:53:44,000
+but Martin had the proof
+
+1407
+00:53:44,000 --> 00:53:46,000
+in general possible imaginable
+
+1408
+00:53:48,000 --> 00:53:50,000
+this is obvious to you
+
+1409
+00:53:50,000 --> 00:53:52,000
+but not to me
+
+1410
+00:53:52,000 --> 00:53:54,000
+so I would
+
+1411
+00:53:54,000 --> 00:53:56,000
+we should write it down
+
+1412
+00:53:56,000 --> 00:53:58,000
+maybe we should write it down
+
+1413
+00:53:58,000 --> 00:54:00,000
+I can send you
+
+1414
+00:54:00,000 --> 00:54:02,000
+my form of book
+
+1415
+00:54:02,000 --> 00:54:04,000
+should be already for
+
+1416
+00:54:04,000 --> 00:54:06,000
+arbitrary calls
+
+1417
+00:54:06,000 --> 00:54:08,000
+this is just adapted to PST already
+
+1418
+00:54:08,000 --> 00:54:10,000
+it's clear in the room
+
+1419
+00:54:12,000 --> 00:54:14,000
+it's clear in the room
+
+1420
+00:54:20,000 --> 00:54:22,000
+it's a projection to the interface
+
+1421
+00:54:24,000 --> 00:54:26,000
+it's a good idea
+
+1422
+00:54:26,000 --> 00:54:28,000
+I don't think every call has a projection to everything
+
+1423
+00:54:28,000 --> 00:54:30,000
+I want
+
+1424
+00:54:30,000 --> 00:54:32,000
+I'd like to be embedding the space
+
+1425
+00:54:32,000 --> 00:54:34,000
+into the column
+
+1426
+00:54:34,000 --> 00:54:36,000
+yeah because the space can be like
+
+1427
+00:54:36,000 --> 00:54:38,000
+bigger
+
+1428
+00:54:38,000 --> 00:54:40,000
+and then there's a small space
+
+1429
+00:54:40,000 --> 00:54:42,000
+and I'm not exactly sure it's always exist
+
+1430
+00:54:42,000 --> 00:54:44,000
+but that's another real statement
+
+1431
+00:54:44,000 --> 00:54:46,000
+okay
+
+1432
+00:54:46,000 --> 00:54:48,000
+if you have time
+
+1433
+00:54:48,000 --> 00:54:50,000
+maybe we can just take my
+
+1434
+00:54:50,000 --> 00:54:52,000
+I have it written down of course
+
+1435
+00:54:52,000 --> 00:54:54,000
+and then we can adapt it to the
+
+1436
+00:54:54,000 --> 00:54:56,000
+most
+
+1437
+00:54:56,000 --> 00:54:58,000
+most general case
+
+1438
+00:54:58,000 --> 00:55:00,000
+that would be cool
+
+1439
+00:55:00,000 --> 00:55:02,000
+but I think it would be a
+
+1440
+00:55:02,000 --> 00:55:04,000
+B
+
+1441
+00:55:04,000 --> 00:55:06,000
+that's not the projection
+
+1442
+00:55:06,000 --> 00:55:08,000
+but
+
+1443
+00:55:08,000 --> 00:55:10,000
+that's the only thing we need to solve
+
+1444
+00:55:10,000 --> 00:55:12,000
+we have your problem
+
+1445
+00:55:12,000 --> 00:55:14,000
+I think RK
+
+1446
+00:55:14,000 --> 00:55:16,000
+no just for everything
+
+1447
+00:55:16,000 --> 00:55:18,000
+space
+
+1448
+00:55:18,000 --> 00:55:20,000
+yeah the question is
+
+1449
+00:55:20,000 --> 00:55:22,000
+if we already talk about giving up functions
+
+1450
+00:55:22,000 --> 00:55:24,000
+I'm not giving in calls
+
+1451
+00:55:24,000 --> 00:55:26,000
+how far are we away from
+
+1452
+00:55:26,000 --> 00:55:28,000
+star
+
+1453
+00:55:28,000 --> 00:55:30,000
+I think
+
+1454
+00:55:30,000 --> 00:55:32,000
+every typical CSR of the brain
+
+1455
+00:55:32,000 --> 00:55:34,000
+right
+
+1456
+00:55:34,000 --> 00:55:36,000
+we don't have any
+
+1457
+00:55:36,000 --> 00:55:38,000
+and also if you
+
+1458
+00:55:38,000 --> 00:55:40,000
+give me the form of star
+
+1459
+00:55:40,000 --> 00:55:42,000
+can we
+
+1460
+00:55:42,000 --> 00:55:44,000
+give it to
+
+1461
+00:55:44,000 --> 00:55:46,000
+the star
+
+1462
+00:55:46,000 --> 00:55:48,000
+the star
+
+1463
+00:55:48,000 --> 00:55:50,000
+the star
+
+1464
+00:55:50,000 --> 00:55:52,000
+the star
+
+1465
+00:55:52,000 --> 00:55:54,000
+the star
+
+1466
+00:55:54,000 --> 00:55:56,000
+the star
+
+1467
+00:55:56,000 --> 00:55:58,000
+the star
+
+1468
+00:55:58,000 --> 00:56:00,000
+we're going to modify
+
+1469
+00:56:00,000 --> 00:56:02,000
+the proof
+
+1470
+00:56:02,000 --> 00:56:04,000
+this is the correct
+
+1471
+00:56:04,000 --> 00:56:06,000
+way to start
+
+1472
+00:56:06,000 --> 00:56:08,000
+VV plus E
+
+1473
+00:56:08,000 --> 00:56:10,000
+notation game
+
+1474
+00:56:10,000 --> 00:56:12,000
+yeah good
+
+1475
+00:56:12,000 --> 00:56:14,000
+what's the next piece
+
+1476
+00:56:14,000 --> 00:56:16,000
+of terminology that needs to be
+
+1477
+00:56:16,000 --> 00:56:18,000
+defined
+
+1478
+00:56:18,000 --> 00:56:20,000
+we need to talk about faces
+
+1479
+00:56:20,000 --> 00:56:22,000
+we're going to be decoding up just one order
+
+1480
+00:56:22,000 --> 00:56:24,000
+the table
+
+1481
+00:56:26,000 --> 00:56:28,000
+okay so there's extra conditions
+
+1482
+00:56:28,000 --> 00:56:30,000
+okay so then we need
+
+1483
+00:56:30,000 --> 00:56:32,000
+a student
+
+1484
+00:56:32,000 --> 00:56:34,000
+right
+
+1485
+00:56:34,000 --> 00:56:36,000
+every
+
+1486
+00:56:44,000 --> 00:56:46,000
+all the way
+
+1487
+00:56:46,000 --> 00:56:48,000
+inside the interior
+
+1488
+00:56:48,000 --> 00:56:50,000
+no you actually need to assume this for
+
+1489
+00:56:50,000 --> 00:56:52,000
+V plus and every face
+
+1490
+00:56:52,000 --> 00:56:54,000
+okay
+
+1491
+00:56:54,000 --> 00:56:56,000
+and
+
+1492
+00:56:58,000 --> 00:57:00,000
+that's what
+
+1493
+00:57:00,000 --> 00:57:02,000
+faces would be possible
+
+1494
+00:57:02,000 --> 00:57:04,000
+but finally
+
+1495
+00:57:04,000 --> 00:57:06,000
+this is so far
+
+1496
+00:57:06,000 --> 00:57:08,000
+but it's also very interesting the infinite
+
+1497
+00:57:08,000 --> 00:57:10,000
+dimension right it's telling us what's
+
+1498
+00:57:10,000 --> 00:57:12,000
+going to work and what isn't
+
+1499
+00:57:12,000 --> 00:57:14,000
+and then so that these are the two assumptions
+
+1500
+00:57:14,000 --> 00:57:16,000
+so far is this enough
+
+1501
+00:57:16,000 --> 00:57:18,000
+I'm going to look through
+
+1502
+00:57:18,000 --> 00:57:20,000
+and you will be necessary
+
+1503
+00:57:20,000 --> 00:57:22,000
+so you can probably
+
+1504
+00:57:22,000 --> 00:57:24,000
+come up with like notes that from all the
+
+1505
+00:57:24,000 --> 00:57:26,000
+things that are supposed to be
+
+1506
+00:57:26,000 --> 00:57:28,000
+okay so let's
+
+1507
+00:57:28,000 --> 00:57:30,000
+assume that when we need it
+
+1508
+00:57:30,000 --> 00:57:32,000
+so what's the map here what's the
+
+1509
+00:57:32,000 --> 00:57:34,000
+place of five
+
+1510
+00:57:38,000 --> 00:57:40,000
+so if you want to take a visible point
+
+1511
+00:57:40,000 --> 00:57:42,000
+and you want to define the face
+
+1512
+00:57:42,000 --> 00:57:44,000
+of that visible point
+
+1513
+00:57:46,000 --> 00:57:48,000
+the easiest point to define a
+
+1514
+00:57:48,000 --> 00:57:50,000
+face is to say that these are
+
+1515
+00:57:50,000 --> 00:57:52,000
+all of the elements that could be majorized
+
+1516
+00:57:52,000 --> 00:57:54,000
+by a positive order of height point
+
+1517
+00:57:54,000 --> 00:57:56,000
+okay so I've just realized I need some more
+
+1518
+00:57:56,000 --> 00:57:58,000
+notation right man this is just
+
+1519
+00:57:58,000 --> 00:58:00,000
+the cone but we haven't sort of talked about
+
+1520
+00:58:00,000 --> 00:58:02,000
+this kind of strange space C
+
+1521
+00:58:02,000 --> 00:58:04,000
+yeah
+
+1522
+00:58:04,000 --> 00:58:06,000
+so C is a sort of awkward
+
+1523
+00:58:06,000 --> 00:58:08,000
+V
+
+1524
+00:58:08,000 --> 00:58:10,000
+V plus such that
+
+1525
+00:58:10,000 --> 00:58:12,000
+there is some
+
+1526
+00:58:12,000 --> 00:58:14,000
+functional X
+
+1527
+00:58:14,000 --> 00:58:16,000
+you call the A
+
+1528
+00:58:16,000 --> 00:58:18,000
+the A-K on being
+
+1529
+00:58:18,000 --> 00:58:20,000
+the B-J
+
+1530
+00:58:20,000 --> 00:58:22,000
+on the D-J
+
+1531
+00:58:22,000 --> 00:58:24,000
+and where
+
+1532
+00:58:24,000 --> 00:58:26,000
+A-J
+
+1533
+00:58:26,000 --> 00:58:28,000
+is in the other direction
+
+1534
+00:58:28,000 --> 00:58:30,000
+right
+
+1535
+00:58:32,000 --> 00:58:34,000
+then you have functional
+
+1536
+00:58:34,000 --> 00:58:36,000
+okay so now we've got C
+
+1537
+00:58:36,000 --> 00:58:38,000
+and now the point you made was
+
+1538
+00:58:38,000 --> 00:58:40,000
+if we got to do
+
+1539
+00:58:42,000 --> 00:58:44,000
+find the face
+
+1540
+00:58:44,000 --> 00:58:46,000
+find the face
+
+1541
+00:58:46,000 --> 00:58:48,000
+of your physical point
+
+1542
+00:58:48,000 --> 00:58:50,000
+oh yeah we need to be in the background
+
+1543
+00:58:50,000 --> 00:58:52,000
+so let X
+
+1544
+00:58:52,000 --> 00:58:54,000
+be the point
+
+1545
+00:58:54,000 --> 00:58:56,000
+yeah let X be the
+
+1546
+00:58:56,000 --> 00:58:58,000
+point
+
+1547
+00:58:58,000 --> 00:59:00,000
+and then
+
+1548
+00:59:00,000 --> 00:59:02,000
+you see the curve
+
+1549
+00:59:02,000 --> 00:59:04,000
+on the face of X
+
+1550
+00:59:06,000 --> 00:59:08,000
+that's the
+
+1551
+00:59:08,000 --> 00:59:10,000
+I would define this as the set of all elements
+
+1552
+00:59:10,000 --> 00:59:12,000
+in D plus that you can majorize by X
+
+1553
+00:59:12,000 --> 00:59:14,000
+my rule for X
+
+1554
+00:59:14,000 --> 00:59:16,000
+set of all points
+
+1555
+00:59:16,000 --> 00:59:18,000
+W
+
+1556
+00:59:18,000 --> 00:59:20,000
+in D plus
+
+1557
+00:59:20,000 --> 00:59:22,000
+such that
+
+1558
+00:59:22,000 --> 00:59:24,000
+you can majorize
+
+1559
+00:59:24,000 --> 00:59:26,000
+X
+
+1560
+00:59:26,000 --> 00:59:28,000
+X is larger than
+
+1561
+00:59:32,000 --> 00:59:34,000
+and by larger than we need your perspective
+
+1562
+00:59:34,000 --> 00:59:36,000
+of course
+
+1563
+00:59:36,000 --> 00:59:38,000
+by the way
+
+1564
+00:59:38,000 --> 00:59:40,000
+is that common
+
+1565
+00:59:40,000 --> 00:59:42,000
+knowledge that this is the face
+
+1566
+00:59:42,000 --> 00:59:44,000
+I really have to
+
+1567
+00:59:44,000 --> 00:59:46,000
+prove this for myself
+
+1568
+00:59:46,000 --> 00:59:48,000
+but this is something that is
+
+1569
+00:59:48,000 --> 00:59:50,000
+Alex came with the same question
+
+1570
+00:59:50,000 --> 00:59:52,000
+so it seems like
+
+1571
+00:59:52,000 --> 00:59:54,000
+I was
+
+1572
+00:59:54,000 --> 00:59:56,000
+wondering because it sounded like
+
+1573
+00:59:56,000 --> 00:59:58,000
+this condition is open in general
+
+1574
+00:59:58,000 --> 01:00:00,000
+like
+
+1575
+01:00:00,000 --> 01:00:02,000
+because you cannot majorize by zero
+
+1576
+01:00:02,000 --> 01:00:04,000
+that's usually not an admissible point
+
+1577
+01:00:06,000 --> 01:00:08,000
+if it's an open condition doesn't that
+
+1578
+01:00:08,000 --> 01:00:10,000
+kind of contradict extreme faces
+
+1579
+01:00:12,000 --> 01:00:14,000
+no
+
+1580
+01:00:14,000 --> 01:00:16,000
+because the extreme face of the whole code
+
+1581
+01:00:16,000 --> 01:00:18,000
+is one-dimensional
+
+1582
+01:00:18,000 --> 01:00:20,000
+yeah okay
+
+1583
+01:00:20,000 --> 01:00:22,000
+it's an extreme ray not an extreme
+
+1584
+01:00:22,000 --> 01:00:24,000
+point
+
+1585
+01:00:24,000 --> 01:00:26,000
+I see
+
+1586
+01:00:26,000 --> 01:00:28,000
+but a nice way to think about this
+
+1587
+01:00:28,000 --> 01:00:30,000
+is that it just tells you
+
+1588
+01:00:30,000 --> 01:00:32,000
+that X can be decomposed
+
+1589
+01:00:32,000 --> 01:00:34,000
+as one of
+
+1590
+01:00:34,000 --> 01:00:36,000
+W divided by lambda plus
+
+1591
+01:00:36,000 --> 01:00:38,000
+something else
+
+1592
+01:00:38,000 --> 01:00:40,000
+yeah no I was just wondering
+
+1593
+01:00:40,000 --> 01:00:42,000
+whether the face should always contain
+
+1594
+01:00:42,000 --> 01:00:44,000
+the endpoints of every line as well
+
+1595
+01:00:48,000 --> 01:00:50,000
+does that
+
+1596
+01:00:50,000 --> 01:00:52,000
+still work?
+
+1597
+01:00:52,000 --> 01:00:54,000
+yeah okay this still works
+
+1598
+01:00:54,000 --> 01:00:56,000
+I see
+
+1599
+01:00:56,000 --> 01:00:58,000
+yeah
+
+1600
+01:00:58,000 --> 01:01:00,000
+yeah okay
+
+1601
+01:01:00,000 --> 01:01:02,000
+no no okay I see
+
+1602
+01:01:02,000 --> 01:01:04,000
+so it's in a sense you could say it's
+
+1603
+01:01:04,000 --> 01:01:06,000
+like the smallest
+
+1604
+01:01:06,000 --> 01:01:08,000
+face is the one
+
+1605
+01:01:08,000 --> 01:01:10,000
+in the face of the point
+
+1606
+01:01:10,000 --> 01:01:12,000
+is the one where the point is an interior
+
+1607
+01:01:12,000 --> 01:01:14,000
+of the face
+
+1608
+01:01:16,000 --> 01:01:18,000
+yes exactly
+
+1609
+01:01:18,000 --> 01:01:20,000
+okay
+
+1610
+01:01:20,000 --> 01:01:22,000
+because then it makes sense for a point
+
+1611
+01:01:22,000 --> 01:01:24,000
+as well because then for a point
+
+1612
+01:01:24,000 --> 01:01:26,000
+it's the only interior point of that point
+
+1613
+01:01:30,000 --> 01:01:32,000
+okay
+
+1614
+01:01:32,000 --> 01:01:34,000
+yeah but I think I convinced myself
+
+1615
+01:01:34,000 --> 01:01:36,000
+yesterday that
+
+1616
+01:01:36,000 --> 01:01:38,000
+I was happy with this definition
+
+1617
+01:01:40,000 --> 01:01:42,000
+we found the face of X
+
+1618
+01:01:44,000 --> 01:01:46,000
+a bunch of points in this cone
+
+1619
+01:01:46,000 --> 01:01:48,000
+and this is now defining
+
+1620
+01:01:48,000 --> 01:01:50,000
+5 right
+
+1621
+01:01:52,000 --> 01:01:54,000
+the 5 is this map
+
+1622
+01:01:54,000 --> 01:01:56,000
+the 5 of
+
+1623
+01:01:56,000 --> 01:01:58,000
+the 5 is the
+
+1624
+01:01:58,000 --> 01:02:00,000
+the 5 is the
+
+1625
+01:02:00,000 --> 01:02:02,000
+the 5 is the
+
+1626
+01:02:02,000 --> 01:02:04,000
+the 5 is the
+
+1627
+01:02:04,000 --> 01:02:06,000
+on the face
+
+1628
+01:02:06,000 --> 01:02:08,000
+on the face
+
+1629
+01:02:08,000 --> 01:02:10,000
+no you don't because
+
+1630
+01:02:10,000 --> 01:02:12,000
+you can define the 5 on the whole of V
+
+1631
+01:02:12,000 --> 01:02:14,000
+and you just say now I restrict
+
+1632
+01:02:14,000 --> 01:02:16,000
+myself to this
+
+1633
+01:02:16,000 --> 01:02:18,000
+yeah
+
+1634
+01:02:18,000 --> 01:02:20,000
+so 5 is an
+
+1635
+01:02:20,000 --> 01:02:22,000
+all of V
+
+1636
+01:02:22,000 --> 01:02:24,000
+and it goes to just these constraints
+
+1637
+01:02:24,000 --> 01:02:26,000
+where I work with something
+
+1638
+01:02:26,000 --> 01:02:28,000
+here
+
+1639
+01:02:28,000 --> 01:02:30,000
+one of
+
+1640
+01:02:32,000 --> 01:02:34,000
+of
+
+1641
+01:02:34,000 --> 01:02:36,000
+of
+
+1642
+01:02:36,000 --> 01:02:38,000
+of V
+
+1643
+01:02:38,000 --> 01:02:40,000
+so that's the element of R to the N
+
+1644
+01:02:40,000 --> 01:02:42,000
+we're working
+
+1645
+01:02:42,000 --> 01:02:44,000
+in the real numbers
+
+1646
+01:02:44,000 --> 01:02:46,000
+mm-hmm
+
+1647
+01:02:46,000 --> 01:02:48,000
+there's also each of those p-addict fields
+
+1648
+01:02:48,000 --> 01:02:50,000
+and
+
+1649
+01:02:52,000 --> 01:02:54,000
+and then 5 restricted
+
+1650
+01:02:54,000 --> 01:02:56,000
+to
+
+1651
+01:02:56,000 --> 01:02:58,000
+I want to
+
+1652
+01:02:58,000 --> 01:03:00,000
+change the name
+
+1653
+01:03:00,000 --> 01:03:02,000
+I think that
+
+1654
+01:03:02,000 --> 01:03:04,000
+going
+
+1655
+01:03:04,000 --> 01:03:06,000
+so
+
+1656
+01:03:06,000 --> 01:03:08,000
+I'm restricted to add
+
+1657
+01:03:08,000 --> 01:03:10,000
+these are the
+
+1658
+01:03:10,000 --> 01:03:12,000
+step numbers
+
+1659
+01:03:12,000 --> 01:03:14,000
+now
+
+1660
+01:03:14,000 --> 01:03:16,000
+there's every function that's defined
+
+1661
+01:03:16,000 --> 01:03:18,000
+so
+
+1662
+01:03:20,000 --> 01:03:22,000
+so I'm going to use
+
+1663
+01:03:22,000 --> 01:03:24,000
+8
+
+1664
+01:03:24,000 --> 01:03:26,000
+8
+
+1665
+01:03:26,000 --> 01:03:28,000
+on
+
+1666
+01:03:28,000 --> 01:03:30,000
+on
+
+1667
+01:03:30,000 --> 01:03:32,000
+and then the dimension of F
+
+1668
+01:03:32,000 --> 01:03:34,000
+now is what sim R
+
+1669
+01:03:34,000 --> 01:03:36,000
+is
+
+1670
+01:03:36,000 --> 01:03:38,000
+mm-hmm
+
+1671
+01:03:38,000 --> 01:03:40,000
+mm-hmm
+
+1672
+01:03:40,000 --> 01:03:42,000
+dimension
+
+1673
+01:03:42,000 --> 01:03:44,000
+dimension of F
+
+1674
+01:03:44,000 --> 01:03:46,000
+dimension of F
+
+1675
+01:03:46,000 --> 01:03:48,000
+dimension of F
+
+1676
+01:03:48,000 --> 01:03:50,000
+dimension of F
+
+1677
+01:03:50,000 --> 01:03:52,000
+dimension of F is what
+
+1678
+01:03:52,000 --> 01:03:54,000
+is an allergist to sim R
+
+1679
+01:03:54,000 --> 01:03:56,000
+but we have to give it a
+
+1680
+01:03:56,000 --> 01:03:58,000
+maybe we'll just call it in the F
+
+1681
+01:03:58,000 --> 01:04:00,000
+mm-hmm
+
+1682
+01:04:00,000 --> 01:04:02,000
+I should just think linear
+
+1683
+01:04:02,000 --> 01:04:04,000
+a normal span of the
+
+1684
+01:04:04,000 --> 01:04:06,000
+because it's called a zero so it's
+
+1685
+01:04:06,000 --> 01:04:08,000
+we don't even have to give it a 5
+
+1686
+01:04:08,000 --> 01:04:10,000
+so we can embed
+
+1687
+01:04:10,000 --> 01:04:12,000
+a bit more space
+
+1688
+01:04:12,000 --> 01:04:14,000
+so
+
+1689
+01:04:14,000 --> 01:04:16,000
+F is a subcode
+
+1690
+01:04:16,000 --> 01:04:18,000
+and so then D F
+
+1691
+01:04:18,000 --> 01:04:20,000
+F
+
+1692
+01:04:20,000 --> 01:04:22,000
+mm-hmm
+
+1693
+01:04:22,000 --> 01:04:24,000
+F is a linear function
+
+1694
+01:04:24,000 --> 01:04:26,000
+on a D F dimension of space
+
+1695
+01:04:26,000 --> 01:04:28,000
+to an M dimension
+
+1696
+01:04:28,000 --> 01:04:30,000
+space
+
+1697
+01:04:30,000 --> 01:04:32,000
+okay this comes
+
+1698
+01:04:32,000 --> 01:04:34,000
+through right so then we have
+
+1699
+01:04:34,000 --> 01:04:36,000
+the rank now that
+
+1700
+01:04:36,000 --> 01:04:38,000
+says the full dimension
+
+1701
+01:04:40,000 --> 01:04:42,000
+it's dimper
+
+1702
+01:04:44,000 --> 01:04:46,000
+what's the union
+
+1703
+01:04:46,000 --> 01:04:48,000
+and I just
+
+1704
+01:04:48,000 --> 01:04:50,000
+now I'm using
+
+1705
+01:04:50,000 --> 01:04:52,000
+my brain the dim
+
+1706
+01:04:52,000 --> 01:04:54,000
+sim
+
+1707
+01:04:54,000 --> 01:04:56,000
+yeah this dim
+
+1708
+01:04:56,000 --> 01:04:58,000
+sim
+
+1709
+01:04:58,000 --> 01:05:00,000
+and dimker is
+
+1710
+01:05:00,000 --> 01:05:02,000
+the stuff that gets zapped
+
+1711
+01:05:02,000 --> 01:05:04,000
+on F
+
+1712
+01:05:04,000 --> 01:05:06,000
+on F
+
+1713
+01:05:06,000 --> 01:05:08,000
+and dim in
+
+1714
+01:05:08,000 --> 01:05:10,000
+the end
+
+1715
+01:05:10,000 --> 01:05:12,000
+or not end it's
+
+1716
+01:05:12,000 --> 01:05:14,000
+it's more like equal then
+
+1717
+01:05:14,000 --> 01:05:16,000
+there's a dim in
+
+1718
+01:05:16,000 --> 01:05:18,000
+and then this is smaller equal
+
+1719
+01:05:18,000 --> 01:05:20,000
+then
+
+1720
+01:05:20,000 --> 01:05:22,000
+then dimker
+
+1721
+01:05:22,000 --> 01:05:24,000
+right
+
+1722
+01:05:24,000 --> 01:05:26,000
+then
+
+1723
+01:05:26,000 --> 01:05:28,000
+then
+
+1724
+01:05:28,000 --> 01:05:30,000
+then so we are done
+
+1725
+01:05:32,000 --> 01:05:34,000
+no no no we still need this whole
+
+1726
+01:05:34,000 --> 01:05:36,000
+move into the base
+
+1727
+01:05:36,000 --> 01:05:38,000
+I don't want to fit on one board
+
+1728
+01:05:38,000 --> 01:05:40,000
+ah
+
+1729
+01:05:40,000 --> 01:05:42,000
+ah
+
+1730
+01:05:42,000 --> 01:05:44,000
+ah
+
+1731
+01:05:44,000 --> 01:05:46,000
+ah
+
+1732
+01:05:46,000 --> 01:05:48,000
+I should have written this more
+
+1733
+01:05:48,000 --> 01:05:50,000
+it's not that people don't think the name
+
+1734
+01:05:50,000 --> 01:05:52,000
+that comes from a thing
+
+1735
+01:05:52,000 --> 01:05:54,000
+you may complain about this
+
+1736
+01:05:54,000 --> 01:05:56,000
+um
+
+1737
+01:05:56,000 --> 01:05:58,000
+but do we do
+
+1738
+01:05:58,000 --> 01:06:00,000
+do we stick to just this feasibility case
+
+1739
+01:06:00,000 --> 01:06:02,000
+or should we
+
+1740
+01:06:02,000 --> 01:06:04,000
+make the
+
+1741
+01:06:04,000 --> 01:06:06,000
+optimize what you say right
+
+1742
+01:06:06,000 --> 01:06:08,000
+that's the game
+
+1743
+01:06:08,000 --> 01:06:10,000
+the argument is a standard
+
+1744
+01:06:10,000 --> 01:06:12,000
+programming argument right
+
+1745
+01:06:12,000 --> 01:06:14,000
+feasibility equals optimality
+
+1746
+01:06:14,000 --> 01:06:16,000
+it's just the same thing
+
+1747
+01:06:16,000 --> 01:06:18,000
+I think
+
+1748
+01:06:18,000 --> 01:06:20,000
+if you're from optimality I agree
+
+1749
+01:06:20,000 --> 01:06:22,000
+but for everyone else
+
+1750
+01:06:22,000 --> 01:06:24,000
+it's a pain
+
+1751
+01:06:24,000 --> 01:06:26,000
+it's a footnote
+
+1752
+01:06:26,000 --> 01:06:28,000
+it's a pain
+
+1753
+01:06:28,000 --> 01:06:30,000
+okay
+
+1754
+01:06:30,000 --> 01:06:32,000
+you say
+
+1755
+01:06:32,000 --> 01:06:34,000
+it is obvious that
+
+1756
+01:06:34,000 --> 01:06:36,000
+and then it's fine
+
+1757
+01:06:36,000 --> 01:06:38,000
+you need to deal a bit
+
+1758
+01:06:38,000 --> 01:06:40,000
+you're dealing differently with it right
+
+1759
+01:06:40,000 --> 01:06:42,000
+on the one on one case you say okay
+
+1760
+01:06:42,000 --> 01:06:44,000
+then I find another solution
+
+1761
+01:06:44,000 --> 01:06:46,000
+with different rank on the other hand you say okay
+
+1762
+01:06:46,000 --> 01:06:48,000
+if I find some D that is not
+
+1763
+01:06:48,000 --> 01:06:50,000
+within the current
+
+1764
+01:06:50,000 --> 01:06:52,000
+that is within the kernel of all A's
+
+1765
+01:06:52,000 --> 01:06:54,000
+but not within the kernel of C
+
+1766
+01:06:54,000 --> 01:06:56,000
+then I can find a phase that is actually
+
+1767
+01:06:56,000 --> 01:06:58,000
+better
+
+1768
+01:06:58,000 --> 01:07:00,000
+like has a better value
+
+1769
+01:07:00,000 --> 01:07:02,000
+then
+
+1770
+01:07:02,000 --> 01:07:04,000
+but okay
+
+1771
+01:07:04,000 --> 01:07:06,000
+yeah but you can choose D
+
+1772
+01:07:06,000 --> 01:07:08,000
+and you like
+
+1773
+01:07:08,000 --> 01:07:10,000
+but you can only pick one
+
+1774
+01:07:10,000 --> 01:07:12,000
+from the kernel of the constraint
+
+1775
+01:07:12,000 --> 01:07:14,000
+right
+
+1776
+01:07:14,000 --> 01:07:16,000
+the D has created the kernel
+
+1777
+01:07:16,000 --> 01:07:18,000
+the D is from the kernel of the constraint
+
+1778
+01:07:18,000 --> 01:07:20,000
+you cannot choose an example
+
+1779
+01:07:20,000 --> 01:07:22,000
+but then you can still like DT
+
+1780
+01:07:22,000 --> 01:07:24,000
+then you can still choose this
+
+1781
+01:07:24,000 --> 01:07:26,000
+DT and you can walk in any direction of the T
+
+1782
+01:07:26,000 --> 01:07:28,000
+without disturbing the constraint
+
+1783
+01:07:28,000 --> 01:07:30,000
+but
+
+1784
+01:07:30,000 --> 01:07:32,000
+only one
+
+1785
+01:07:32,000 --> 01:07:34,000
+can prove it
+
+1786
+01:07:34,000 --> 01:07:36,000
+it can be that you maintain
+
+1787
+01:07:36,000 --> 01:07:38,000
+in the form for one direction
+
+1788
+01:07:38,000 --> 01:07:40,000
+which will be grouped up to the regular
+
+1789
+01:07:40,000 --> 01:07:42,000
+and you have to walk in the other direction
+
+1790
+01:07:42,000 --> 01:07:44,000
+as the code implies then
+
+1791
+01:07:44,000 --> 01:07:46,000
+was there exist D in the kernel
+
+1792
+01:07:46,000 --> 01:07:48,000
+by it
+
+1793
+01:07:48,000 --> 01:07:50,000
+such that
+
+1794
+01:07:54,000 --> 01:07:56,000
+such that
+
+1795
+01:07:56,000 --> 01:07:58,000
+X which is now being
+
+1796
+01:08:04,000 --> 01:08:06,000
+this is
+
+1797
+01:08:06,000 --> 01:08:08,000
+minus
+
+1798
+01:08:22,000 --> 01:08:24,000
+when that is satisfied
+
+1799
+01:08:24,000 --> 01:08:26,000
+there really is something to be found
+
+1800
+01:08:26,000 --> 01:08:28,000
+and you add it to the D
+
+1801
+01:08:30,000 --> 01:08:32,000
+and then you walk
+
+1802
+01:08:32,000 --> 01:08:34,000
+in
+
+1803
+01:08:34,000 --> 01:08:36,000
+faced
+
+1804
+01:08:38,000 --> 01:08:40,000
+how will you do that
+
+1805
+01:08:40,000 --> 01:08:42,000
+in your algebra
+
+1806
+01:08:42,000 --> 01:08:44,000
+where we are
+
+1807
+01:08:44,000 --> 01:08:46,000
+because this thing is not going to work
+
+1808
+01:08:48,000 --> 01:08:50,000
+so what am I missing
+
+1809
+01:08:50,000 --> 01:08:52,000
+it's because
+
+1810
+01:08:52,000 --> 01:08:54,000
+you're like
+
+1811
+01:08:54,000 --> 01:08:56,000
+calling
+
+1812
+01:08:56,000 --> 01:08:58,000
+assume
+
+1813
+01:08:58,000 --> 01:09:00,000
+because the code is pointed
+
+1814
+01:09:00,000 --> 01:09:02,000
+which we did
+
+1815
+01:09:02,000 --> 01:09:04,000
+actually it was written up
+
+1816
+01:09:04,000 --> 01:09:06,000
+and then
+
+1817
+01:09:06,000 --> 01:09:08,000
+I think
+
+1818
+01:09:08,000 --> 01:09:10,000
+in the code
+
+1819
+01:09:10,000 --> 01:09:12,000
+the code contained
+
+1820
+01:09:12,000 --> 01:09:14,000
+are real long
+
+1821
+01:09:14,000 --> 01:09:16,000
+and those are not pointed because
+
+1822
+01:09:16,000 --> 01:09:18,000
+you think the minus of the code is the real line
+
+1823
+01:09:18,000 --> 01:09:20,000
+difference
+
+1824
+01:09:20,000 --> 01:09:22,000
+okay
+
+1825
+01:09:22,000 --> 01:09:24,000
+I'm going to write that
+
+1826
+01:09:24,000 --> 01:09:26,000
+you'll say
+
+1827
+01:09:26,000 --> 01:09:28,000
+this is the T circuit
+
+1828
+01:09:28,000 --> 01:09:30,000
+okay
+
+1829
+01:09:30,000 --> 01:09:32,000
+I would like to get the argument
+
+1830
+01:09:32,000 --> 01:09:34,000
+there
+
+1831
+01:09:34,000 --> 01:09:36,000
+so according to the code
+
+1832
+01:09:36,000 --> 01:09:38,000
+is the code
+
+1833
+01:09:38,000 --> 01:09:40,000
+and if you take the minus of the code
+
+1834
+01:09:40,000 --> 01:09:42,000
+so you flip the sign of everything
+
+1835
+01:09:42,000 --> 01:09:44,000
+and you take the intersection
+
+1836
+01:09:44,000 --> 01:09:46,000
+that's only zero
+
+1837
+01:09:46,000 --> 01:09:48,000
+but if you're copying the line
+
+1838
+01:09:48,000 --> 01:09:50,000
+and you flip the sign of the line
+
+1839
+01:09:50,000 --> 01:09:52,000
+it's nothing to itself
+
+1840
+01:09:52,000 --> 01:09:54,000
+and the intersection of that code
+
+1841
+01:09:54,000 --> 01:09:56,000
+with itself would be the line
+
+1842
+01:09:56,000 --> 01:09:58,000
+okay
+
+1843
+01:09:58,000 --> 01:10:00,000
+there
+
+1844
+01:10:00,000 --> 01:10:02,000
+I think that's kind of cool
+
+1845
+01:10:02,000 --> 01:10:04,000
+okay
+
+1846
+01:10:04,000 --> 01:10:06,000
+and then now we're kind of done
+
+1847
+01:10:06,000 --> 01:10:08,000
+right that was the end of it
+
+1848
+01:10:08,000 --> 01:10:10,000
+well I know you have to argue that
+
+1849
+01:10:10,000 --> 01:10:12,000
+therefore you can choose to be
+
+1850
+01:10:12,000 --> 01:10:14,000
+okay
+
+1851
+01:10:14,000 --> 01:10:16,000
+yeah there's not a Zonsla in this situation
+
+1852
+01:10:16,000 --> 01:10:18,000
+so hopefully this is
+
+1853
+01:10:18,000 --> 01:10:20,000
+there would be some unfortunately
+
+1854
+01:10:20,000 --> 01:10:22,000
+from there right
+
+1855
+01:10:22,000 --> 01:10:24,000
+in your box
+
+1856
+01:10:24,000 --> 01:10:26,000
+that was weird wasn't it
+
+1857
+01:10:26,000 --> 01:10:28,000
+but here
+
+1858
+01:10:28,000 --> 01:10:30,000
+we have a line and we intersect it with the face
+
+1859
+01:10:30,000 --> 01:10:32,000
+the intersection should be
+
+1860
+01:10:32,000 --> 01:10:34,000
+well
+
+1861
+01:10:34,000 --> 01:10:36,000
+zero
+
+1862
+01:10:36,000 --> 01:10:38,000
+we have a line
+
+1863
+01:10:38,000 --> 01:10:40,000
+that sometimes in the code
+
+1864
+01:10:40,000 --> 01:10:42,000
+so it has to intersect some face
+
+1865
+01:10:42,000 --> 01:10:44,000
+but probably it'll have a lot of page
+
+1866
+01:10:44,000 --> 01:10:46,000
+5300
+
+1867
+01:10:46,000 --> 01:10:48,000
+okay
+
+1868
+01:10:48,000 --> 01:10:50,000
+okay
+
+1869
+01:10:50,000 --> 01:10:52,000
+okay
+
+1870
+01:10:52,000 --> 01:10:54,000
+and we brought the problem
+
+1871
+01:10:54,000 --> 01:10:56,000
+what
+
+1872
+01:10:56,000 --> 01:10:58,000
+that's a geometry
+
+1873
+01:10:58,000 --> 01:11:00,000
+okay
+
+1874
+01:11:00,000 --> 01:11:02,000
+okay
+
+1875
+01:11:02,000 --> 01:11:04,000
+okay
+
+1876
+01:11:04,000 --> 01:11:06,000
+you have to get some help
+
+1877
+01:11:06,000 --> 01:11:08,000
+okay
+
+1878
+01:11:08,000 --> 01:11:10,000
+okay
+
+1879
+01:11:16,000 --> 01:11:18,000
+okay
+
+1880
+01:11:18,000 --> 01:11:20,000
+to be looked up
+
+1881
+01:11:20,000 --> 01:11:22,000
+but it's one of these
+
+1882
+01:11:22,000 --> 01:11:24,000
+obviously true things that's probably
+
+1883
+01:11:24,000 --> 01:11:26,000
+ridiculously true
+
+1884
+01:11:26,000 --> 01:11:28,000
+yeah
+
+1885
+01:11:28,000 --> 01:11:30,000
+and finite dimension is kind of easy
+
+1886
+01:11:30,000 --> 01:11:32,000
+because you have
+
+1887
+01:11:32,000 --> 01:11:34,000
+supporting hyper planes
+
+1888
+01:11:34,000 --> 01:11:36,000
+I mean
+
+1889
+01:11:36,000 --> 01:11:38,000
+it feels like a hyper plane separation argument
+
+1890
+01:11:38,000 --> 01:11:40,000
+is going to help, it's going to be there
+
+1891
+01:11:40,000 --> 01:11:42,000
+which makes it a Zonsla
+
+1892
+01:11:42,000 --> 01:11:44,000
+argument in infinite dimensions
+
+1893
+01:11:44,000 --> 01:11:46,000
+which is cool
+
+1894
+01:11:48,000 --> 01:11:50,000
+let's fight
+
+1895
+01:11:50,000 --> 01:11:52,000
+actually
+
+1896
+01:11:52,000 --> 01:11:54,000
+if you use the separable space
+
+1897
+01:11:54,000 --> 01:11:56,000
+you don't need Zonsla anymore I think
+
+1898
+01:11:56,000 --> 01:11:58,000
+it's accountable
+
+1899
+01:11:58,000 --> 01:12:00,000
+yeah
+
+1900
+01:12:00,000 --> 01:12:02,000
+okay
+
+1901
+01:12:02,000 --> 01:12:04,000
+how do we know that
+
+1902
+01:12:04,000 --> 01:12:06,000
+finite
+
+1903
+01:12:06,000 --> 01:12:08,000
+that's assumption
+
+1904
+01:12:10,000 --> 01:12:12,000
+I mean this may be not right
+
+1905
+01:12:12,000 --> 01:12:14,000
+in which case if you want to do iteration
+
+1906
+01:12:14,000 --> 01:12:16,000
+it's probably not good
+
+1907
+01:12:16,000 --> 01:12:18,000
+okay
+
+1908
+01:12:18,000 --> 01:12:20,000
+if we use the same one
+
+1909
+01:12:20,000 --> 01:12:22,000
+yeah
+
+1910
+01:12:22,000 --> 01:12:24,000
+yeah yeah yeah
+
+1911
+01:12:24,000 --> 01:12:26,000
+this argument is useless
+
+1912
+01:12:26,000 --> 01:12:28,000
+if it's not finite
+
+1913
+01:12:28,000 --> 01:12:30,000
+in which you use finite
+
+1914
+01:12:30,000 --> 01:12:32,000
+should help right
+
+1915
+01:12:32,000 --> 01:12:34,000
+it was here
+
+1916
+01:12:34,000 --> 01:12:36,000
+it was here it was just written down
+
+1917
+01:12:36,000 --> 01:12:38,000
+with a weasel
+
+1918
+01:12:38,000 --> 01:12:40,000
+yeah
+
+1919
+01:12:40,000 --> 01:12:42,000
+it has to be finite then for this argument to work
+
+1920
+01:12:42,000 --> 01:12:44,000
+but that feels the opportunity
+
+1921
+01:12:44,000 --> 01:12:46,000
+but I
+
+1922
+01:12:46,000 --> 01:12:48,000
+I know
+
+1923
+01:12:48,000 --> 01:12:50,000
+you can still go to a smaller space
+
+1924
+01:12:50,000 --> 01:12:52,000
+and if it's infinite dimension
+
+1925
+01:12:52,000 --> 01:12:54,000
+then you have an infinite regress right
+
+1926
+01:12:54,000 --> 01:12:56,000
+so you
+
+1927
+01:12:56,000 --> 01:12:58,000
+okay
+
+1928
+01:12:58,000 --> 01:13:00,000
+but in this
+
+1929
+01:13:00,000 --> 01:13:02,000
+proof you had
+
+1930
+01:13:02,000 --> 01:13:04,000
+written already there the argument
+
+1931
+01:13:04,000 --> 01:13:06,000
+was somehow about the number of constraints
+
+1932
+01:13:06,000 --> 01:13:08,000
+why this phase was finite dimensional
+
+1933
+01:13:08,000 --> 01:13:10,000
+because you would parametrize it by
+
+1934
+01:13:10,000 --> 01:13:12,000
+the finite dimensional commutants
+
+1935
+01:13:12,000 --> 01:13:14,000
+ah
+
+1936
+01:13:14,000 --> 01:13:16,000
+so maybe that's where we do need the commutant
+
+1937
+01:13:16,000 --> 01:13:18,000
+huh
+
+1938
+01:13:18,000 --> 01:13:20,000
+but it feels like this shouldn't need that
+
+1939
+01:13:20,000 --> 01:13:22,000
+still right now
+
+1940
+01:13:22,000 --> 01:13:24,000
+let's play the game where the phase is infinite dimension
+
+1941
+01:13:24,000 --> 01:13:26,000
+but
+
+1942
+01:13:26,000 --> 01:13:28,000
+countably infinite like none of this weird
+
+1943
+01:13:28,000 --> 01:13:30,000
+friggin
+
+1944
+01:13:30,000 --> 01:13:32,000
+then you could just take the intersection
+
+1945
+01:13:32,000 --> 01:13:34,000
+that you always go to a smaller space right
+
+1946
+01:13:34,000 --> 01:13:36,000
+but then the kernel
+
+1947
+01:13:36,000 --> 01:13:38,000
+the constraint development
+
+1948
+01:13:38,000 --> 01:13:40,000
+it's huge
+
+1949
+01:13:40,000 --> 01:13:42,000
+yeah it's okay
+
+1950
+01:13:42,000 --> 01:13:44,000
+the phase is infinite dimensional
+
+1951
+01:13:44,000 --> 01:13:46,000
+the problem is way way big
+
+1952
+01:13:46,000 --> 01:13:48,000
+and I cannot just pick one existing point
+
+1953
+01:13:48,000 --> 01:13:50,000
+but just
+
+1954
+01:13:50,000 --> 01:13:52,000
+try something smarter
+
+1955
+01:13:52,000 --> 01:13:54,000
+well just pick one random
+
+1956
+01:13:54,000 --> 01:13:56,000
+and then you go down
+
+1957
+01:13:56,000 --> 01:13:58,000
+and then you just take the infinite
+
+1958
+01:13:58,000 --> 01:14:00,000
+you just keep there's an infinite regress
+
+1959
+01:14:00,000 --> 01:14:02,000
+take the intersection over all these smaller
+
+1960
+01:14:02,000 --> 01:14:04,000
+smaller phases
+
+1961
+01:14:04,000 --> 01:14:06,000
+ximos
+
+1962
+01:14:06,000 --> 01:14:08,000
+ximos
+
+1963
+01:14:08,000 --> 01:14:10,000
+sorry
+
+1964
+01:14:10,000 --> 01:14:12,000
+I was going to ask you a question
+
+1965
+01:14:12,000 --> 01:14:14,000
+you have to
+
+1966
+01:14:14,000 --> 01:14:16,000
+there could be
+
+1967
+01:14:16,000 --> 01:14:18,000
+something at once there
+
+1968
+01:14:18,000 --> 01:14:20,000
+you just have to take something out
+
+1969
+01:14:20,000 --> 01:14:22,000
+so but then
+
+1970
+01:14:22,000 --> 01:14:24,000
+there's something finite here
+
+1971
+01:14:24,000 --> 01:14:26,000
+right it's not the dimension
+
+1972
+01:14:26,000 --> 01:14:28,000
+of the kernel it's rather
+
+1973
+01:14:28,000 --> 01:14:30,000
+the thing that you
+
+1974
+01:14:30,000 --> 01:14:32,000
+the thing that you chop off
+
+1975
+01:14:32,000 --> 01:14:34,000
+I mean you know that
+
+1976
+01:14:34,000 --> 01:14:36,000
+the difference between
+
+1977
+01:14:36,000 --> 01:14:38,000
+the phase dimension and the kernel dimension is finite
+
+1978
+01:14:38,000 --> 01:14:40,000
+yeah right
+
+1979
+01:14:40,000 --> 01:14:42,000
+yeah
+
+1980
+01:14:42,000 --> 01:14:44,000
+so this sum off
+
+1981
+01:14:48,000 --> 01:14:50,000
+but I mean in the C-style algebraic
+
+1982
+01:14:50,000 --> 01:14:52,000
+case wasn't the argument that
+
+1983
+01:14:52,000 --> 01:14:54,000
+assume you have no constraints
+
+1984
+01:14:54,000 --> 01:14:56,000
+then
+
+1985
+01:14:56,000 --> 01:14:58,000
+you just have a pure state which
+
+1986
+01:14:58,000 --> 01:15:00,000
+and then you are somehow required that this is an exposed phase
+
+1987
+01:15:00,000 --> 01:15:02,000
+and when you cut it
+
+1988
+01:15:02,000 --> 01:15:04,000
+with another constraint
+
+1989
+01:15:04,000 --> 01:15:06,000
+type of plane
+
+1990
+01:15:06,000 --> 01:15:08,000
+and you somehow go up from like a one
+
+1991
+01:15:08,000 --> 01:15:10,000
+dimensional thing to higher dimensions
+
+1992
+01:15:10,000 --> 01:15:12,000
+that's why it remains finite
+
+1993
+01:15:12,000 --> 01:15:14,000
+and you don't start with something that's
+
+1994
+01:15:14,000 --> 01:15:16,000
+infinite dimensional when you have zero constraints
+
+1995
+01:15:18,000 --> 01:15:20,000
+exactly that
+
+1996
+01:15:20,000 --> 01:15:22,000
+I think we have to use this
+
+1997
+01:15:22,000 --> 01:15:24,000
+in a sense so if there are
+
+1998
+01:15:24,000 --> 01:15:26,000
+zero constraints this df
+
+1999
+01:15:26,000 --> 01:15:28,000
+would not be infinite dimension
+
+2000
+01:15:30,000 --> 01:15:32,000
+no
+
+2001
+01:15:32,000 --> 01:15:34,000
+it's one dimension
+
+2002
+01:15:38,000 --> 01:15:40,000
+I don't know what's the most general setting
+
+2003
+01:15:40,000 --> 01:15:42,000
+where pure state
+
+2004
+01:15:42,000 --> 01:15:44,000
+I mean where's
+
+2005
+01:15:44,000 --> 01:15:46,000
+extreme point of a cone
+
+2006
+01:15:46,000 --> 01:15:48,000
+when is
+
+2007
+01:15:48,000 --> 01:15:50,000
+that
+
+2008
+01:15:50,000 --> 01:15:52,000
+I mean is that always
+
+2009
+01:15:52,000 --> 01:15:54,000
+one dimensional in a sense
+
+2010
+01:15:54,000 --> 01:15:56,000
+or are there some pathological
+
+2011
+01:15:56,000 --> 01:15:58,000
+logical settings
+
+2012
+01:16:00,000 --> 01:16:02,000
+or
+
+2013
+01:16:06,000 --> 01:16:08,000
+what's the extreme way it's going
+
+2014
+01:16:08,000 --> 01:16:10,000
+come on
+
+2015
+01:16:16,000 --> 01:16:18,000
+well let's summarize where we are right now
+
+2016
+01:16:18,000 --> 01:16:20,000
+because we've gotten somewhere I think
+
+2017
+01:16:20,000 --> 01:16:22,000
+yeah
+
+2018
+01:16:22,000 --> 01:16:24,000
+if the world is finite dimensional here
+
+2019
+01:16:24,000 --> 01:16:26,000
+it's all good right are we cool
+
+2020
+01:16:26,000 --> 01:16:28,000
+are we cool
+
+2021
+01:16:28,000 --> 01:16:30,000
+everything's infinite dimensional but df
+
+2022
+01:16:32,000 --> 01:16:34,000
+is the dimension of this
+
+2023
+01:16:34,000 --> 01:16:36,000
+face is finite then cool
+
+2024
+01:16:36,000 --> 01:16:38,000
+right
+
+2025
+01:16:38,000 --> 01:16:40,000
+so now we're into this slightly weird
+
+2026
+01:16:40,000 --> 01:16:42,000
+zone where not weird
+
+2027
+01:16:42,000 --> 01:16:44,000
+I mean maybe this is generic
+
+2028
+01:16:44,000 --> 01:16:46,000
+where we should invert the argument
+
+2029
+01:16:46,000 --> 01:16:48,000
+somehow when that's infinity
+
+2030
+01:16:52,000 --> 01:16:54,000
+if we have a finite
+
+2031
+01:16:54,000 --> 01:16:56,000
+rank solution
+
+2032
+01:16:56,000 --> 01:16:58,000
+this finite rank cannot be bigger
+
+2033
+01:16:58,000 --> 01:17:00,000
+yeah if we have a finite
+
+2034
+01:17:00,000 --> 01:17:02,000
+rank solution then it cannot be bigger
+
+2035
+01:17:02,000 --> 01:17:04,000
+so this works
+
+2036
+01:17:04,000 --> 01:17:06,000
+I understood Alex's point
+
+2037
+01:17:06,000 --> 01:17:08,000
+as to now we chose
+
+2038
+01:17:08,000 --> 01:17:10,000
+at the moment chose x
+
+2039
+01:17:10,000 --> 01:17:12,000
+arbitrarily
+
+2040
+01:17:12,000 --> 01:17:14,000
+we should take anything to the point here
+
+2041
+01:17:14,000 --> 01:17:16,000
+but maybe we have to be slightly
+
+2042
+01:17:16,000 --> 01:17:18,000
+smarter in our initial choice
+
+2043
+01:17:20,000 --> 01:17:22,000
+which is reasonable comment right
+
+2044
+01:17:22,000 --> 01:17:24,000
+if you have any information use it
+
+2045
+01:17:24,000 --> 01:17:26,000
+but chopping down
+
+2046
+01:17:26,000 --> 01:17:28,000
+if I readily introduce
+
+2047
+01:17:28,000 --> 01:17:30,000
+constraints you can maybe guarantee
+
+2048
+01:17:30,000 --> 01:17:32,000
+but not
+
+2049
+01:17:32,000 --> 01:17:34,000
+use the x
+
+2050
+01:17:34,000 --> 01:17:36,000
+to add constraints
+
+2051
+01:17:38,000 --> 01:17:40,000
+if you have no constraint
+
+2052
+01:17:40,000 --> 01:17:42,000
+you just have the linear
+
+2053
+01:17:42,000 --> 01:17:44,000
+intersection of the column
+
+2054
+01:17:44,000 --> 01:17:46,000
+the optimal linear function
+
+2055
+01:17:46,000 --> 01:17:48,000
+oh
+
+2056
+01:17:52,000 --> 01:17:54,000
+yeah
+
+2057
+01:17:54,000 --> 01:17:56,000
+there are many of them
+
+2058
+01:17:56,000 --> 01:17:58,000
+at least one constraint
+
+2059
+01:17:58,000 --> 01:18:00,000
+yeah
+
+2060
+01:18:00,000 --> 01:18:02,000
+for me there's always one
+
+2061
+01:18:02,000 --> 01:18:04,000
+because it's a state
+
+2062
+01:18:04,000 --> 01:18:06,000
+yeah
+
+2063
+01:18:08,000 --> 01:18:10,000
+your argument would be
+
+2064
+01:18:10,000 --> 01:18:12,000
+if I had one constraint
+
+2065
+01:18:12,000 --> 01:18:14,000
+my
+
+2066
+01:18:14,000 --> 01:18:16,000
+the
+
+2067
+01:18:16,000 --> 01:18:18,000
+dimension of the case would be
+
+2068
+01:18:18,000 --> 01:18:20,000
+finite dimension
+
+2069
+01:18:20,000 --> 01:18:22,000
+then I can find one
+
+2070
+01:18:26,000 --> 01:18:28,000
+now I want to make sure that
+
+2071
+01:18:28,000 --> 01:18:30,000
+I introduce new constraints
+
+2072
+01:18:30,000 --> 01:18:32,000
+which could kick me out of that
+
+2073
+01:18:32,000 --> 01:18:34,000
+I have to find another case
+
+2074
+01:18:34,000 --> 01:18:36,000
+introduce constraints
+
+2075
+01:18:36,000 --> 01:18:38,000
+maybe if you stick to the rank setting
+
+2076
+01:18:38,000 --> 01:18:40,000
+you blow off the rank but say it's finite
+
+2077
+01:18:40,000 --> 01:18:42,000
+introduce it again
+
+2078
+01:18:44,000 --> 01:18:46,000
+it looks like it's 1230
+
+2079
+01:18:46,000 --> 01:18:48,000
+usually
+
+2080
+01:18:48,000 --> 01:18:50,000
+the time when people in this country
+
+2081
+01:18:50,000 --> 01:18:52,000
+find it a good thing to do at the time
+
+2082
+01:18:56,000 --> 01:18:58,000
+no I also need to do other things
+
+2083
+01:18:58,000 --> 01:19:00,000
+I have this video recorded
+
+2084
+01:19:00,000 --> 01:19:02,000
+I'll try it and just transcribe
+
+2085
+01:19:02,000 --> 01:19:04,000
+it into a minimal tech
+
+2086
+01:19:04,000 --> 01:19:06,000
+like this argument
+
+2087
+01:19:06,000 --> 01:19:08,000
+a lot of this discussion can be just
+
+2088
+01:19:08,000 --> 01:19:10,000
+dropped but
+
+2089
+01:19:10,000 --> 01:19:12,000
+we'll see what happens
+
+2090
+01:19:12,000 --> 01:19:14,000
+just that way that no one has the right
+
+2091
+01:19:14,000 --> 01:19:16,000
+if that fails only though
+
+2092
+01:19:16,000 --> 01:19:18,000
+it would be great
+
+2093
+01:19:18,000 --> 01:19:20,000
+if someone takes a photograph and can reconstruct
+
+2094
+01:19:20,000 --> 01:19:22,000
+this proof
+
+2095
+01:19:24,000 --> 01:19:26,000
+I think I have my proof anyway
+
+2096
+01:19:26,000 --> 01:19:28,000
+your proof is cool
+
+2097
+01:19:28,000 --> 01:19:30,000
+like it's
+
+2098
+01:19:30,000 --> 01:19:32,000
+I will just
+
+2099
+01:19:32,000 --> 01:19:34,000
+maybe
+
+2100
+01:19:34,000 --> 01:19:36,000
+that one
+
+2101
+01:19:36,000 --> 01:19:38,000
+I mean it's super electrical
+
+2102
+01:19:38,000 --> 01:19:40,000
+like it flies
+
+2103
+01:19:40,000 --> 01:19:42,000
+and I'm not
+
+2104
+01:19:42,000 --> 01:19:44,000
+totally joking about the one big PRL
+
+2105
+01:19:44,000 --> 01:19:46,000
+but
+
+2106
+01:19:46,000 --> 01:19:48,000
+what is the way
+
+2107
+01:19:48,000 --> 01:19:50,000
+now should I
+
+2108
+01:19:50,000 --> 01:19:52,000
+create an overlay as in the old times
+
+2109
+01:19:52,000 --> 01:19:54,000
+or is it not going to be anything
+
+2110
+01:19:54,000 --> 01:19:56,000
+Timo, old times
+
+2111
+01:19:56,000 --> 01:19:58,000
+we don't do this anymore
+
+2112
+01:19:58,000 --> 01:20:00,000
+that's why I'm asking
+
+2113
+01:20:00,000 --> 01:20:02,000
+there'll be a github
+
+2114
+01:20:02,000 --> 01:20:04,000
+do you know what
+
+2115
+01:20:04,000 --> 01:20:06,000
+that's what I'm doing also
+
+2116
+01:20:06,000 --> 01:20:08,000
+you can create an overlay
+
+2117
+01:20:08,000 --> 01:20:10,000
+but connect it to github
+
+2118
+01:20:10,000 --> 01:20:12,000
+I've been waiting
+
+2119
+01:20:12,000 --> 01:20:14,000
+I've been waiting for this moment
+
+2120
+01:20:14,000 --> 01:20:16,000
+I hate an overlay with a burning passion
+
+2121
+01:20:16,000 --> 01:20:18,000
+yeah me too
+
+2122
+01:20:18,000 --> 01:20:20,000
+but there are people who like to use it
+
+2123
+01:20:20,000 --> 01:20:22,000
+yeah well they're going to learn that I hate
+
+2124
+01:20:22,000 --> 01:20:24,000
+a burning passion
+
+2125
+01:20:24,000 --> 01:20:26,000
+I would rather share on github
+
+2126
+01:20:26,000 --> 01:20:28,000
+where you can check it out
+
+2127
+01:20:28,000 --> 01:20:30,000
+it's sort of the only thing
+
+2128
+01:20:30,000 --> 01:20:32,000
+make some kind of
+
+2129
+01:20:32,000 --> 01:20:34,000
+make a call and make some kind of system
+
+2130
+01:20:34,000 --> 01:20:36,000
+where he would go through the history of the github
+
+2131
+01:20:36,000 --> 01:20:38,000
+repo and decide
+
+2132
+01:20:38,000 --> 01:20:40,000
+like or there are authors based on the holy book
+
+2133
+01:20:44,000 --> 01:20:46,000
+do you know what
+
+2134
+01:20:46,000 --> 01:20:48,000
+I'm going to ask Claude when he transcribes this
+
+2135
+01:20:48,000 --> 01:20:50,000
+who's the main author of them
+
+2136
+01:20:52,000 --> 01:20:54,000
+very curious
+
+2137
+01:20:54,000 --> 01:20:56,000
+I love him
+
+2138
+01:20:56,000 --> 01:20:58,000
+that's why alphabetic is beautiful
+
+2139
+01:20:58,000 --> 01:21:00,000
+actually
+
+2140
+01:21:00,000 --> 01:21:02,000
+they called me to use certified random
+
+2141
+01:21:02,000 --> 01:21:04,000
+certified random
+
+2142
+01:21:04,000 --> 01:21:06,000
+yeah I would just like to use it
+
+2143
+01:21:06,000 --> 01:21:08,000
+for my
+
+2144
+01:21:08,000 --> 01:21:10,000
+we have access to real random
+
+2145
+01:21:10,000 --> 01:21:12,000
+that's okay for you
+
+2146
+01:21:12,000 --> 01:21:14,000
+if you don't need another thesis
+
+2147
+01:21:14,000 --> 01:21:16,000
+I would like to use it
+
+2148
+01:21:16,000 --> 01:21:18,000
+I need some fillery
+
+2149
+01:21:18,000 --> 01:21:20,000
+my coat is more
+
+2150
+01:21:20,000 --> 01:21:22,000
+cool
+
+2151
+01:21:22,000 --> 01:21:24,000
+alright that was very interesting
+
+2152
+01:21:24,000 --> 01:21:26,000
+thank you
+
+2153
+01:21:26,000 --> 01:21:28,000
+thanks
+
+2154
+01:21:28,000 --> 01:21:30,000
+bye
+
+2155
+01:21:30,000 --> 01:21:32,000
+bye bye
+
+2156
+01:21:42,000 --> 01:21:44,000
+yeah for sure
+

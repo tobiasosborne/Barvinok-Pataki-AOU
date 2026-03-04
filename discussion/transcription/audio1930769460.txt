@@ -1,0 +1,2156 @@
+Let's see if we can do that.
+Okay, discussion.
+I'm going to start with CW.
+I'm going to start with the training method.
+Mm-hmm.
+Yeah?
+Oh.
+So, the easier one.
+Take my speed to my speed stats.
+Yeah, go ahead.
+I've looked at that very closely.
+Yeah?
+I have very detailed notes.
+Okay.
+Alex is there.
+Is that it?
+Well, you can say the second, okay?
+Alex?
+I hear you.
+Okay, of course.
+So, according to Alex, just so you know, yeah?
+Yeah, yeah, sure.
+I will just mainly listen
+and I don't know how much time
+I really got.
+My daughter wakes up, I have to take care of her.
+We understand.
+It's all cool.
+Yeah, because I'll use this transcription then,
+like you'll get it to be auto transcribed.
+And then you can...
+Yeah, sure.
+You can turn on the light
+so that Claude can better see.
+I should have just let Claude join this meeting there.
+Yeah.
+Well, the telecom said
+that they will put
+the chatbot
+or AI into their
+into their landline.
+No, mobile line.
+And then...
+But you can request it in the beginning
+of the call
+or at the end you can ask for summary
+and stuff like that
+or ask questions during the call.
+What?
+Lightly...
+concerning.
+Okay, well, good.
+I think it's already clear that this is not possible.
+Impossible.
+You'd have to opt in
+actually with an in signature, I think.
+I think that's the only way.
+Both parties, absolutely.
+Yeah, good.
+Yeah, I think...
+I thought that the best way maybe is
+that I show you
+just a short sketch of the proof
+I have for positive semi-definite
+matrices because it's...
+I would say it's pretty much straight forward.
+And
+you have to say, I mean, we can start
+with the problem of just feasibility
+because optimality
+just comes with another
+with an additional constraint
+like I said.
+It's most
+more or less the same thing.
+The simplest thing first.
+Okay, so let's say
+I don't want to...
+Okay.
+Let's say we have some
+set C
+and
+that is X
+I will write this populist
+you just...
+make it too complex
+and
+we will also get it from
+reals to complex numbers.
+Just one check.
+We have to change one number.
+These are real positive
+symmetric.
+Let's start by real positive symmetric
+matrices.
+Well, yeah.
+And what we're looking for
+is that they
+obey
+some
+some
+positive relations
+for all I
+and...
+Yeah.
+Yeah, so you can write it as trace
+it's just because I was too lazy
+at some point to always write trace.
+And
+so we can write X of A
+which...
+When we go to...
+Okay, maybe you're right.
+Yeah.
+Just stick with this for now.
+Just stick with this because in the end
+it becomes kind of important.
+So, and the proof is
+as I said is pretty much straightforward.
+We assume
+that there is...
+We assume
+this
+X
+element C
+such that
+the
+rank
+of X
+equals R.
+So
+what it follows from this is that
+you can write X
+as B
+that one
+VB
+VT
+and
+B
+is
+positive definite.
+So it's a material.
+Clear?
+And by the way
+you can also determine these
+up front if you know.
+Do you want the Vs to be R by N matrices now?
+Yeah.
+Yeah.
+So,
+some
+are N matrix
+and they are
+like...
+You can see this
+pretty fast.
+They are orthogonal to the kernel
+of X of R.
+The columns of it are
+some vectors that
+span all following the company.
+And so when you're here
+you can
+you can define
+how we will
+define
+the problem in a hat
+is equal to
+VT
+VI
+V
+and therefore
+any feasible X
+can be written
+as
+AI
+equals
+VI. So we know
+that this is true
+and since this
+is feasible we will
+define another function
+and
+I will just
+call this function
+PI and
+it goes
+from the symmetric
+R by R matrices
+to
+to
+the
+space RR. This
+composition is being recorded on Zoom
+just so you know.
+And each
+like
+this five takes in
+a second
+this five takes in
+some
+V
+and the I component of it
+is simply
+AI
+V
+and now it's pretty much straightforward.
+You know from
+from the rank
+nullity
+theorem
+you know that
+the
+value
+that
+difference
+in R
+must be equal
+to
+the
+random
+five
+of
+the
+image fine
+and
+and
+you know that
+this is equal to
+the real dimension of it
+R times
+R plus one over two
+and you know that
+the image of
+five
+I have to check something this is
+sorry this is not R this is N
+and
+so well now it depends
+on how these
+type of things that
+are defined by the AI
+within the
+ambience space but you can say that this
+is at most M.
+So what you see from here is
+that
+the dimension
+of
+serial I
+and
+and
+must be
+here
+and
+so
+this means
+if this is
+a number that is larger
+or equal larger equal than one
+and you will always
+find some dB
+so
+if R
+is R plus one over two
+minus M is larger equal
+one
+there it lists
+and
+that is not zero
+such that
+the operator
+B over T equals
+B
+plus two
+B
+and
+that is five
+almost right
+so what this means
+is
+you will find
+a sufficiently small T
+such that
+BT becomes
+similar
+and so you can reduce the rank
+by one
+and you can do this
+as long as
+rank
+R by one
+and you can do this
+as long as the kernel
+is larger equal to one
+and so that is why
+that is why we have this
+this
+which says that
+R
+R plus one over two
+must be smaller
+than
+M or in the complex case
+you can just
+replace everything
+that R
+is smaller than that
+strictly greater than
+rank double these here
+so if I just move the image
+to the left hand side
+isn't this
+you assume R
+right
+and this is
+just M by one
+so why is it
+strictly greater than
+any
+or am I
+you only can
+bound the term by a smaller
+equals
+in which case
+is that
+right now
+so the plastic example then is the rank one
+right
+so
+M is one
+so
+we know that the rank is
+you told us this cool thing
+where you got one constraint
+and the rank or even two constraints
+so you can see
+this is
+definitely true
+I'm sure about that one
+so what you can see from here
+this is just a feasibility thing
+and so
+this means
+so R can be
+you can just check it
+in that case
+for the
+for the
+for the complex
+case
+everything when M
+is
+less than four
+always find the rank one
+so up to three is fine
+and for real
+you can just check
+that this is for
+for M
+that's good
+and now I told you this the logic is
+there exists D not equal to zero
+such that BT be satisfied
+with the constraints
+the point is
+if I have
+maybe not
+it's obvious but maybe not
+if this is
+if this is
+larger or equal than one
+I can always
+from the kernel
+then maybe this
+D is from the kernel
+that makes
+that makes
+okay
+and then I can
+then I can just
+take any kind of addition
+and it still satisfies
+the constraints
+and from the continuity
+of the eigenvalues
+we know that
+there will be some sufficiently small T
+maybe I should write it like this
+such that BT becomes similar
+but then you are actually
+you know
+you take the characteristic polynomial
+and then it has roots
+the sufficiently small doesn't smell right
+why is T
+to be small
+I'd rather expect T to be quite large
+ah okay
+if you take
+the point of it
+there you've got a polynomial
+in T
+and by the fundamental theorem of algebra
+we've got
+I think that's what you're saying
+that's just
+I think
+the picture that T
+already has in mind is your increased T
+until you get to
+when it gets to existence it's kind of tricky
+because then right over the real numbers
+they might be having number roots
+right
+after the real game
+so to complex
+I'm happy with it
+but the fundamental theorem of algebra
+in this big field
+which the real numbers are
+and in fact I think you want
+because it really could be right
+the T of A is the polynomial
+x squared plus 3 is 0
+which you can't do
+I cannot
+I think that there's something more going on
+isn't there
+yeah it's not the character of the polynomial
+but T is not the
+I don't know
+yeah I mean I put it in the
+generalized eigenvalue version
+of this what do you call that
+not character of the polynomial
+generalized character is probably
+probably right
+and so
+yeah
+there's something else going on
+like
+you can I mean
+isn't the idea that you add T and it's bigger and bigger and bigger
+and then you're going to go in
+feasible at some point
+no this is the whole point
+it's in the kernel of phi
+the point is phi is a linear function
+phi is linear
+and because of that
+I can take this ring now
+and I can see
+that I can take some D
+which is in the
+like it's in the
+it's in the kernel of this function
+which means it does not
+it does not alter
+the outcome of the
+of the constraints
+that's true
+but what's the
+story of T then
+it selects the right T
+that
+thing becomes singular
+singularity means
+the determinant is zero
+yeah I mean T most lambs
+you can always find a T that makes one of
+the eigenvalues zero
+whereas previously it was a strictly positive
+matrix phi
+I find a T so that you reduce the rank
+yeah but can T go infinitely negative
+but why can you find
+a D that compensates
+for an eigenvalue
+it's somehow
+circling around that maybe
+I think this is the
+the constraint
+that Tobias mentioned
+we made that argument
+but it's different
+with some
+with some
+but
+I'm going to try to
+do you
+mean that I can reduce to the
+top state
+and then
+then you turn
+one of the same
+one of the same
+I'm not
+sure if you know what you're doing
+but what we're basically doing up there
+with the center now we are
+moving from
+I'm not sure if you know what I'm talking about
+so this A that is
+the same old story of
+by leading up form
+to its
+reproducing current
+can I just push the determinant
+argument through and see where it breaks
+we shouldn't need anything to match it right
+like we're saying
+so we're saying the B
+term and then the same
+I think you want to
+factor out B because it's invertible
+you can make it into a characteristic
+polynomial of
+square root inverse B
+D square root inverse B
+and then also one of our
+T
+so then you're arguing that
+there exists a T
+which makes this thing
+okay for complexity
+it's fine
+complexity but even for real T
+because
+yeah
+so D is not positive
+D can be any evolution
+anything just not zero
+so you put the T as
+the D
+we'll try to make it without
+the point is
+is that D can have negative i
+that's allowed
+and now as soon as a negative i
+is positive
+I can't buy it now
+okay
+and this is the whole proof
+for it
+how do you
+argue that
+so there exists a T
+such as P0
+P0 is singular and so because
+rank was an R
+but how do you argue that
+right because that's the argument
+and we say that there is some B of P0
+which is singular so it does
+rank one less and we say that
+that's our new feasible solution
+it's a flexible string but you also need the positive
+D is in the column of 5
+so it's a symmetric matrix
+symmetric so you can
+always choose it to be
+whatever you want basically
+if it's in the column of 5
+it's either positive, it's fully positive
+in which case you put a minus sign in front of it
+or it's
+it will neither be positive nor
+neither positive nor negative in which case
+you just find the smallest eigenvalue of it
+and then put a minus sign in front of that
+and then you can always
+zero off at least
+I think the argument is right
+which has
+a largest
+negative eigenvalue
+everything is negative
+and it's strictly negative
+not
+how do you know
+oh I think it's not the number of minus signs
+what if it's neither
+no that's the idea
+how about I just write it out
+here
+it has some smallest eigenvalue
+some
+some eigenvalue
+more than two
+whatever right, symmetric
+and then these D's
+we'll just put them in D semi-water
+right
+so what if they're all positive
+then we put a minus sign
+in front of it
+there exists a D in the column
+so I'm allowed to multiply by minus one
+now the largest
+the largest negative eigenvalue
+which is T just right
+I'll zero off one of the
+the corresponding eigenvector
+of that identity
+and the other state positive
+the objective here isn't
+is just to zero off at least one eigenvector
+of that program matrix
+I think we know but also the
+resulting B of T has to be positive
+and it would be
+why
+because you just
+it's not sufficiently small
+it's supposed to
+sufficiently small because
+yeah, thanks
+you just take the
+the eigenvalue of T with
+with the smallest absolute
+value
+and the smallest absolute value
+well then just if it's
+minus or plus you decide
+why I have a T because the T can be anything
+from R
+and then you just push it
+until that one
+eigenvalue cancels
+the smallest eigenvalue
+of the B for example
+you just in the column
+here for example
+if you already rank
+deficient then it's fine
+if not in the strict interior
+then you can push it in direction
+and this leaves you in a
+column at least for small t
+and you will reach the boundary
+but it doesn't matter with which matrix
+you add because in order to
+say
+sufficiently small t in the column
+then it's already fine
+then you walk to another phase
+no that's not possible
+because the phase is defined
+by the AIs or the
+the intersection of the phase
+of the affine subspace
+oh
+yes
+still
+like B can have mixed eigenvalues
+which are both positive and negative
+we first of all cannot choose that because
+the kernel can be one-dimensional
+and we're just fixed with this kind of distribution of signs
+then flip all signs
+well we can flip all of them but it's some of them are positive
+some are negative
+but this
+but there are one
+let's say the positive signs
+the positive signs
+they do not work because they just make
+B more positive
+then it's already
+possible
+you don't take the most negative sign
+yes
+you just walk gradually t up until
+it hits the first zero crossing
+imagine like you perturb B by D
+and for very small t
+sure
+values hardly change
+so you can now make a plot
+where you plot the curves of eigenvalues
+and then you increase t this will give continuous functions
+and at some point the lowest one will cross zero
+and then you stop
+and then you still have a positive operate
+okay
+but I would want that to
+but
+optimization
+I mean here it's just inverse function theorem
+I think
+okay
+what's your favorite proof of the inverse function theorem
+non-trivial
+non-trivial
+so we have
+let's say with a feasible
+X
+right this is your
+this is your assumption
+and it's offering
+R
+and now
+that's an assumption
+no because that just means
+you have given the name to the rank of X
+you just named the rank
+you would find R to be the rank
+okay
+okay
+I have my problem I take one thing to the point
+which says rank R
+now I write my
+rank R thingy as well
+something from the other dimension of space
+transformation
+now I can write
+the whole thing
+now I can take the
+transformation and write this whole
+thing
+as optimization in the subspace
+R
+and B is basically
+you give me some C
+so I have a smaller space
+okay so far so good
+now next step why do I define this
+by
+some story
+I can define
+maybe you don't need it but for me it was
+very
+intuitive to then work with the rank
+now to theorem because it's just simple
+so now I am in the
+okay I have to take the
+subspace
+I could optimize it in the subspace
+what do I learn but I also
+have to optimize over all B
+now you start with something
+you start with some feasible point
+you go to the sort of compressed
+STP
+you look at the feasible subspace
+and D at the orthogonal
+subspace to the feasible subspace
+which is the kernel
+of this file
+and now you say you can always
+walk in this direction to reduce the rank
+by one
+to the point
+you start with the feasible point
+then if this condition there holds
+then you can find a perturbation
+which reduces the rank
+now you have a new feasible point
+and you can redo the whole program
+this was
+like a while loop
+so yeah
+and this is awesome in this introduction
+and this is also what I wanted to do
+because I think this proof is
+somewhat constructive not like the
+pataki proofs they are all like
+very static
+you have some things that you have worked through
+but this one is like
+if you want you could check all of those
+points and
+reduce
+the complex
+the complex
+pataki is still a bit different
+it uses that you can do some other
+tricks I don't know if you know about
+the balanced
+the balanced distribution
+of
+I don't think we want to know about that
+so I'm kind of bugged by this
+V, this V appears and disappears
+it's a horribly
+basis thinking I don't like that
+can you just skip the V
+well the V
+the V is just
+actually just the basis
+of the RR
+and
+where this comes from
+in your proof
+just strike those lines up
+I don't need them
+I need it to
+to
+reduce
+to get from
+N to PSDR
+we need it
+we want to compress
+if X is a state
+you want to compress to support
+subspace of the state
+we need to choose a basis
+we can throw it
+we don't need to choose a basis and throw it out
+I'm just being pedantic
+but this is the kind of thing where
+in formalization
+it's a pain in the ass to choose a basis
+formalize and throw it out again
+so I'm just sensitive to this
+okay we are fine
+good
+do we agree
+does it pass it?
+I have a feasible point
+but I want to
+okay so
+this is actually
+like you could say
+we could substitute this line
+by saying
+each phase
+of the
+each phase of the PSD
+end code is isomorphic
+to
+PSDR somewhere
+that's much better because I'm also thinking
+infinite dimensional here
+if you want to generalize this stuff
+if you want to generalize this
+you don't want to be choosing V
+V is okay
+because it's a support
+it's Henriksen
+when you want to start
+V, V transpose
+which is really the supporting protection
+it's not going to throw spaces in the support
+and that's
+right yeah thanks
+but actually
+I'm
+do you really want that in infinite dimension
+because if you're on a c-star algebra
+this board is somewhere outside
+of the c-star algebra maybe
+yeah now I'm already
+wondering ahead as it
+was
+so if this proof kind of looks okay
+then we can already
+the point of talking is
+how far does it go
+before I just
+I already did a B
+for my son
+and what it says is that if you have
+an interior point of a PSD code
+you fix a random or any
+direction in the operator
+space and you walk along the direction
+at some point you're going to be outside of the code
+because then you at some point have to hit
+a phase and we are just
+that's the singularity here
+and this just means that the code
+is pointed
+pointed current yeah yeah this holds
+for any pointed code okay that's
+actually that's very important comment right
+in fact
+the whole proof
+can go through for just a
+intermediate space
+except for you have to replace rank with like
+is an element of phase
+and then I can find a smaller phase
+they are not numbered by range
+because they are in horizon orbit
+because we lost the representation in terms of operators
+but you can just say like the phase
+of it I mentioned below
+a code you mentioned
+this is also one thing
+why I have
+another proof of that one
+because I tried to do it in the first place
+I learned at last now but
+I have a proof that is
+for an arbitrary
+phone
+just for
+for an Archimedia that's the point here
+yeah
+what does that really mean
+there is inside a cone
+you add a little bit
+yeah well for every element
+of the phase
+there are the
+t and the t such that
+t plus is in the cone
+yeah
+it's literally dump condition you want
+so but now
+and then so the
+one thing that works with PSD is that
+faces
+a complex combination of extreme points
+and extreme points of rank 1 projections
+and so that's how we connect rank
+to
+to whatever
+the constraints right and the minute we
+lose representations
+star representations
+on some Hilbert space
+the minute we can't say the word rank any longer
+then we lose that rank
+right is this what's happening
+it's very very rank but the connection
+to operate is lost if you don't
+have a star representation
+so
+well
+even though you can get
+you want to get
+a new space
+might be
+a general space
+I think
+if we want to see the words
+operators we need some kind of representation
+to say that it's not going to work
+for any point in the cone
+well
+you can find an operator representation
+but I can put this theorem
+the thing that dies
+is
+this won't be the same right
+we have to replay the rank first
+the thing is that you replace that r
+r plus 1 divided by 2 by the dimension
+of the face
+is the face
+it's literally the dimension of sin
+r which is just
+the span of psd r
+you're just saying that you replace that
+explicit r expression
+with the dimension of the
+fine span of the face
+but the connection to
+operate is right you don't have
+oh no then you just need to plug in the formula part
+the dimension of the face
+that's the only comment
+I wonder if
+in the other way
+then we get some
+over the
+chain's weight or something like that
+because
+those are just that
+they're just those r squares
+some of them and you have
+irreducible representation so their dimension
+is just kind of the diagonal
+and it's just that right
+okay
+then we have to put on the
+that dimension
+I don't know
+those are
+we have a cone
+and
+okay psd cone generalizes
+for some states
+the cone
+any areas for this right
+any
+okay so we have a cone and we have
+a linear optimization of the cone
+this is how it would start
+yeah
+you could do this
+T walking so you push
+the salt to the edge
+no next step would be well we want to
+write this cone as an image
+of some
+some other cone
+right that's what's happening here
+this VBV
+let's see the first line is saying
+you are inside of some face
+oh yeah
+now
+you just blink to the face
+everything
+that would be the
+the sign dimension of face
+would be r right
+no that would be the
+the second line
+this would be okay
+yeah I know I got it
+actually you can project
+you can project to a subspace of a face
+but this is not something to be well
+defined and you don't have to be able to
+cleanly project the whole cone into a face
+so I would just say like we are in a face
+it's
+like trying to redefine
+these for arbitrary cone might be
+I would rather not do that
+than just be in a face
+like because if the face can be
+smaller the cone can be bigger than the
+projected around the face and try to squeeze it
+this would be
+probably because you can do that
+this part
+the A heads just the projections
+of the A's to the face
+this is like a one column proof
+for what?
+one column proof
+in PRA format
+okay
+now here's the challenge
+can we make a one page PRL
+what's the
+tpt's baby
+it's like
+because
+this is referring to a very old
+challenge
+there's a standing challenge
+amongst the theoretical physics community
+which is a one page PRL
+published
+there is a one page in each paper
+shouldn't this be
+the application
+it doesn't need to fit the application
+in the other column
+it's a tricky bit
+the obvious
+application would always be something like
+a restrictive concept problem
+which is kind of
+just too boring right that cone is easy
+why do all this
+in a continuous
+area of blah blah blah
+I'm thinking more like GPT
+something right
+we're not talking just about quantum
+mechanics here we're talking about
+even in post-process
+but
+that's for a simple
+I know this cone is boring
+but if I give you a
+restrictive grand state problem
+on some internet dimension blah blah blah
+and I prove that the optimal solution will be still
+pure state
+I know that all those pure state variation
+I met this bull still has a chance to find out
+I'm not surprised by that
+I don't know why but I don't know
+but if I have as many constraints
+it will fail
+like
+we can see restricted grand state would be mean actually
+give me like minimum the energy
+such that the angular momentum
+will be bigger
+number
+and the energy
+should also be
+equal to 5
+now you have your 3
+I like the angular momentum angle that works
+or energy or whatever
+ok we have the identity, we have the Hamiltonian
+want to optimize and now we have
+a third that we can pick
+to make this have real bite
+now it would be a non-commuting
+constraint for Hamilton
+not some boring conservative quantity
+yeah
+and to have a bite
+it would have to look great
+because if you add just one more constraint
+it does go next
+that would make it really interesting
+now take your favorite pure state
+automation
+well
+which
+should be 20 right
+some Monte Carlo wave function
+everything that has wave function
+everything that seems pure state is dead
+and now we can
+show that it will still work here
+yeah
+but
+no
+this is not
+but since you are talking about
+optimization problems
+this becomes just one NMR
+we want to optimize
+so if you have an optimization
+that would directly get
+something like
+minus and X
+then you can get a plus point
+from the T
+another constraint
+you can see it from
+so plus
+you can see it from two directions
+you can either say
+ok we have some
+some X
+of red
+on some face
+of the C because we know that the maximum
+minimum
+will appear on the face
+this means
+this function
+also needs to satisfy
+CD
+equals zero because
+if it does not equal zero you can
+take the same argument as here and argue that the point
+that you found is not optimal
+and
+yeah
+Mr. Weed linear
+you know it would be cool
+if you are optimizing a non-linear function
+you know it could be
+not too great
+like entropies and stuff
+you said also yesterday
+that we get the problem with the regularity
+if we are into information
+oh yeah I didn't understand
+ok
+we have
+one with a high R
+can have
+a high M constraint
+for
+two for the complexes
+we can have two constraints
+one of the constraints
+one
+one constraint
+that means the Hamiltonian
+because Hamiltonian optimization would be
+H is the energy
+Traces the other one
+we have one free
+and it still rank one
+oh yeah
+ok so
+that's the angular momentum thing
+that's the problem if you do something
+and you stop maybe then
+you have a worse bond
+maybe you lose that one extra constraint
+it's you know
+rank nullity is just
+more inverse function
+is
+implicit function theorem stuff
+that it is exactly linear
+but
+if we go to
+to the
+if you have a magnetic field
+that breaks angular momentum
+total angular momentum is no longer conserved
+when you have a magnetic field
+you have an atom in a magnetic field
+right now we've already
+ok ground state is pure
+cool we know that
+put a hydrogen atom in a magnetic field
+that's great
+but
+that's another way
+to add a constraint
+now you want to
+you say
+the perturbation breaks
+the angular momentum
+so now you want to fix angular momentum
+despite this
+you want to
+ah
+you want to conserve that angular momentum
+you want to prescribe that
+prescribe the angular momentum
+yeah right
+then you can also prescribe
+like this
+yeah
+prescribes it
+that's physics now right
+the hydrogen atom
+it's in a magnetic field
+you want to push it down to the ground state
+you want to say ah
+I want to make sure that the total
+the magnetic field points in that way
+I want to make sure the total angular momentum is fixed by some number
+now you
+the angular momentum is in a different direction
+in a different direction is fixed
+cool
+but then why do you care
+because
+you have lots of them
+that becomes a bit of an issue
+if you have too much angular momentum
+the box is in the direction
+you measure A
+you put it down
+the other quantity
+so that's the kind of example that I think could
+make it physically very interesting
+you think about
+what are the quantities in physics
+there's more than just angular momentum
+we have momentum
+energy
+rapidity
+these are the standard conserves
+then we have PC and T but they're discreet
+then we have
+sorry
+yeah right
+we could go orbital right
+yeah
+fusible ones must be mixed
+I think that's interesting
+the minute you
+what would shock
+a condensed matter theory is
+if they're forced to use pure states
+it's not allowed to use pure states
+and what would shock a quantum computing person
+what do you mean I can't use
+quiscate with pure states
+I always assumed that that was fine
+most people
+in this group here
+mixed states are kind of like
+we will understand
+but that's not the majority
+view here in the world
+well I can tell
+I know from
+discussions at least at IEEE
+where there were many people from IBM
+they were like and I was asking the question
+if anyone considers mixed states
+they were like well we don't need mixed states
+that's just noise
+we think of ideal
+quantum computers
+and then every time the question happens
+and no I had like three or four talks
+I was attending and they were saying
+there was some interesting
+it was interesting
+to see that our method got better
+when we introduced noise to the picture
+so maybe this is also a way to pick up
+the interesting question is not so much
+really the rank that you need
+but the rank that you need
+is a certain error
+I mean the rank is super unstable
+you can always make it
+so they say okay you tell me
+I need full rank but if I can approximate
+the tool
+after precision by pure state
+but this shouldn't
+just it could be robust
+of course
+there is only one
+x that's a final
+sorry I think there was a little bit of this problem
+let's start with some feasible set
+and start the positive
+point is that
+are the extreme points of this feasible set
+really in the interior
+or can they always be expanded
+out to the community
+and touch the boundaries
+and somehow natural
+if I only have one type of plane
+I have to cut through
+to a state
+this is the weird bit for me
+I find this very strange
+this is some of the geometry and now it's also quite
+if I had tool
+it's hard to draw
+full dimension
+you have a feasible set
+but it's something
+and you cut your first type of plane
+it's clear that you're always
+on the outside
+but then you cut the second type of plane
+it really gets inside the base
+because this is triangular face
+and if I cut my second type of plane
+like this
+then I'm stuck inside the triangular face
+but I don't want any of it
+I have to fix up all of this
+if you do a bit of something too
+I know I remember all of this stuff
+that's right
+I'm sure you can stop all of this
+whatever
+I need another cut
+I need another cut
+and you're in the interior
+it's fine
+it's a better picture
+I can cut right in the middle
+that's true
+you have one point
+on the inside of the house
+it's okay
+okay
+okay, so now I have to cut
+it's zero
+I have to cut the
+screen point of the other
+next to the rail
+this is what it said
+there's only one physical point
+and this can be arbitrary
+only when it's completely mixed
+I'm very mistaken
+the thing is
+that M equals to 2
+where we have the ball
+that should still be rank 1
+but for the picture it's not
+is it probably because of dimension
+the reason is because
+the point is rank 0
+but like
+it's still the rank 1
+so we need some other
+quality saying that this should also be
+better than
+such other needs
+it needs more than any
+you can't depict it in two or three dimensions
+that's the problem
+I'm thinking more on
+if you say this should work on the column
+it should work on the column
+yes
+we have three point arcs where the dimension
+is 1
+and the dimension
+that faces 1
+so
+I want to have
+instead of
+I just want to make sure it's just 1
+that's true
+can we
+I mean it's been said aloud in words
+but maybe the transcription
+will save it
+but Martin had the proof
+in general possible imaginable
+this is obvious to you
+but not to me
+so I would
+we should write it down
+maybe we should write it down
+I can send you
+my form of book
+should be already for
+arbitrary calls
+this is just adapted to PST already
+it's clear in the room
+it's clear in the room
+it's a projection to the interface
+it's a good idea
+I don't think every call has a projection to everything
+I want
+I'd like to be embedding the space
+into the column
+yeah because the space can be like
+bigger
+and then there's a small space
+and I'm not exactly sure it's always exist
+but that's another real statement
+okay
+if you have time
+maybe we can just take my
+I have it written down of course
+and then we can adapt it to the
+most
+most general case
+that would be cool
+but I think it would be a
+B
+that's not the projection
+but
+that's the only thing we need to solve
+we have your problem
+I think RK
+no just for everything
+space
+yeah the question is
+if we already talk about giving up functions
+I'm not giving in calls
+how far are we away from
+star
+I think
+every typical CSR of the brain
+right
+we don't have any
+and also if you
+give me the form of star
+can we
+give it to
+the star
+the star
+the star
+the star
+the star
+the star
+the star
+we're going to modify
+the proof
+this is the correct
+way to start
+VV plus E
+notation game
+yeah good
+what's the next piece
+of terminology that needs to be
+defined
+we need to talk about faces
+we're going to be decoding up just one order
+the table
+okay so there's extra conditions
+okay so then we need
+a student
+right
+every
+all the way
+inside the interior
+no you actually need to assume this for
+V plus and every face
+okay
+and
+that's what
+faces would be possible
+but finally
+this is so far
+but it's also very interesting the infinite
+dimension right it's telling us what's
+going to work and what isn't
+and then so that these are the two assumptions
+so far is this enough
+I'm going to look through
+and you will be necessary
+so you can probably
+come up with like notes that from all the
+things that are supposed to be
+okay so let's
+assume that when we need it
+so what's the map here what's the
+place of five
+so if you want to take a visible point
+and you want to define the face
+of that visible point
+the easiest point to define a
+face is to say that these are
+all of the elements that could be majorized
+by a positive order of height point
+okay so I've just realized I need some more
+notation right man this is just
+the cone but we haven't sort of talked about
+this kind of strange space C
+yeah
+so C is a sort of awkward
+V
+V plus such that
+there is some
+functional X
+you call the A
+the A-K on being
+the B-J
+on the D-J
+and where
+A-J
+is in the other direction
+right
+then you have functional
+okay so now we've got C
+and now the point you made was
+if we got to do
+find the face
+find the face
+of your physical point
+oh yeah we need to be in the background
+so let X
+be the point
+yeah let X be the
+point
+and then
+you see the curve
+on the face of X
+that's the
+I would define this as the set of all elements
+in D plus that you can majorize by X
+my rule for X
+set of all points
+W
+in D plus
+such that
+you can majorize
+X
+X is larger than
+and by larger than we need your perspective
+of course
+by the way
+is that common
+knowledge that this is the face
+I really have to
+prove this for myself
+but this is something that is
+Alex came with the same question
+so it seems like
+I was
+wondering because it sounded like
+this condition is open in general
+like
+because you cannot majorize by zero
+that's usually not an admissible point
+if it's an open condition doesn't that
+kind of contradict extreme faces
+no
+because the extreme face of the whole code
+is one-dimensional
+yeah okay
+it's an extreme ray not an extreme
+point
+I see
+but a nice way to think about this
+is that it just tells you
+that X can be decomposed
+as one of
+W divided by lambda plus
+something else
+yeah no I was just wondering
+whether the face should always contain
+the endpoints of every line as well
+does that
+still work?
+yeah okay this still works
+I see
+yeah
+yeah okay
+no no okay I see
+so it's in a sense you could say it's
+like the smallest
+face is the one
+in the face of the point
+is the one where the point is an interior
+of the face
+yes exactly
+okay
+because then it makes sense for a point
+as well because then for a point
+it's the only interior point of that point
+okay
+yeah but I think I convinced myself
+yesterday that
+I was happy with this definition
+we found the face of X
+a bunch of points in this cone
+and this is now defining
+5 right
+the 5 is this map
+the 5 of
+the 5 is the
+the 5 is the
+the 5 is the
+the 5 is the
+on the face
+on the face
+no you don't because
+you can define the 5 on the whole of V
+and you just say now I restrict
+myself to this
+yeah
+so 5 is an
+all of V
+and it goes to just these constraints
+where I work with something
+here
+one of
+of
+of
+of V
+so that's the element of R to the N
+we're working
+in the real numbers
+mm-hmm
+there's also each of those p-addict fields
+and
+and then 5 restricted
+to
+I want to
+change the name
+I think that
+going
+so
+I'm restricted to add
+these are the
+step numbers
+now
+there's every function that's defined
+so
+so I'm going to use
+8
+8
+on
+on
+and then the dimension of F
+now is what sim R
+is
+mm-hmm
+mm-hmm
+dimension
+dimension of F
+dimension of F
+dimension of F
+dimension of F
+dimension of F is what
+is an allergist to sim R
+but we have to give it a
+maybe we'll just call it in the F
+mm-hmm
+I should just think linear
+a normal span of the
+because it's called a zero so it's
+we don't even have to give it a 5
+so we can embed
+a bit more space
+so
+F is a subcode
+and so then D F
+F
+mm-hmm
+F is a linear function
+on a D F dimension of space
+to an M dimension
+space
+okay this comes
+through right so then we have
+the rank now that
+says the full dimension
+it's dimper
+what's the union
+and I just
+now I'm using
+my brain the dim
+sim
+yeah this dim
+sim
+and dimker is
+the stuff that gets zapped
+on F
+on F
+and dim in
+the end
+or not end it's
+it's more like equal then
+there's a dim in
+and then this is smaller equal
+then
+then dimker
+right
+then
+then
+then so we are done
+no no no we still need this whole
+move into the base
+I don't want to fit on one board
+ah
+ah
+ah
+ah
+I should have written this more
+it's not that people don't think the name
+that comes from a thing
+you may complain about this
+um
+but do we do
+do we stick to just this feasibility case
+or should we
+make the
+optimize what you say right
+that's the game
+the argument is a standard
+programming argument right
+feasibility equals optimality
+it's just the same thing
+I think
+if you're from optimality I agree
+but for everyone else
+it's a pain
+it's a footnote
+it's a pain
+okay
+you say
+it is obvious that
+and then it's fine
+you need to deal a bit
+you're dealing differently with it right
+on the one on one case you say okay
+then I find another solution
+with different rank on the other hand you say okay
+if I find some D that is not
+within the current
+that is within the kernel of all A's
+but not within the kernel of C
+then I can find a phase that is actually
+better
+like has a better value
+then
+but okay
+yeah but you can choose D
+and you like
+but you can only pick one
+from the kernel of the constraint
+right
+the D has created the kernel
+the D is from the kernel of the constraint
+you cannot choose an example
+but then you can still like DT
+then you can still choose this
+DT and you can walk in any direction of the T
+without disturbing the constraint
+but
+only one
+can prove it
+it can be that you maintain
+in the form for one direction
+which will be grouped up to the regular
+and you have to walk in the other direction
+as the code implies then
+was there exist D in the kernel
+by it
+such that
+such that
+X which is now being
+this is
+minus
+when that is satisfied
+there really is something to be found
+and you add it to the D
+and then you walk
+in
+faced
+how will you do that
+in your algebra
+where we are
+because this thing is not going to work
+so what am I missing
+it's because
+you're like
+calling
+assume
+because the code is pointed
+which we did
+actually it was written up
+and then
+I think
+in the code
+the code contained
+are real long
+and those are not pointed because
+you think the minus of the code is the real line
+difference
+okay
+I'm going to write that
+you'll say
+this is the T circuit
+okay
+I would like to get the argument
+there
+so according to the code
+is the code
+and if you take the minus of the code
+so you flip the sign of everything
+and you take the intersection
+that's only zero
+but if you're copying the line
+and you flip the sign of the line
+it's nothing to itself
+and the intersection of that code
+with itself would be the line
+okay
+there
+I think that's kind of cool
+okay
+and then now we're kind of done
+right that was the end of it
+well I know you have to argue that
+therefore you can choose to be
+okay
+yeah there's not a Zonsla in this situation
+so hopefully this is
+there would be some unfortunately
+from there right
+in your box
+that was weird wasn't it
+but here
+we have a line and we intersect it with the face
+the intersection should be
+well
+zero
+we have a line
+that sometimes in the code
+so it has to intersect some face
+but probably it'll have a lot of page
+5300
+okay
+okay
+okay
+and we brought the problem
+what
+that's a geometry
+okay
+okay
+okay
+you have to get some help
+okay
+okay
+okay
+to be looked up
+but it's one of these
+obviously true things that's probably
+ridiculously true
+yeah
+and finite dimension is kind of easy
+because you have
+supporting hyper planes
+I mean
+it feels like a hyper plane separation argument
+is going to help, it's going to be there
+which makes it a Zonsla
+argument in infinite dimensions
+which is cool
+let's fight
+actually
+if you use the separable space
+you don't need Zonsla anymore I think
+it's accountable
+yeah
+okay
+how do we know that
+finite
+that's assumption
+I mean this may be not right
+in which case if you want to do iteration
+it's probably not good
+okay
+if we use the same one
+yeah
+yeah yeah yeah
+this argument is useless
+if it's not finite
+in which you use finite
+should help right
+it was here
+it was here it was just written down
+with a weasel
+yeah
+it has to be finite then for this argument to work
+but that feels the opportunity
+but I
+I know
+you can still go to a smaller space
+and if it's infinite dimension
+then you have an infinite regress right
+so you
+okay
+but in this
+proof you had
+written already there the argument
+was somehow about the number of constraints
+why this phase was finite dimensional
+because you would parametrize it by
+the finite dimensional commutants
+ah
+so maybe that's where we do need the commutant
+huh
+but it feels like this shouldn't need that
+still right now
+let's play the game where the phase is infinite dimension
+but
+countably infinite like none of this weird
+friggin
+then you could just take the intersection
+that you always go to a smaller space right
+but then the kernel
+the constraint development
+it's huge
+yeah it's okay
+the phase is infinite dimensional
+the problem is way way big
+and I cannot just pick one existing point
+but just
+try something smarter
+well just pick one random
+and then you go down
+and then you just take the infinite
+you just keep there's an infinite regress
+take the intersection over all these smaller
+smaller phases
+ximos
+ximos
+sorry
+I was going to ask you a question
+you have to
+there could be
+something at once there
+you just have to take something out
+so but then
+there's something finite here
+right it's not the dimension
+of the kernel it's rather
+the thing that you
+the thing that you chop off
+I mean you know that
+the difference between
+the phase dimension and the kernel dimension is finite
+yeah right
+yeah
+so this sum off
+but I mean in the C-style algebraic
+case wasn't the argument that
+assume you have no constraints
+then
+you just have a pure state which
+and then you are somehow required that this is an exposed phase
+and when you cut it
+with another constraint
+type of plane
+and you somehow go up from like a one
+dimensional thing to higher dimensions
+that's why it remains finite
+and you don't start with something that's
+infinite dimensional when you have zero constraints
+exactly that
+I think we have to use this
+in a sense so if there are
+zero constraints this df
+would not be infinite dimension
+no
+it's one dimension
+I don't know what's the most general setting
+where pure state
+I mean where's
+extreme point of a cone
+when is
+that
+I mean is that always
+one dimensional in a sense
+or are there some pathological
+logical settings
+or
+what's the extreme way it's going
+come on
+well let's summarize where we are right now
+because we've gotten somewhere I think
+yeah
+if the world is finite dimensional here
+it's all good right are we cool
+are we cool
+everything's infinite dimensional but df
+is the dimension of this
+face is finite then cool
+right
+so now we're into this slightly weird
+zone where not weird
+I mean maybe this is generic
+where we should invert the argument
+somehow when that's infinity
+if we have a finite
+rank solution
+this finite rank cannot be bigger
+yeah if we have a finite
+rank solution then it cannot be bigger
+so this works
+I understood Alex's point
+as to now we chose
+at the moment chose x
+arbitrarily
+we should take anything to the point here
+but maybe we have to be slightly
+smarter in our initial choice
+which is reasonable comment right
+if you have any information use it
+but chopping down
+if I readily introduce
+constraints you can maybe guarantee
+but not
+use the x
+to add constraints
+if you have no constraint
+you just have the linear
+intersection of the column
+the optimal linear function
+oh
+yeah
+there are many of them
+at least one constraint
+yeah
+for me there's always one
+because it's a state
+yeah
+your argument would be
+if I had one constraint
+my
+the
+dimension of the case would be
+finite dimension
+then I can find one
+now I want to make sure that
+I introduce new constraints
+which could kick me out of that
+I have to find another case
+introduce constraints
+maybe if you stick to the rank setting
+you blow off the rank but say it's finite
+introduce it again
+it looks like it's 1230
+usually
+the time when people in this country
+find it a good thing to do at the time
+no I also need to do other things
+I have this video recorded
+I'll try it and just transcribe
+it into a minimal tech
+like this argument
+a lot of this discussion can be just
+dropped but
+we'll see what happens
+just that way that no one has the right
+if that fails only though
+it would be great
+if someone takes a photograph and can reconstruct
+this proof
+I think I have my proof anyway
+your proof is cool
+like it's
+I will just
+maybe
+that one
+I mean it's super electrical
+like it flies
+and I'm not
+totally joking about the one big PRL
+but
+what is the way
+now should I
+create an overlay as in the old times
+or is it not going to be anything
+Timo, old times
+we don't do this anymore
+that's why I'm asking
+there'll be a github
+do you know what
+that's what I'm doing also
+you can create an overlay
+but connect it to github
+I've been waiting
+I've been waiting for this moment
+I hate an overlay with a burning passion
+yeah me too
+but there are people who like to use it
+yeah well they're going to learn that I hate
+a burning passion
+I would rather share on github
+where you can check it out
+it's sort of the only thing
+make some kind of
+make a call and make some kind of system
+where he would go through the history of the github
+repo and decide
+like or there are authors based on the holy book
+do you know what
+I'm going to ask Claude when he transcribes this
+who's the main author of them
+very curious
+I love him
+that's why alphabetic is beautiful
+actually
+they called me to use certified random
+certified random
+yeah I would just like to use it
+for my
+we have access to real random
+that's okay for you
+if you don't need another thesis
+I would like to use it
+I need some fillery
+my coat is more
+cool
+alright that was very interesting
+thank you
+thanks
+bye
+bye bye
+yeah for sure

@@ -17,6 +17,44 @@ a second verifier pass to accept the 49 amended nodes.
 
 ---
 
+## Work Completed (Session 3)
+
+### Authorship and Credit
+
+- **Timo Ziegler moved to first author** in `discussion/barvinok_pataki_aou_proof.tex`,
+  with explicit credit in acknowledgements for the proof idea (perturbation–extremality
+  argument) that was recognised to generalise to pointed cones and AOU spaces.
+- Martin Plavala credited for recognising the general cone extension during the discussion.
+
+### Infinite-Dimensional Extension via Weis–Shirokov
+
+Following an email from Alexander Stottmeister, incorporated **Theorem 3.3** from
+Weis–Shirokov (J. Convex Anal. 28(3), 2021; arXiv:2003.14302) into the LaTeX write-up.
+
+Key insight: the finite-dimensionality hypothesis on $d_F$ in the main theorem is
+**automatically satisfied** for extreme points under finitely many constraints, by a
+purely convex-geometric result that requires only a real vector space and a convex set
+— no operator-algebraic notions needed. Operator algebras enter only to *interpret*
+the finite-dimensional face as a commutant.
+
+New content in `discussion/barvinok_pataki_aou_proof.tex`:
+- **Section 5** ("The Infinite-Dimensional Case and the Role of $d_F$"):
+  Theorem 8 (Weis–Shirokov), Corollary 9 (finiteness of $d_F$),
+  Remark 10 (no operator-algebraic assumptions needed),
+  Corollary 11 (infinite-dimensional Barvinok–Pataki without a priori finiteness of $d_F$)
+- Updated abstract to reflect the infinite-dimensional extension
+- Fixed Weis–Shirokov bibliography (was J. Math. Phys., corrected to J. Convex Anal.)
+- Downloaded paper to `discussion/shirokov_weis_2021.pdf`
+
+### Discussion Directory Added
+
+- `discussion/barvinok_pataki_aou_proof.tex` — 6-page standalone paper (compiles cleanly)
+- `discussion/meeting_summary.md` — meeting notes from 3 March 2026 blackboard discussion
+- `discussion/shirokov_weis_2021.pdf` — Weis–Shirokov paper (arXiv:2003.14302v2)
+- Audio/video recordings and board snapshots from the session
+
+---
+
 ## Work Completed (Session 2)
 
 ### All 4 Genuine Math Errors Fixed

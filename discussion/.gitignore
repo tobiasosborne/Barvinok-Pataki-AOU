@@ -1,0 +1,3 @@
+# Large media files (exceed GitHub 100MB limit)
+*.mp4
+*.m4a
