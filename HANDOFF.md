@@ -2,21 +2,52 @@
 
 ## Status
 
-**Paper expanded with conic inequality extensions from email follow-up.**
+**Paper at 17 pages with conic inequality extensions, spectrahedra, and Cuntz algebra example.**
 
-- LaTeX write-up: `discussion/barvinok_pataki_aou_proof.tex` (13 pages, compiles cleanly)
-- Numerical spectrahedra examples: `numerics/spectrahedra_bp.jl`
+- LaTeX write-up: `discussion/barvinok_pataki_aou_proof.tex` (17 pages, compiles cleanly)
+- Numerical scripts: `numerics/spectrahedra_bp.jl`, `numerics/cuntz_sdp.jl`
 - Email synthesis: `discussion/email_extensions.md`
-- 64 proof nodes, 32 definitions, 14 external references (core proof unchanged)
+- 7 bibliography entries, 12 numbered sections + acknowledgements
 
 ---
 
 ## Work Completed (Session 4)
 
+### Cuntz Algebra O_2 Example (Section 12)
+
+New infinite-dimensional example using the Cuntz algebra O_2 — a simple,
+purely infinite C*-algebra with no traces and no finite-dimensional
+representations. Key result: **BP forces type collapse** — constrained
+extremal states must have type I GNS representations (finite-dimensional
+commutant), despite generic states being type III factors.
+
+New content in `discussion/barvinok_pataki_aou_proof.tex`:
+- **Section 12** ("The Cuntz Algebra O_2"):
+  - Definition, key properties (simple, purely infinite, no traces)
+  - States as measures on Cantor space, Bernoulli (pure) vs Markov (type III)
+  - Corollary: BP for Cuntz algebras (dim commutant ≤ m+1)
+  - Type collapse table: m constraints → commutant structure
+  - Truncation to M_{2^L} for numerical verification
+  - Two numerical tables: gauge-invariant constraints, convergence with L
+  - Markov constraints producing rank-2 mixed states at m=15
+
+New Julia script `numerics/cuntz_sdp.jl`:
+- 4 examples: gauge-invariant constraints, coherences, convergence, Markov vs Bernoulli
+- Truncation levels L=2 to L=6 (d=4 to d=64)
+- Rank stable across all truncation levels (confirms infinite-dim result)
+
+### Numerical Results Tables (Sections 8–10)
+
+Integrated SDP verification data into the conic inequality and spectrahedra sections:
+- Table 5: Block-diagonal LMI spectrahedron (8 trials)
+- Table 6: PPT entanglement witness ranks
+- Table 7: Scalar inequality slack analysis (BP tight at m=15)
+- Table 8: Compression constraint (Martin vs Lennart bounds)
+
 ### Email Follow-Up Integration (4 March 2026)
 
 Integrated six threads from the post-meeting email discussion into the main
-LaTeX document (`discussion/barvinok_pataki_aou_proof.tex`, now 13 pages):
+LaTeX document:
 
 #### New Sections Added
 
