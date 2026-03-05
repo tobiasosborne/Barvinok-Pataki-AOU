@@ -2,12 +2,55 @@
 
 ## Status
 
-**All 24 proof nodes adversarially verified (100% validated, 0 open challenges).**
+**All 24 proof nodes adversarially verified + 3 new sections added (25 pages).**
 
-- LaTeX source: `discussion/barvinok_pataki_aou_proof.tex` (20 pages, compiles cleanly)
-- af formalisation: 24 nodes validated, 15 definitions, 8 external references (2 verified via string match)
+- LaTeX source: `discussion/barvinok_pataki_aou_proof.tex` (25 pages, compiles cleanly)
+- af formalisation: 24 nodes validated, 15 definitions, 8 external references
+- Lean 4 formalisation: `lean/` — sorry-filled skeleton, `lake build` succeeds
 - Verified reference: `references/weis_shirokov_2021.pdf` (arXiv:2003.14302)
 - Old formalisation: `archive/v1/` (646 ledger entries, 15 externals, PRD, latex export)
+
+---
+
+## Session 8: 6-Workstream Extension (Sections 14–16 + Remarks + Lean 4)
+
+### New Remarks
+- **Remark 7** (real vs complex face dimensions): After Theorem 1, clarifies r(r+1)/2 vs r² conventions
+- **Remark (constraints increase bound)**: In Section 13, explains why adding symmetry constraints increases BP bound, resolution via Schur block decomposition
+
+### New Section 14: BP for Quantum Error Correction (~100 lines)
+- KL conditions as linear constraints on recovery channel Choi matrix
+- BP bound for recovery channels: r(r+1)/2 ≤ m_TP + m_KL
+- Examples: [[4,2,2]], [[5,1,3]], [[7,1,3]] (with remark on vacuity of combined bound)
+- Numerics: `numerics/qec_bp.jl`
+
+### New Section 15: BP for the Quantum Marginal Problem (~130 lines)
+- Marginal constraints as spectrahedron
+- BP bound: r(r+1)/2 ≤ d_A(d_A+1)/2 + d_B(d_B+1)/2 − 1
+- Numerical verification: qubit-qubit, qubit-qutrit, qutrit-qutrit
+- Numerics: `numerics/marginals_bp.jl`
+
+### New Section 16: BP for Thermal Operations (~100 lines)
+- Gibbs-preserving channels as spectrahedron
+- BP bound: r(r+1)/2 ≤ d(d+1) − 1
+- Temperature dependence: β→0 (unital), β→∞ (ground-state preserving)
+- Numerics: `numerics/thermal_bp.jl`
+
+### Lean 4 Formalisation (`lean/`)
+- Definitions: ConvexCone face, spanFace, faceDim, constraintMap, feasibleSet, IsExtreme
+- Main theorem: `barvinok_pataki` — sorry-filled skeleton with correct statement
+- 4 sorry lemmas: rank-nullity, perturbation, relint, extremality contradiction
+- `lake build` succeeds (Lean 4.27.0, Mathlib v4.27.0)
+
+### New bibliography
+- Knill & Laflamme 1997, Gottesman 1997, Klyachko 2006, Lostaglio 2019, Brandao et al. 2015
+
+### Adversarial verification: 3 parallel verifiers, key fixes
+- WS4: m_cov=4→5, m_TP=4→3 (real symmetric convention)
+- WS1: Acknowledged QEC bounds are vacuous (exceed TP-only bound); added remark
+- WS2: Fixed Klyachko citation context (marginal problem, not de Finetti)
+- WS3: Fixed "single rank-1 constraint" wording
+- Code: Fixed m_tp convention in channels_bp.jl (dA^2 → dA*(dA+1)/2)
 
 ---
 
@@ -66,7 +109,7 @@ Key errors found and fixed by verification:
 
 ---
 
-## Proof Tree (24 nodes, all validated)
+## Proof Tree (24 validated + 9 new nodes)
 
 ```
 1   Main Theorem: BP for Pointed Cones (d_F <= m)
@@ -93,6 +136,15 @@ Key errors found and fixed by verification:
 1.21  Scattering channel complexity
 1.22  Electron-electron scattering example
 1.23  Compton scattering example
+1.24  KL conditions as linear constraints on Choi matrix
+1.25  BP bound for QEC recovery channels (vacuous for standard codes)
+1.26  QEC code examples (constraint counts and rank bounds)
+1.27  Marginal constraints form a spectrahedron
+1.28  BP bound for marginal-constrained states
+1.29  Qubit-qubit marginal example
+1.30  Thermal operations as spectrahedron
+1.31  BP bound for thermal operations
+1.32  Temperature limits analysis
 ```
 
 ---

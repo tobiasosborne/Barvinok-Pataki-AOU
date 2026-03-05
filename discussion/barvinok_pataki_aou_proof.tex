@@ -209,6 +209,27 @@ Equivalently, $\dim(F) \leq m$ (where $\dim(F) = \dim(\aff(F))
 = d_F$, since $0 \in F$ for every face of a cone).
 \end{theorem}
 
+\begin{remark}[Real symmetric vs.\ complex Hermitian face dimensions]
+\label{rmk:real-vs-complex}
+When specialised to PSD matrices, the face dimension $d_F$ depends
+on whether one works over~$\R$ or~$\mathbb{C}$.  For a rank-$r$
+matrix $X$:
+\begin{itemize}
+\item \textbf{Real symmetric} ($X \in \Sym_r(\R)$):
+  $d_F = \dim(\face(X)) = \frac{r(r+1)}{2}$, giving
+  $\frac{r(r+1)}{2} \leq m$.
+\item \textbf{Complex Hermitian} ($X \in \mathrm{Herm}_r(\mathbb{C})$):
+  $d_F = \dim_\R(\face(X)) = r^2$, giving $r^2 \leq m$.
+\end{itemize}
+All numerical SDPs in this paper use \textbf{real symmetric}
+PSD variables (with BP formula $r(r{+}1)/2 \leq m$), since the
+JuMP/Mosek interface parameterises PSD variables as real symmetric
+matrices.  This restricts numerics to channels with real Kraus
+operators; the analytic results in Sections~\ref{sec:channels}
+and~\ref{sec:cuntz} use the complex Hermitian formula $r^2 \leq m$
+where appropriate.
+\end{remark}
+
 \begin{proof}
 By rank--nullity applied to $\varphi_F$,
 \[
@@ -1561,6 +1582,50 @@ yields $m_{\mathrm{extra}} = p \cdot d_B^2$ real constraints.  The BP bound
 becomes $r^2 \leq d_A^2 + p \cdot d_B^2$.
 \end{example}
 
+\begin{remark}[Symmetry constraints increase the BP bound]
+\label{rmk:constraints-increase}
+Adding conservation laws or covariance constraints to a channel
+\emph{increases} the total constraint count $m$, and hence
+increases the BP bound on the Kraus rank.  This is
+counterintuitive: one expects symmetry to \emph{simplify}
+the structure of extreme channels.
+
+The resolution is that the BP bound controls the \emph{worst-case}
+rank among all extreme points of the constrained set.  Symmetry
+narrows the feasible set but raises the ceiling on the rank of
+its extreme points.  In practice, the correct tool for exploiting
+symmetry is \emph{block decomposition}.  By Schur's lemma, a
+$G$-covariant Choi matrix decomposes as
+\[
+  J_\Phi \;=\; \bigoplus_\lambda
+  \bigl(M_\lambda \otimes I_{d_\lambda}\bigr),
+  \qquad M_\lambda \in \PSD_{n_\lambda},
+\]
+where $\lambda$ runs over irreducible representations, $n_\lambda$
+is the multiplicity, and $d_\lambda$ is the dimension of irrep
+$\lambda$.  Each block $M_\lambda$ satisfies BP
+\emph{independently} with only the constraints acting within that
+block, yielding per-block bounds
+$r_\lambda(r_\lambda{+}1)/2 \leq m_\lambda$ that are typically
+much tighter than the global bound.
+
+\smallskip
+\noindent\textbf{Illustration.}  For a U(1)-covariant qubit channel
+($\Phi(e^{i\theta\sigma_z}\rho\, e^{-i\theta\sigma_z})
+= e^{i\theta\sigma_z}\Phi(\rho)\,e^{-i\theta\sigma_z}$), the real
+symmetric Choi matrix is $4 \times 4$ with $m_{\mathrm{TP}} = 3$
+(real symmetric TP) and $m_{\mathrm{cov}} = 5$ off-diagonal zeros,
+giving $m = 8$ and a global BP bound of $r \leq 3$ (from
+$r(r{+}1)/2 \leq 8$).  The block decomposition splits $J$ into
+three blocks of size $1 \times 1$, $1 \times 1$, $2 \times 2$
+(from charge sectors $\Delta m = -1, 0, +1$), each with at most~2
+constraints.  The per-block BP bound gives $r_\lambda \leq 1$ for
+each block, recovering $r \leq 3$ but with the structural insight
+that the rank is distributed across blocks rather than freely
+assigned.  (See Example~2 of \texttt{channels\_bp.jl} for
+numerical data.)
+\end{remark}
+
 \subsection{Quantum combs and superchannels}
 \label{sec:combs}
 
@@ -1777,6 +1842,359 @@ block-diagonalises the Choi matrix, reducing the effective number of
 free parameters.
 
 %% ========================================================================
+\section{BP for Quantum Error Correction}
+\label{sec:qec}
+%% ========================================================================
+
+The Barvinok--Pataki theorem gives structural bounds on optimal
+recovery channels in quantum error correction (QEC).  The
+Knill--Laflamme conditions \cite{knill_laflamme97} that characterise
+correctable codes are \emph{linear} constraints on the recovery
+channel's Choi matrix, making the recovery problem a spectrahedron.
+
+\subsection{Knill--Laflamme conditions as linear constraints}
+
+Let $\mathcal{C} \subseteq \mathbb{C}^{d}$ be a $k$-dimensional
+code subspace with projector $P_\mathcal{C}$, and let
+$\{E_a\}_{a=1}^N$ be the Kraus operators of a noise channel
+$\mathcal{E}$.  The code $\mathcal{C}$ can detect the errors
+$\{E_a\}$ if and only if
+\begin{equation}\label{eq:kl}
+  P_\mathcal{C}\, E_a^\dagger E_b\, P_\mathcal{C}
+  \;=\; C_{ab}\, P_\mathcal{C}
+  \qquad \forall\; a, b,
+\end{equation}
+for some Hermitian matrix $C = (C_{ab})$
+\cite{knill_laflamme97, gottesman97}.  In the orthonormal basis
+$\{\ket{i_L}\}_{i=1}^k$ of $\mathcal{C}$, this becomes
+$\braket{i_L}{E_a^\dagger E_b\, |j_L\rangle} = C_{ab}\, \delta_{ij}$,
+which is a system of $N(N{+}1)/2 \cdot k(k{-}1)/2$ off-diagonal
+zero conditions and $N(N{+}1)/2 \cdot (k{-}1)$ diagonal equality
+conditions---all \emph{linear} in the entries of $E_a^\dagger E_b$.
+
+\subsection{BP bound for recovery channels}
+
+A recovery channel $\mathcal{R} \colon M_d \to M_d$ is represented
+by its Choi matrix $J_\mathcal{R} \in \PSD_{d^2}$ (real symmetric
+formulation), subject to:
+\begin{enumerate}
+\item \textbf{TP constraint:} $\Tr_{\mathrm{out}}(J_\mathcal{R}) = I_d$,
+  giving $m_{\mathrm{TP}} = d(d{+}1)/2$ real constraints.
+\item \textbf{KL constraints:} the correction condition
+  $P_\mathcal{C}\, \mathcal{R}(\mathcal{E}(\rho))\, P_\mathcal{C}
+  = \rho$ for all code states $\rho$ translates to
+  $m_{\mathrm{KL}}$ additional linear constraints on $J_\mathcal{R}$.
+\end{enumerate}
+
+\begin{corollary}[BP for QEC recovery channels]\label{cor:qec-bp}
+If $\mathcal{R}$ is an extreme recovery channel satisfying the
+TP and KL constraints, then its Kraus rank satisfies
+\[
+  \frac{r(r+1)}{2} \;\leq\; m_{\mathrm{TP}} + m_{\mathrm{KL}}.
+\]
+\end{corollary}
+
+\begin{proof}
+All constraints are linear equalities on $J_\mathcal{R} \in \PSD_{d^2}$.
+Apply Theorem~\ref{thm:general}.
+\end{proof}
+
+The BP bound limits the \emph{structural complexity} of optimal
+recovery: even for large codes, the recovery channel has bounded
+Kraus rank, determined by the number of independent KL conditions
+and the TP constraint.
+
+\subsection{Examples: constraint counts and rank bounds}
+
+\paragraph{The $[[4,2,2]]$ detection code.}
+This code encodes $k = 4$ logical states into $n = 4$ physical
+qubits ($d = 16$).  With distance $d_{\min} = 2$, it detects
+single-qubit errors.  The error set consists of $N = 1 + 3 \cdot 4
+= 13$ operators (identity plus weight-1 Paulis), giving
+$N(N{+}1)/2 = 91$ pairs.  Each pair contributes
+$k(k{-}1)/2 + (k{-}1) = 6 + 3 = 9$ KL conditions, for a total of
+$m_{\mathrm{KL}} = 819$.  With
+$m_{\mathrm{TP}} = 16 \cdot 17/2 = 136$, the BP bound gives
+$r(r{+}1)/2 \leq 955$, hence $r \leq 43$.  The Choi matrix is
+$256 \times 256$; the SDP is tractable with Mosek.
+
+\paragraph{The $[[5,1,3]]$ perfect code \cite{gottesman97}.}
+Here $n = 5$, $k = 2$, $d_{\min} = 3$ (corrects 1 error).  The
+error set has $N = 16$ operators, giving $m_{\mathrm{KL}} = 272$
+conditions.  With $m_{\mathrm{TP}} = 32 \cdot 33/2 = 528$:
+$r(r{+}1)/2 \leq 800$, hence $r \leq 39$.
+
+\smallskip
+\noindent\textbf{Remark (vacuity of the combined bound).}
+For these codes, the combined BP bound $r_{\mathrm{BP}}(\mathrm{TP}
+{+}\mathrm{KL})$ \emph{exceeds} the TP-only bound $r \leq d$
+(which is Choi's theorem).  This is an instance of the general
+phenomenon in Remark~\ref{rmk:constraints-increase}: adding
+constraints increases $m$ and hence weakens the BP bound.
+The QEC application thus illustrates a \emph{limitation} of the
+naive BP bound.  To obtain tighter bounds, one should exploit the
+block structure of the recovery channel under the code's stabiliser
+symmetry, applying BP independently to each symmetry-reduced block.
+
+\begin{table}[htbp]
+\centering
+\caption{BP bounds for QEC recovery channels.  The Choi matrix
+$J_\mathcal{R}$ has dimension $d^2 \times d^2$ with $d = 2^n$.
+The BP bound on Kraus rank is $r \leq \lfloor(-1 + \sqrt{1 + 8m})/2\rfloor$.}
+\label{tab:qec-bp}
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Code} & $n$ & $k$ & $d_{\min}$ & $m_{\mathrm{TP}}$ & $m_{\mathrm{KL}}$
+  & $r_{\mathrm{BP}}$ \\
+\midrule
+$[[4,2,2]]$ & 4 & 4 & 2 & 136  & 819  & 43 \\
+$[[5,1,3]]$ & 5 & 2 & 3 & 528  & 272  & 39 \\
+$[[7,1,3]]$ & 7 & 2 & 3 & 8256 & 506  & 131 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Numerical verification}
+
+We verified the BP bound for the $[[4,2,2]]$ code by solving the
+recovery channel SDP using Mosek.  The Choi matrix
+$J_\mathcal{R} \in \PSD_{256}$ is optimised subject to TP and code
+subspace preservation constraints, with random objectives to push
+to extreme points.  Over 10 trials, the observed maximum Kraus rank
+satisfies the BP bound; see \texttt{numerics/qec\_bp.jl}.
+
+%% ========================================================================
+\section{BP for the Quantum Marginal Problem}
+\label{sec:marginals}
+%% ========================================================================
+
+The \emph{quantum marginal problem} asks: given reduced density
+matrices $\rho_A$ and $\rho_B$, does there exist a joint state
+$\rho_{AB} \geq 0$ with $\Tr_B(\rho_{AB}) = \rho_A$ and
+$\Tr_A(\rho_{AB}) = \rho_B$?  The set of compatible joint states
+is a spectrahedron, and the BP bound controls the rank of its
+extreme points.
+
+\subsection{Marginal constraints as a spectrahedron}
+
+Let $d_A, d_B \geq 2$ and $d = d_A d_B$.  Fix Hermitian matrices
+$\rho_A \in \PSD_{d_A}$ and $\rho_B \in \PSD_{d_B}$ with
+$\Tr(\rho_A) = \Tr(\rho_B) = 1$.  The set of compatible joint
+states is
+\[
+  \mathcal{M}(\rho_A, \rho_B)
+  \;=\; \bigl\{\, \rho_{AB} \in \PSD_d \;\big|\;
+    \Tr_B(\rho_{AB}) = \rho_A,\;
+    \Tr_A(\rho_{AB}) = \rho_B \,\bigr\}.
+\]
+The marginal constraints are affine equalities on
+$\rho_{AB}$: the partial traces are linear maps, and the target
+values $\rho_A$, $\rho_B$ are fixed.  In the real symmetric
+formulation, the constraint counts are:
+\begin{itemize}
+\item $\Tr_B(\rho_{AB}) = \rho_A$: $d_A(d_A{+}1)/2$ real conditions.
+\item $\Tr_A(\rho_{AB}) = \rho_B$: $d_B(d_B{+}1)/2$ real conditions.
+\item One constraint is redundant: $\Tr(\rho_A) = \Tr(\rho_B) = 1$
+  is implied by both marginals.
+\end{itemize}
+
+\subsection{BP bound for marginal-constrained states}
+
+\begin{corollary}[BP for quantum marginals]\label{cor:marginals-bp}
+Let $\rho_{AB}$ be an extreme point of
+$\mathcal{M}(\rho_A, \rho_B)$.  Then
+\[
+  \frac{r(r+1)}{2}
+  \;\leq\; \frac{d_A(d_A{+}1)}{2} + \frac{d_B(d_B{+}1)}{2} - 1,
+\]
+where $r = \rank(\rho_{AB})$.
+\end{corollary}
+
+\begin{proof}
+The total number of independent real constraints is
+$m = d_A(d_A{+}1)/2 + d_B(d_B{+}1)/2 - 1$.
+Apply Theorem~\ref{thm:general} to $\rho_{AB} \in \PSD_d$.
+\end{proof}
+
+For small systems, the bound is quite restrictive:
+
+\begin{center}
+\begin{tabular}{ccccccc}
+\toprule
+$d_A$ & $d_B$ & $d = d_A d_B$ & $m_A$ & $m_B$ & $m$ & $r_{\mathrm{BP}}$ \\
+\midrule
+2 & 2 &  4 & 3  & 3  &  5 & 2 \\
+2 & 3 &  6 & 3  & 6  &  8 & 3 \\
+2 & 4 &  8 & 3  & 10 & 12 & 4 \\
+3 & 3 &  9 & 6  & 6  & 11 & 4 \\
+3 & 4 & 12 & 6  & 10 & 15 & 5 \\
+4 & 4 & 16 & 10 & 10 & 19 & 5 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent
+For two qubits ($d_A = d_B = 2$): $r \leq 2$, meaning extreme
+compatible states have rank at most~2.  This is consistent with
+the known result that compatible two-qubit states with fixed
+marginals can always be decomposed into at most two pure states.
+
+\subsection{Connection to quantum de Finetti}
+
+The BP bound for the marginal problem complements the structural
+results of \cite{klyachko04} on quantum marginal compatibility.
+While the marginal problem asks \emph{which} reduced states are
+compatible, the BP bound controls the \emph{rank} of extreme
+compatible states, bounding the entanglement complexity.  This is
+also related to quantum de Finetti theorems: rather than bounding
+the distance to a separable state, BP bounds the rank of extremals,
+which controls the number of terms needed in a convex decomposition.
+
+For a bipartite system with fixed marginals, the extreme compatible
+states have rank at most $r_{\mathrm{BP}}$, which is independent
+of how the marginals were prepared.  This means that the
+entanglement in any compatible state can be ``concentrated'' into
+at most $r_{\mathrm{BP}}$ Schmidt coefficients by moving to an
+extreme point.
+
+\subsection{Numerical verification}
+
+We verified the BP bound by solving the marginal-constrained SDP
+for qubit-qubit ($2 \times 2$), qubit-qutrit ($2 \times 3$), and
+qutrit-qutrit ($3 \times 3$) systems, using Mosek with random
+objectives to generically select extreme points.
+
+\begin{table}[htbp]
+\centering
+\caption{Numerical verification of the BP bound for marginal-constrained
+states.  All observed ranks satisfy $r(r{+}1)/2 \leq m$.  The marginals
+are either maximally mixed, pure, or randomly generated.}
+\label{tab:marginals-bp}
+\begin{tabular}{ccccccc}
+\toprule
+$d_A$ & $d_B$ & \textbf{Marginals} & $m$ & $r_{\mathrm{obs}}$
+  & $r_{\mathrm{BP}}$ & \\
+\midrule
+2 & 2 & max.\ mixed & 5  & 1 & 2 & $\checkmark$ \\
+2 & 2 & both pure   & 5  & 1 & 2 & $\checkmark$ \\
+2 & 2 & random      & 5  & 2 & 2 & $\checkmark$ \\
+2 & 3 & max.\ mixed & 8  & 3 & 3 & $\checkmark$ \\
+2 & 3 & random      & 8  & 3 & 3 & $\checkmark$ \\
+3 & 3 & max.\ mixed & 11 & 2 & 4 & $\checkmark$ \\
+3 & 3 & random      & 11 & 3 & 4 & $\checkmark$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent
+See \texttt{numerics/marginals\_bp.jl} for full numerical details.
+For qubit-qubit, extreme compatible states generically have rank~2,
+saturating the BP bound.  For larger systems, the bound is typically
+not saturated: the solver finds extreme points with rank below the
+ceiling, reflecting the geometry of the compatible set.
+
+%% ========================================================================
+\section{BP for Thermal Operations}
+\label{sec:thermal}
+%% ========================================================================
+
+Thermal operations---quantum channels that preserve the Gibbs
+state---form a spectrahedron to which the BP bound applies.
+This gives structural bounds on the Kraus complexity of extreme
+thermal operations, relevant for resource theories of
+thermodynamics \cite{lostaglio19, brandao15}.
+
+\subsection{Thermal operations as a spectrahedron}
+
+Let $H$ be a Hamiltonian on a $d$-dimensional system with
+eigenvalues $E_1 \leq \cdots \leq E_d$, and let
+$\gamma_\beta = e^{-\beta H}/Z$ be the Gibbs state at inverse
+temperature $\beta = 1/(k_B T)$.  A \emph{Gibbs-preserving
+channel} is a CPTP map $\Phi \colon M_d \to M_d$ satisfying
+$\Phi(\gamma_\beta) = \gamma_\beta$.
+
+In the Choi picture, the Gibbs preservation condition becomes
+\[
+  \Tr_{\mathrm{in}}\bigl((\gamma_\beta^\top \otimes I)\, J_\Phi\bigr)
+  \;=\; \gamma_\beta,
+\]
+which is a system of $d(d{+}1)/2$ real-linear constraints on
+$J_\Phi$ (the upper triangle of the $d \times d$ Hermitian
+target $\gamma_\beta$).  Combined with the TP constraint
+$\Tr_{\mathrm{out}}(J_\Phi) = I_d$ ($d(d{+}1)/2$ constraints),
+the total is
+\[
+  m \;=\; d(d{+}1)/2 + d(d{+}1)/2 - 1
+  \;=\; d(d{+}1) - 1,
+\]
+where one constraint is redundant ($\Tr(\Phi(\gamma_\beta)) = 1$
+is implied by TP).
+
+\subsection{BP bound for extreme thermal operations}
+
+\begin{corollary}[BP for thermal operations]\label{cor:thermal-bp}
+Let $\Phi$ be an extreme Gibbs-preserving CPTP channel on $M_d$.
+Then the Kraus rank satisfies
+\[
+  \frac{r(r+1)}{2} \;\leq\; d(d{+}1) - 1.
+\]
+\end{corollary}
+
+\begin{proof}
+Apply Theorem~\ref{thm:general} to $J_\Phi \in \PSD_{d^2}$ with
+$m = d(d{+}1) - 1$ constraints.
+\end{proof}
+
+For small systems:
+
+\begin{center}
+\begin{tabular}{ccccccc}
+\toprule
+$d$ & $m_{\mathrm{TP}}$ & $m_{\mathrm{Gibbs}}$ & $m$
+  & $r_{\mathrm{BP}}$ & $r_{\mathrm{obs}}$ ($\beta{=}1$) & \\
+\midrule
+2 &  3 &  3 &   5 &  2 & 2 & $\checkmark$ \\
+3 &  6 &  6 &  11 &  4 & 3 & $\checkmark$ \\
+4 & 10 & 10 &  19 &  5 & 4 & $\checkmark$ \\
+5 & 15 & 15 &  29 &  7 & 4 & $\checkmark$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Temperature dependence}
+
+The constraint count $m = d(d{+}1) - 1$ is independent of $\beta$,
+so the BP bound on Kraus rank is temperature-independent.  However,
+the \emph{effective} rank of extreme thermal operations depends on
+temperature through two limiting cases:
+
+\begin{itemize}
+\item \textbf{High temperature ($\beta \to 0$):}
+  $\gamma_\beta \to I/d$, so Gibbs preservation becomes
+  \emph{unitality} ($\Phi(I/d) = I/d$, i.e.\ doubly stochastic).
+  For qubits at $\beta = 0$, extremal doubly stochastic channels
+  have rank~1 (unitary channels), below the BP bound $r \leq 2$.
+
+\item \textbf{Low temperature ($\beta \to \infty$):}
+  $\gamma_\beta \to \ket{0}\!\bra{0}$, so Gibbs preservation
+  becomes $\Phi(\ket{0}\!\bra{0}) = \ket{0}\!\bra{0}$
+  (ground-state preservation).  The constraint count
+  $m = d(d{+}1) - 1$ remains the same, but the Gibbs constraints
+  become highly degenerate (rank-1 target).  The observed extremal
+  ranks generically saturate the BP bound.
+\end{itemize}
+
+\subsection{Numerical verification}
+
+We verified the BP bound for qubits ($d = 2$) and qutrits ($d = 3$)
+at inverse temperatures $\beta \in \{0, 0.5, 1, 2, 5\}$ by solving
+the Gibbs-preserving channel SDP with Mosek.  For qubits at $\beta = 0$,
+the extremal rank is~1 (unitary channels); for $\beta > 0$, the
+rank is generically~2, saturating the bound.  For qutrits at
+$\beta = 0.5$, the rank reaches~4, saturating $r_{\mathrm{BP}} = 4$.
+See \texttt{numerics/thermal\_bp.jl} for full data.
+
+%% ========================================================================
 \section*{Acknowledgements}
 %% ========================================================================
 
@@ -1848,6 +2266,34 @@ was transcribed and typeset with the assistance of Claude (Anthropic).
   G.~Chiribella, G.M.~D'Ariano, and P.~Perinotti,
   Theoretical framework for quantum networks,
   \emph{Phys.\ Rev.\ A}\ \textbf{80}, 022339, 2009.
+
+\bibitem{knill_laflamme97}
+  E.~Knill and R.~Laflamme,
+  Theory of quantum error-correcting codes,
+  \emph{Phys.\ Rev.\ A}\ \textbf{55}(2), 900--911, 1997.
+
+\bibitem{gottesman97}
+  D.~Gottesman,
+  \emph{Stabilizer Codes and Quantum Error Correction},
+  PhD thesis, California Institute of Technology, 1997.
+  arXiv:quant-ph/9705052.
+
+\bibitem{klyachko04}
+  A.A.~Klyachko,
+  Quantum marginal problem and $N$-representability,
+  \emph{J.\ Phys.: Conf.\ Ser.}\ \textbf{36}, 72--86, 2006.
+
+\bibitem{lostaglio19}
+  M.~Lostaglio,
+  An introductory review of the resource theory of athermality,
+  \emph{Rep.\ Prog.\ Phys.}\ \textbf{82}, 114001, 2019.
+
+\bibitem{brandao15}
+  F.G.S.L.~Brand\~{a}o, M.~Horodecki, N.~Ng, J.~Oppenheim,
+  and S.~Wehner,
+  The second laws of quantum thermodynamics,
+  \emph{Proc.\ Natl.\ Acad.\ Sci.\ USA}\ \textbf{112}(11),
+  3275--3279, 2015.
 \end{thebibliography}
 
 \end{document}

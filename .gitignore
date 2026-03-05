@@ -1,2 +1,12 @@
 .claude/
 *.Zone.Identifier
+
+# LaTeX build artifacts
+discussion/*.aux
+discussion/*.log
+discussion/*.out
+
+# Lean build artifacts
+lean/.lake/build/
+lean/.lake/config/
+lean/.lake/packages/

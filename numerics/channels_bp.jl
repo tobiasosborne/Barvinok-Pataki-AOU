@@ -106,7 +106,7 @@ function example1_choi_recovery()
 
     for (dA, dB) in [(2,2), (2,3), (3,3), (3,4), (4,4)]
         d = dA * dB
-        m_constraints = dA^2  # from Tr_B(J) = I
+        m_constraints = dA * (dA + 1) ÷ 2  # from Tr_B(J) = I (real symmetric upper triangle)
         bp_bound = bp_rank_real(m_constraints)
 
         max_rank = 0
@@ -157,7 +157,7 @@ function example2_covariant_channels()
 
     for (dA, dB) in [(2,2), (2,3), (3,3)]
         d = dA * dB
-        m_tp = dA^2
+        m_tp = dA * (dA + 1) ÷ 2  # real symmetric TP constraints
 
         # Count covariance constraints: J_{(ia,ib),(ja,jb)} = 0
         # when (ia - ja) ≠ (ib - jb) mod max(dA,dB)
@@ -227,7 +227,7 @@ function example3_fixed_io()
     Random.seed!(77)
     dA, dB = 3, 3
     d = dA * dB
-    m_tp = dA^2
+    m_tp = dA * (dA + 1) ÷ 2
 
     for n_pairs in [1, 2, 3]
         # Generate random input-output pairs consistent with some channel
