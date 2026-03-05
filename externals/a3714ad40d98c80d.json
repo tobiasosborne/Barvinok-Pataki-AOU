@@ -1,0 +1,8 @@
+{
+  "id": "a3714ad40d98c80d",
+  "name": "Pataki SDP Rank Bound (1998)",
+  "source": "G. Pataki, 'On the rank of extreme matrices in semidefinite programs and the multiplicity of optimal eigenvalues', Math. Oper. Res. 23(2), 339-358, 1998. Result: If X is an extreme point of the spectrahedron {X ∈ PSD_n : ⟨A_j, X⟩ = β_j}, then r(r+1)/2 ≤ m where r = rank(X). JOURNAL PAPER — PAYWALLED.",
+  "content_hash": "45d29a55bffef5e2a014a410e9d1ca28e8dfd84f9fa651f105bd98d23d9ffa41",
+  "created": "2026-03-05T08:39:11.053687623Z",
+  "notes": ""
+}
