@@ -1,0 +1,1 @@
+{"type":"challenge_raised","timestamp":"2026-03-05T22:03:03.188373485Z","challenge_id":"ch-bbe33234bf965b16","node_id":"1.20","target":"dependencies","reason":"Node 1.20 applies Theorem 2 (BP for pointed cones, node 1) via the Corollary proof at line 1596-1599 of the LaTeX. It should declare a dependency on node 1, but declares none.","severity":"major","raised_by":""}
