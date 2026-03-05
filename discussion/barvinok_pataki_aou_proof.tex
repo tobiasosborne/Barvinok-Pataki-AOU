@@ -96,7 +96,8 @@ there exists $n \in \mathbb{N}$ such that $ne - v \in V^+$ (i.e.\
 $v \leq ne$).  The cone $V^+$ is \emph{Archimedean} if, whenever
 $ne + v \in V^+$ for all $n \in \mathbb{N}$, it follows that
 $v \in V^+$.  The triple $(V, V^+, e)$ is called an \emph{Archimedean
-order unit space} (AOU space).
+order unit space} (AOU space) if $V^+$ is a pointed Archimedean cone
+and $e$ is an order unit.
 \end{definition}
 
 \begin{definition}[Face of a cone]\label{def:face}
@@ -175,11 +176,15 @@ The key observation is that the proof above uses only three ingredients:
 \begin{enumerate}
 \item \textbf{Rank--nullity} for the constraint map restricted to the
   face;
-\item \textbf{Pointedness} of the cone, to guarantee that a line
-  through an interior point of a face must exit the cone;
+\item \textbf{Relative interior perturbation}: any kernel direction
+  $D \in \spn(F)$ can perturb $x$ in both directions while remaining
+  in the face (since $x$ lies in the relative interior of $F$);
 \item \textbf{Finite-dimensionality} of the face, to apply
   rank--nullity with finite dimensions.
 \end{enumerate}
+Pointedness of the cone is used implicitly: it ensures that the
+face structure of $V^+$ is non-trivial (every face is a proper
+sub-cone).
 
 \begin{theorem}[Barvinok--Pataki for pointed cones]\label{thm:general}
 Let $V$ be a real vector space, $V^+\subseteq V$ a pointed cone, and
@@ -200,8 +205,8 @@ If $x$ is an extreme point of $C$, then
 \[
   \boxed{\; d_F \;\leq\; m. \;}
 \]
-Equivalently, $\dim(F) \leq m - 1$ (where $\dim(F)$ is the dimension
-of $F$ as a convex set, i.e.\ $\dim(\aff(F))$).
+Equivalently, $\dim(F) \leq m$ (where $\dim(F) = \dim(\aff(F))
+= d_F$, since $0 \in F$ for every face of a cone).
 \end{theorem}
 
 \begin{proof}
@@ -225,48 +230,35 @@ $\alpha_j(D) = 0$ for all $j$.  Therefore, for any $t \in \R$:
 So $x + tD$ satisfies all affine constraints whenever it lies in $V^+$.
 
 \medskip
-\noindent\textbf{Step 2: Pointedness forces exit from the cone.}
-Since $V^+$ is pointed, we cannot have both $D \in V^+$ and
-$-D \in V^+$ (this would imply $D = 0$).  Therefore, at least one of
-the half-lines $\{x + tD : t > 0\}$ or $\{x - tD : t > 0\}$ must
-eventually leave $V^+$.
+\noindent\textbf{Step 2: The point $x$ lies in the algebraic relative
+interior of $F$.}
+The face $F = \face_{V^+}(x)$ is by definition the smallest face of
+$V^+$ containing $x$ in its relative interior.  In particular, for
+every $D \in \spn(F)$ there exists $\varepsilon > 0$ such that
+$x + tD \in F \subseteq V^+$ for all $|t| < \varepsilon$.
 
-More precisely: since $x$ lies in the relative interior of $F$, for
-sufficiently small $|t|$ we have $x + tD \in F \subseteq V^+$ (as
-$D \in \spn(F)$ and $x$ is an interior point of $F$).  But the line
-cannot remain in $V^+$ in both directions indefinitely, since this
-would imply $D$ and $-D$ are both in $V^+$ (by rescaling), contradicting
-pointedness.
+To see this explicitly: write $D = w_1 - w_2$ with $w_1, w_2 \in F$.
+By definition of $F$, there exist $\lambda_1, \lambda_2 > 0$ with
+$x - \lambda_i w_i \in V^+$.  For $0 < t < \min(\lambda_1, \lambda_2)$,
+\[
+  x + tD = \underbrace{(x - t w_2)}_{\in V^+} + \underbrace{t w_1}_{\in V^+}
+  \;\in\; V^+,
+\]
+where $x - tw_2 = (1 - t/\lambda_2)\,x + (t/\lambda_2)(x - \lambda_2 w_2)
+\in V^+$ by convexity.  The same argument applies to $x - tD$.
 
 \medskip
-\noindent\textbf{Step 3: Walking to a smaller face.}
-Let
+\noindent\textbf{Step 3: Contradiction with extremality.}
+Combining Steps~1 and~2: for sufficiently small $\varepsilon > 0$,
+both $x^+ := x + \varepsilon D$ and $x^- := x - \varepsilon D$ lie in
+$F \subseteq V^+$ and satisfy all constraints, hence $x^+, x^- \in C$.
+Since $D \neq 0$, they are distinct ($x^+ - x^- = 2\varepsilon D \neq 0$).
+Then
 \[
-  t^+ = \sup\{t > 0 : x + tD \in V^+\}, \qquad
-  t^- = \sup\{t > 0 : x - tD \in V^+\}.
+  x \;=\; \tfrac{1}{2}\, x^+ \;+\; \tfrac{1}{2}\, x^-
 \]
-By Step~2, at least one of $t^+$, $t^-$ is finite.  Say
-$t^+ < \infty$ (the other case is symmetric).
-
-If $V^+$ is closed (which holds in finite dimensions, or under the
-Archimedean assumption in the norm topology), then
-$x^* := x + t^+ D \in V^+$, and $x^*$ lies on the boundary of $V^+$
-relative to $\spn(F)$.  This means $x^*$ belongs to a \emph{proper
-face} $F' \subsetneq F$, so $\dim(F') < \dim(F)$.  Moreover, $x^*$
-satisfies all constraints, so $x^* \in C$.
-
-\medskip
-\noindent\textbf{Step 4: Contradiction with extremality.}
-We have $x^* = x + t^+ D \in C$ and (if $t^- > 0$, which holds since
-$x$ is interior to $F$) also $x^{**} = x - \varepsilon D \in C$ for
-small $\varepsilon > 0$.  Then
-\[
-  x = \frac{\varepsilon}{t^+ + \varepsilon}\, x^*
-    + \frac{t^+}{t^+ + \varepsilon}\, x^{**},
-\]
-exhibiting $x$ as a non-trivial convex combination of two distinct
-elements of $C$.  If $x$ were an extreme point of $C$, this is a
-contradiction.
+is a non-trivial convex combination of two distinct elements of $C$,
+contradicting the extremality of $x$.
 
 Therefore $\ker\varphi_F = \{0\}$, and we conclude $d_F \leq m$.
 \end{proof}
@@ -284,13 +276,14 @@ consider the state-like set
     \alpha_j(x) = b_j,\; j = 1, \dots, m \,\bigr\}.
 \]
 For any extreme point $x$ of $C$, the face of $V^+$ generated by $x$
-satisfies $\dim(\face_{V^+}(x)) \leq m - 1$.
+satisfies $d_F = \dim(\spn(\face_{V^+}(x))) \leq m$.
 \end{corollary}
 
 \begin{proof}
-The Archimedean property implies the cone $V^+$ is closed (in the
-order-unit norm) and pointed.  In finite dimensions, every face
-is finite-dimensional.  Apply Theorem~\ref{thm:general}.
+By definition, an AOU space has a pointed cone.  The Archimedean
+property implies $V^+$ is closed in the order-unit norm.  In finite
+dimensions, every face is finite-dimensional.  Apply
+Theorem~\ref{thm:general}.
 \end{proof}
 
 \begin{corollary}[Barvinok--Pataki for C$^*$-algebras]\label{cor:cstar}
@@ -323,8 +316,13 @@ space $S(\pi_\varphi(A)')$ of the commutant.  In particular,
   \dim\bigl(\face_{S(A)}(\varphi)\bigr)
   = \dim_\R\bigl(\pi_\varphi(A)'\bigr)_\sa - 1.
 \]
-Applying Theorem~\ref{thm:general} with the $m + 1$ constraints on
-$A^*_+$ gives $\dim(\spn(\face(\varphi))) \leq m + 1$, hence
+The cone $A^*_+$ is pointed (if $\varphi$ and $-\varphi$ are both
+positive, then $\varphi(a^*a) = 0$ for all $a$, so $\varphi = 0$)
+and weak-$*$ closed.
+When $A$ is infinite-dimensional, the finiteness of $d_F$ follows
+from Corollary~\ref{cor:dF-finite} below (applied with $\ell = m+1$).
+Theorem~\ref{thm:general} then gives
+$\dim(\spn(\face(\varphi))) \leq m + 1$, hence
 $\dim_\R(\pi_\varphi(A)')_\sa \leq m + 1$.
 \end{proof}
 
@@ -440,10 +438,11 @@ Theorem~\ref{thm:general} then gives $d_F \leq m$.
   within blocks \emph{and} the number of active blocks.
 
 \item \textbf{Infinite-dimensional} ($A = B(\mathcal{H})$).
-  For normal states (density operators) under $m$ constraints
-  (including possibly unbounded Hamiltonians, handled via the
-  Weis--Shirokov framework): $r^2 \leq m + 1$.  In particular,
-  $m \leq 2$ constraints imply all extreme points are pure states.
+  For normal states (density operators) under $m$ constraints,
+  apply Corollary~\ref{cor:inf-dim} to the pointed closed cone
+  of positive trace-class operators: $r^2 \leq m + 1$.  In
+  particular, $m \leq 2$ constraints imply all extreme points
+  are pure states.
 \end{enumerate}
 
 %% ========================================================================
@@ -521,8 +520,9 @@ $\mathcal{H}$.
 
 The constraint $\Tr(J_z\,\rho) = M\hbar$ constitutes $m = 1$ affine
 constraint on the state space $\mathfrak{S}(\mathcal{H})$.  By
-Corollary~\ref{cor:cstar} (or Corollary~\ref{cor:inf-dim} applied to
-the positive cone in the trace-class operators),
+Corollary~\ref{cor:inf-dim} applied to the pointed closed cone of
+positive trace-class operators (with $m + 1$ constraints including
+trace normalisation),
 \[
   r^2 \;\leq\; m + 1 = 2,
   \qquad\text{hence}\qquad r = 1.
@@ -862,9 +862,9 @@ all $i$, so
 \]
 for all $t \in \R$.  Hence $x + tD$ satisfies all conic inequality
 constraints whenever $x + tD \in V^+$.  The remainder of the argument
-(perturbation along $D$, exit from $V^+$ by pointedness,
-contradiction with extremality) follows identically to
-Steps~2--4 of Theorem~\ref{thm:general}.
+(algebraic relative interior perturbation and contradiction
+with extremality) follows identically to
+Steps~2--3 of Theorem~\ref{thm:general}.
 \end{proof}
 
 \begin{remark}[Equality vs.\ inequality constraints]
@@ -888,12 +888,15 @@ Steps~2--4 of Theorem~\ref{thm:general}.
 
 \item \textbf{Inactive constraints.}
   If a conic constraint is \emph{inactive} at $x$ (i.e.\
-  $\Phi_i(x) - a_i$ lies in the interior of $W_i^+$), then any
-  perturbation $D$ preserves this constraint for small $|t|$,
-  regardless of $\Phi_i(D)$.  Thus inactive constraints do not
-  contribute to the kernel condition.  More precisely, if $k$
-  constraints are inactive, then $d_F \leq m'$ where
-  $m' = \sum_{i:\, \text{active}} \dim(W_i)$.
+  $\Phi_i(x) - a_i$ lies in the interior of $W_i^+$), then
+  $\face_{W_i^+}(S_i) = W_i^+$, so $d_F(S_i) = \dim(W_i)$
+  and the inactive constraint's contribution cancels in the
+  slack bound of Remark~\ref{rmk:slack} below.
+  More precisely, if $k$ constraints are inactive, the slack
+  formulation gives $d_F \leq m'$ where
+  $m' = \sum_{i:\, \text{active}} \dim(W_i)
+        - \sum_{i:\, \text{active}} d_F(S_i)
+       \leq \sum_{i:\, \text{active}} \dim(W_i)$.
 \end{enumerate}
 \end{remark}
 
@@ -1219,9 +1222,9 @@ $V^+$ is feasible.
 For nonlinear constraints, this fails.  A nonlinear constraint
 can force a feasible point to lie deep in the interior of a
 high-dimensional face, with no feasible path to the boundary.
-For example, consider a polyhedron $P$ with a nonlinear constraint
-that confines $x$ to a ``shell'' strictly inside $P$: every
-point satisfying the constraint is interior to $P$, so no
+For example, consider a pointed cone $V^+$ with a nonlinear constraint
+that confines $x$ to a ``shell'' strictly inside $V^+$: every
+point satisfying the constraint is interior to $V^+$, so no
 perturbation reaches a proper face.
 
 Linear constraints avoid this because they generate faces upon
@@ -1341,8 +1344,8 @@ $m$ & \textbf{Commutant structure} & \textbf{Decomposition} \\
 $0$ & $\mathbb{C}$ & Pure state \\
 $1$ & $\mathbb{C}$ or $\mathbb{C} \oplus \mathbb{C}$
   & Pure, or mixture of 2 irreducibles \\
-$3$ & $\leq M_2(\mathbb{C})$
-  & Irreducible with multiplicity $\leq 2$ \\
+$3$ & $\sum n_j^2 \leq 4$
+  & $\leq 4$ irreducibles, multiplicities $\leq 2$ \\
 $m$ & $\bigoplus_j M_{n_j}(\mathbb{C})$, $\sum n_j^2 \leq m+1$
   & Controlled multiplicity \\
 \bottomrule
