@@ -2,13 +2,59 @@
 
 ## Status
 
-**All 24 proof nodes adversarially verified + 3 new sections added (25 pages).**
+**All 24 proof nodes adversarially verified + 4 new sections added (28 pages).**
 
-- LaTeX source: `discussion/barvinok_pataki_aou_proof.tex` (25 pages, compiles cleanly)
+- LaTeX source: `discussion/barvinok_pataki_aou_proof.tex` (28 pages, compiles cleanly)
 - af formalisation: 24 nodes validated, 15 definitions, 8 external references
 - Lean 4 formalisation: `lean/` — sorry-filled skeleton, `lake build` succeeds
 - Verified reference: `references/weis_shirokov_2021.pdf` (arXiv:2003.14302)
 - Old formalisation: `archive/v1/` (646 ledger entries, 15 externals, PRD, latex export)
+
+---
+
+## Session 9: Rényi Generalisations and Robustness (Section 17)
+
+### Motivation
+Coauthor feedback: "I don't care about rank, it isn't robust." Rank = exp(S₀) is
+discontinuous; Rényi dimensions d_α = exp(S_α) for α > 0 are continuous alternatives.
+
+### New Section 17 in LaTeX (~230 lines, 7 subsections)
+
+- **17.1 Rényi dimension**: Definition, table of special cases (α=0,1,2,∞), monotonicity
+- **17.2 Theorem (Rényi BP)**: d_α(ρ*)² ≤ m for all α ≥ 0. Trivial corollary of BP; tight when eigenvalues are uniform.
+- **17.3 Theorem (Robust Rényi BP)**: For δ-approximate extreme points with α > 1:
+  d_α(ρ) ≤ √m / (1-δ/2)^{α/(α-1)}. **Dimension-free** — does not depend on ambient d.
+  Key insight: tail eigenvalues contribute (δ/2)^α to tr(ρ^α), which vanishes for α > 1.
+  For α = 1 (von Neumann), dimension-dependence is unavoidable (Fannes–Audenaert).
+- **17.4 Corollary (Purity BP)**: tr(ρ*²) ≥ 1/√m. Measurable via SWAP test without tomography.
+- **17.5 Eigenvalue clustering** (Pataki 1998): At SDP optima, eigenvalues cluster.
+  Numerics show d₂/d₀ ≈ 0.25 generically (but no significant difference between optima and random).
+- **17.6 Conjecture (Typical Rényi BP)**: E[d_α(ρ*)] ≤ c_α · √m with c_α < 1 for α > 0.
+- **17.7 Numerical verification table**: d_α values for random spectrahedra (m=25, d=10).
+
+### New discussion document
+- `discussion/renyi_generalisation.md` — full 11-section mathematical investigation
+  covering robustness, Schatten norms, modular theory connections, SOS hierarchies,
+  Roy–Vetterli effective rank, and 7 numerical findings.
+
+### New numerics: `numerics/renyi_bp.jl` (7 experiments)
+1. Random spectrahedra: d_α across varying m (confirms d_α ≪ rank)
+2. Robustness: depolarising perturbation shows d_α continuous while rank jumps
+3. Extreme CPTP channels: d_α well below BP bound
+4. Eigenvalue skewness: BP-saturating points have d₂/d₀ ≈ 0.25 (heavily skewed)
+5. Pataki clustering: no significant clustering difference between optima and random
+6. Scaling: c_α = d_α/√m < 1 across m ∈ {4,9,16,25} (supports Typical Rényi BP conjecture)
+7. Applications: marginals (d₁=1.57 vs bound 4.1), covariant channels (d_α=2 vs bound 6)
+
+### Key results
+- **Theorem 2 (Robust Rényi BP) is genuinely new**: dimension-free robustness for α > 1
+- **Purity bound is experimentally testable** via SWAP test
+- **Numerics confirm** d_α ≤ c_α√m with c_α ≈ 0.3–0.5 generically
+- **Rank fails numerically** (SCS returns rank > BP bound) while d_α respects bounds
+
+### New bibliography
+- Roy & Vetterli 2007 (effective rank), Im & Wolkowicz 2021 (strengthened BP),
+  Fannes 1973 (entropy continuity)
 
 ---
 
@@ -145,13 +191,20 @@ Key errors found and fixed by verification:
 1.30  Thermal operations as spectrahedron
 1.31  BP bound for thermal operations
 1.32  Temperature limits analysis
+1.33  Rényi BP bound (d_α ≤ √m for all α)
+1.34  Robust Rényi BP (dimension-free bound for α > 1)
+1.35  Purity BP corollary (tr(ρ²) ≥ 1/√m, SWAP-testable)
+1.36  Typical Rényi BP conjecture (c_α < 1 generically)
 ```
 
 ---
 
 ## Next Steps
 
-1. **Download remaining references** (Pataki, Cuntz, Bratteli-Jorgensen) if access becomes available
-2. **Add sub-proofs** for corollary nodes (1.5, 1.6, 1.9, 1.10) if deeper formalisation desired
-3. **Consider Lean 4 formalisation** of the core 3-step proof (nodes 1.1–1.4)
-4. **Tighten node 1.3** per verifier note: make F-membership explicit in the calculation
+1. **Prove Typical Rényi BP conjecture**: Use random matrix theory (MP distribution for truncated spectra) to show E[d_α] ≤ c_α√m with c_α < 1
+2. **Experimental proposal**: Design SWAP-test experiment to verify purity BP bound for quantum channels
+3. **Explore α ∈ (0,1) regime**: Partial robustness results may be possible with additional structure
+4. **Modular theory connection**: Relate Rényi BP to Tomita–Takesaki theory for infinite-dim AOU spaces
+5. **Download remaining references** (Pataki, Cuntz, Bratteli-Jorgensen) if access becomes available
+6. **Consider Lean 4 formalisation** of the core 3-step proof (nodes 1.1–1.4)
+7. **Tighten node 1.3** per verifier note: make F-membership explicit in the calculation

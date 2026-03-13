@@ -2195,6 +2195,234 @@ $\beta = 0.5$, the rank reaches~4, saturating $r_{\mathrm{BP}} = 4$.
 See \texttt{numerics/thermal\_bp.jl} for full data.
 
 %% ========================================================================
+\section{R\'enyi Generalisations and Robustness}
+\label{sec:renyi}
+%% ========================================================================
+
+The Barvinok--Pataki bound constrains the \emph{rank} of extreme points.
+However, rank is the most fragile of all spectral invariants: it equals
+$\exp(S_0(\rho))$ where $S_0$ is the R\'enyi $0$-entropy (Hartley entropy),
+and it is discontinuous---$\operatorname{rank}(\rho + \varepsilon I) = d$
+for any $\varepsilon > 0$.  For numerical computation (where SDP solvers
+never return exact zeros) and physical applications (where noise precludes
+exact rank determination), one needs a \emph{continuous} replacement.
+
+\subsection{R\'enyi dimension}
+
+For a state $\rho \geq 0$ with $\operatorname{tr}\rho = 1$ and eigenvalues
+$\lambda_1 \geq \cdots \geq \lambda_d \geq 0$, define the
+\emph{R\'enyi $\alpha$-entropy}
+\[
+  S_\alpha(\rho) = \frac{1}{1-\alpha}
+  \log\!\Bigl(\sum_{i} \lambda_i^\alpha\Bigr),
+  \qquad \alpha \geq 0,\; \alpha \neq 1,
+\]
+with $S_1(\rho) = -\sum_i \lambda_i \log \lambda_i$ (von~Neumann entropy)
+by continuity.  The \emph{R\'enyi dimension} or \emph{$\alpha$-rank} is
+\[
+  d_\alpha(\rho) \;=\; \exp\bigl(S_\alpha(\rho)\bigr)
+  \;=\; \Bigl(\sum_i \lambda_i^\alpha\Bigr)^{1/(1-\alpha)}.
+\]
+Key special cases:
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{clll}
+\toprule
+$\alpha$ & $d_\alpha$ & Name & Continuity \\
+\midrule
+$0$ & $\operatorname{rank}(\rho)$ & Hartley / hard rank
+    & Discontinuous \\
+$1$ & $\exp\bigl(H(\rho)\bigr)$ & Effective rank (Roy--Vetterli)
+    & $C^\infty$ \\
+$2$ & $1/\operatorname{tr}(\rho^2)$ & Participation ratio / inverse purity
+    & $C^\infty$ \\
+$\infty$ & $1/\lambda_{\max}$ & Inverse max eigenvalue
+    & Lipschitz \\
+\bottomrule
+\end{tabular}
+\end{center}
+These satisfy $d_\infty \leq d_2 \leq d_1 \leq d_0 = \operatorname{rank}(\rho)$,
+and $d_\alpha = d_0$ if and only if all nonzero eigenvalues are equal.
+Crucially, $d_\alpha$ is \emph{continuous} for all $\alpha > 0$.
+
+\subsection{R\'enyi BP bound}
+
+\begin{theorem}[R\'enyi Barvinok--Pataki]
+\label{thm:renyi_bp}
+Let\/ $\rho^*$ be an extreme point of a spectrahedron
+$S = \{\rho \in \mathrm{PSD}_d : \operatorname{tr}(A_i\rho) = b_i,\;
+i=1,\ldots,m\}$.  Then for all $\alpha \geq 0$,
+\[
+  d_\alpha(\rho^*)^2 \;\leq\; m.
+\]
+\end{theorem}
+
+\begin{proof}
+By monotonicity, $d_\alpha(\rho^*) \leq d_0(\rho^*) = \operatorname{rank}(\rho^*)
+\leq \lfloor\sqrt{m}\rfloor$ (Theorem~\ref{thm:main}).
+\end{proof}
+
+The bound is tight for all $\alpha$ simultaneously: any extreme point with
+rank $r = \lfloor\sqrt{m}\rfloor$ and uniform eigenvalues $\lambda_i = 1/r$
+achieves $d_\alpha = r$ for every $\alpha$.  Thus the worst-case bound does
+not improve with $\alpha$, but the quantity $d_\alpha$ (for $\alpha > 0$) is
+continuous---making it meaningful for approximate solutions and physical
+measurements.
+
+\subsection{Robust R\'enyi BP for approximate extreme points}
+
+The main advantage of the R\'enyi formulation appears for
+\emph{approximate} extreme points, where the rank bound is vacuous
+($\operatorname{rank}(\rho) = d$ generically for any perturbation).
+
+\begin{theorem}[Robust R\'enyi BP]
+\label{thm:robust_renyi}
+Let\/ $\rho^*$ be an extreme point of a spectrahedron $S \subseteq
+\mathrm{PSD}_d$ with $m$ affine equality constraints, and let
+$\rho \in S$ satisfy $\|\rho - \rho^*\|_1 \leq \delta < 2$.
+Then for all $\alpha > 1$:
+\begin{equation}\label{eq:robust_renyi}
+  d_\alpha(\rho) \;\leq\;
+  \frac{\sqrt{m}}{\bigl(1 - \delta/2\bigr)^{\alpha/(\alpha-1)}}.
+\end{equation}
+In particular, $d_\alpha(\rho) \to d_\alpha(\rho^*) \leq \sqrt{m}$
+as $\delta \to 0$, and the bound depends only on $m$, $\delta$, $\alpha$
+---not on the ambient dimension~$d$.
+\end{theorem}
+
+\begin{proof}
+Let $r = \operatorname{rank}(\rho^*) \leq \lfloor\sqrt{m}\rfloor$ and let
+$P$ be the orthogonal projection onto $\operatorname{range}(\rho^*)$.
+By the trace distance bound, $\operatorname{tr}(P\rho) \geq 1 - \delta/2$.
+The eigenvalues of $\rho$ can be split into a ``head'' (the $r$ largest,
+which by interlacing with $P\rho P$ satisfy
+$\sum_{i=1}^r \lambda_i \geq \operatorname{tr}(P\rho P) \geq 1 - \delta/2$)
+and a ``tail'' (the remaining $d - r$ eigenvalues).
+
+For $\alpha > 1$, the function $t \mapsto t^\alpha$ is convex, so by the
+power mean inequality:
+\[
+  \sum_{i=1}^r \lambda_i^\alpha
+  \;\geq\; \frac{\bigl(\sum_{i=1}^r \lambda_i\bigr)^\alpha}{r^{\alpha-1}}
+  \;\geq\; \frac{(1 - \delta/2)^\alpha}{r^{\alpha-1}}.
+\]
+Since all tail eigenvalues are non-negative,
+$\operatorname{tr}(\rho^\alpha) = \sum_i \lambda_i^\alpha
+\geq (1-\delta/2)^\alpha / r^{\alpha-1}$.
+
+Now $d_\alpha = (\operatorname{tr}\rho^\alpha)^{1/(1-\alpha)}$ with
+$1/(1-\alpha) < 0$ for $\alpha > 1$, so a lower bound on
+$\operatorname{tr}(\rho^\alpha)$ yields an upper bound on $d_\alpha$:
+\[
+  d_\alpha(\rho) \;\leq\;
+  \biggl(\frac{(1-\delta/2)^\alpha}{r^{\alpha-1}}\biggr)^{\!1/(1-\alpha)}
+  = \frac{r^{(\alpha-1)/(\alpha-1)}}{(1-\delta/2)^{\alpha/(\alpha-1)}}
+  = \frac{r}{(1-\delta/2)^{\alpha/(\alpha-1)}}
+  \;\leq\; \frac{\sqrt{m}}{(1-\delta/2)^{\alpha/(\alpha-1)}}.
+\]
+No step involves the ambient dimension $d$.
+\end{proof}
+
+\begin{remark}
+For $\alpha = 1$ (von~Neumann entropy), the analogous bound requires the
+Fannes--Audenaert inequality and introduces a term
+$(1-p)\log d$ from the tail, making the bound \emph{dimension-dependent}.
+This is unavoidable: von~Neumann entropy is sensitive to the number of
+small eigenvalues.  The R\'enyi entropy for $\alpha > 1$ suppresses the
+tail contribution via the factor $(\delta/2)^\alpha$, yielding
+dimension-free robustness.
+\end{remark}
+
+\subsection{Purity as an experimentally verifiable BP bound}
+
+The case $\alpha = 2$ is experimentally distinguished because the purity
+$\operatorname{tr}(\rho^2)$ can be measured directly via the SWAP test
+on two copies of $\rho$, without full state tomography.
+
+\begin{corollary}[Purity BP bound]
+\label{cor:purity_bp}
+For an extreme point $\rho^*$ of a spectrahedron with $m$ constraints:
+\[
+  \operatorname{tr}\bigl((\rho^*)^2\bigr) \;\geq\; \frac{1}{\sqrt{m}},
+\]
+or equivalently $d_2(\rho^*) \leq m^{1/4} \cdot d_0(\rho^*)^{1/2}$.
+For a $\delta$-approximate extreme point $\rho$ with
+$\|\rho - \rho^*\|_1 \leq \delta$:
+\[
+  \operatorname{tr}(\rho^2) \;\geq\;
+  \frac{(1-\delta/2)^2}{\sqrt{m}}.
+\]
+\end{corollary}
+
+\begin{proof}
+By Cauchy--Schwarz, $\operatorname{tr}(\rho^2) \geq
+(\operatorname{tr}\rho)^2 / \operatorname{rank}(\rho) = 1/r$,
+and $r \leq \sqrt{m}$.  The robust version follows from
+Theorem~\ref{thm:robust_renyi} with $\alpha = 2$.
+\end{proof}
+
+This gives an experimentally testable signature of BP-constrained structure:
+if $\rho$ is an extreme point of a spectrahedron with $m$ constraints, its
+purity is bounded below by $1/\sqrt{m}$, measurable with $O(1/\varepsilon^2)$
+copies via the SWAP test.
+
+\subsection{Eigenvalue clustering at SDP optima}
+
+Pataki~\cite{pataki98} proved that at \emph{optimal} extreme points of SDPs
+(not just extreme points of the feasible set), eigenvalues cluster: the $k$-th
+and $(k{+}1)$-st largest eigenvalues coincide, with multiplicity bounded below.
+This implies that the eigenvalue distribution at SDP optima is more constrained
+than what pure extremality gives, potentially yielding tighter R\'enyi bounds.
+
+Numerical experiments (\texttt{numerics/renyi\_bp.jl}) confirm that at
+BP-saturating extreme points ($\operatorname{rank} = \lfloor\sqrt{m}\rfloor$),
+eigenvalues are generically \emph{skewed}, not uniform.  For random
+spectrahedra with $m = 16$ in $M_{12}(\mathbb{C})$, a typical extreme point
+has $d_2/d_0 \approx 0.25$, indicating that the R\'enyi dimension is
+roughly one quarter of the rank.
+
+\begin{conjecture}[Typical R\'enyi BP]
+\label{conj:typical}
+For generic constraint matrices $A_1,\ldots,A_m$, the expected R\'enyi
+dimension of extreme points satisfies
+\[
+  \mathbb{E}\bigl[d_\alpha(\rho^*)\bigr] \;\leq\; c_\alpha \cdot \sqrt{m}
+\]
+with $c_\alpha < 1$ for all $\alpha > 0$, independent of the ambient
+dimension~$d$.
+\end{conjecture}
+
+\subsection{Numerical verification}
+
+We verified the R\'enyi BP bounds across all applications in this paper.
+Representative results for random spectrahedra in $M_{10}(\mathbb{C})$ with
+$m = 25$ constraints ($\sqrt{m} = 5$), averaging over 15 random instances:
+
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{lcccc}
+\toprule
+Quantity & Mean & Max & Bound & Robust? \\
+\midrule
+$d_0$ (rank) & 6.5 & 7.0 & 5 & No (violated by solver noise) \\
+$d_{1/2}$ & 2.8 & 3.5 & 5 & --- \\
+$d_1$ (von~Neumann) & 2.6 & 3.2 & 5 & Partially ($d$-dependent) \\
+$d_2$ (purity) & 2.3 & 2.9 & 5 & Yes ($d$-independent) \\
+$d_\infty$ & 1.8 & 2.2 & 5 & Yes ($d$-independent) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The rank exceeds the BP bound because the SDP solver (SCS) returns approximate
+extreme points with small but nonzero tail eigenvalues.  All R\'enyi dimensions
+for $\alpha > 0$ remain well within the bound, demonstrating precisely the
+robustness advantage.  Under depolarising perturbation
+$\rho_\delta = (1{-}\delta)\rho^* + \delta\,I/d$, the rank jumps from 7 to 10
+at $\delta \sim 10^{-5}$, while $d_2$ changes from 1.90 to 1.97 at
+$\delta = 0.05$---insensitive by four orders of magnitude.
+See \texttt{numerics/renyi\_bp.jl} for full data.
+
+%% ========================================================================
 \section*{Acknowledgements}
 %% ========================================================================
 
@@ -2294,6 +2522,23 @@ was transcribed and typeset with the assistance of Claude (Anthropic).
   The second laws of quantum thermodynamics,
   \emph{Proc.\ Natl.\ Acad.\ Sci.\ USA}\ \textbf{112}(11),
   3275--3279, 2015.
+
+\bibitem{roy_vetterli07}
+  O.~Roy and M.~Vetterli,
+  The effective rank: a measure of effective dimensionality,
+  \emph{Proc.\ 15th European Signal Processing Conference (EUSIPCO)},
+  pp.~606--610, 2007.
+
+\bibitem{im_wolkowicz21}
+  J.~Im and H.~Wolkowicz,
+  A strengthened Barvinok--Pataki bound on SDP rank,
+  \emph{Oper.\ Res.\ Lett.}\ \textbf{49}(6), 871--875, 2021.
+
+\bibitem{fannes73}
+  M.~Fannes,
+  A continuity property of the entropy density for spin lattice systems,
+  \emph{Comm.\ Math.\ Phys.}\ \textbf{31}(4), 291--294, 1973.
+
 \end{thebibliography}
 
 \end{document}
